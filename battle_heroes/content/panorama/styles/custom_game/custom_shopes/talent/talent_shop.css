@@ -1,0 +1,290 @@
+.triggerPanelTalent {
+    position: 0 900px 0;
+    width: 100%;
+    height: 100px;
+	margin-left: 1390px;
+	margin-right: 40px;
+    border-top: 0px solid #333;
+    border-bottom: 0px solid #333;
+    overflow: clip;
+	background-color: rgba(48, 45, 45, 0);
+	
+	
+}
+
+.backgroundTalents {
+    background-color: #00000025;
+    border: 0px solid #000;
+    margin:	0px;
+}
+
+#TalentShops {
+   height:50px;
+   width:150px;
+   margin-left:45px;
+   margin-right:45px;
+   margin-top: 30px;
+   margin-bottom:14px;
+   horizontal-align: center;
+   border-radius: 30px;
+   background-image: url("s2r://panorama/images/hud/reborn/ability_bg_psd.vtex"); 
+}
+
+#TalentShops Label{
+
+    horizontal-align: center;
+    vertical-align: center;
+    text-align:center;
+    color: white;
+    font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+    font-size: 15;
+    font-weight: bold;
+}
+
+#TalentShops:hover
+{
+   brightness:4.0;
+}
+
+.TalentShopes {
+    position: 0 40px 0;
+    width: 100%;
+    height: 800px;
+	margin-left: 40px;
+	margin-right: 40px;
+    border-top: 0px solid #333;
+    border-bottom: 0px solid #333;
+    overflow: clip;
+	background-color: rgba(48, 45, 45, 0);
+	
+}
+
+.TalentMain {
+    position: 0 100px 0; 
+    width: 100%;
+    height: 60%; 
+	border: 3px solid #999;
+    overflow: clip;  
+	background-color: #000000ba;
+	
+}
+
+.talent_class_cost
+{
+	vertical-align: center;
+    text-align:center;
+    horizontal-align: left;
+    font-size: 17;
+    text-shadow: 0px 0px 0px #FF7500;
+	margin-left:5px;
+    color: #EACD71;
+    font-family: Radiance;
+	background-color: rgba(48, 45, 45, 0);
+}
+.MainTalent {
+    width: 100%;
+	margin-left: 30px;
+	margin-right: 30px;
+    height: 96%;
+    padding: 5px;
+    flow-children: right-wrap;
+	background-color: rgba(48, 45, 45, 0);
+}
+
+.buttons_talents_shop {
+    width: 10%;
+    height: 6.5%;
+	vertical-align: bottom;
+	horizontal-align: center;
+
+}
+
+.talent_shop_button_right {
+	   background-image: url("s2r://panorama/images/custom_game/loading_screen/right_png.vtex"); 
+	   background-size: 100%;
+	   width: 35px;
+	   height: 35px; 
+	   vertical-align:center;
+	   horizontal-align: right;
+}
+.talent_shop_button_left {
+	   background-image: url("s2r://panorama/images/custom_game/loading_screen/right_png.vtex"); 
+	   background-size: 100%;
+	   width: 35px;
+	   height: 35px;
+	   transform: scaleX(-1);
+	   horizontal-align: left;
+	   vertical-align:center;	   
+}
+
+.Ability_info {
+	   width: 450px;
+	   height: 150px;
+	   position: 3% 75% 0;
+}
+
+#Buttons Label{
+	horizontal-align: center;
+    vertical-align: center;
+    text-align:center; 
+	font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+    font-size: 20;
+    font-weight: bold;
+	color: White;
+}
+
+#points{
+   height:200px;
+   width:200px;
+   background-color: rgba(48, 45, 45, 0);
+   tooltip-position:top;
+   vertical-align:top;
+   color: white;
+}
+#points Label{
+	horizontal-align: center;
+    vertical-align: center;
+    text-align:center; 
+	font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+    font-size: 18;
+    font-weight: bold;
+}
+
+#ability_num{
+   height:200px;
+   width:200px;
+   background-color: rgba(48, 45, 45, 0);
+   position: 250px 0px 0;
+   vertical-align:top;
+   color: white;
+
+}
+
+#ability_num Label{
+	horizontal-align: center;
+    vertical-align: center;
+    text-align:center; 
+	font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+    font-size: 18;
+    font-weight: bold;
+}
+
+#talent_strength{
+    width: 9%; 
+}
+
+#talent_intellect{
+    width: 12%;
+}
+
+#talent_agility{
+    width: 11.5%; 
+}
+
+#talent_all{
+    width: 14.5%;
+}
+
+#talent_damage{
+    width: 10.5%;
+}
+
+#talent_attack_speed{
+    width: 14.7%;
+}
+
+#talent_magic_resistance{
+    width: 18%;
+}
+
+#talent_armor{
+    width: 9.4%;
+}
+
+#talent_cooldown_reduction{
+    width: 14.7%;
+}
+
+#talent_gold_bonus{
+    width: 17.8%;
+}
+
+#talent_xp_bonus{
+    width: 17.8%;
+}
+
+#talent_cooldown_reduction{
+    width: 16.3%;
+}
+
+#talent_magic_damage{
+    width: 19%;
+}
+
+#talent_hp{
+    width: 13.5%;
+}
+
+#talent_mp
+{
+    width: 10.5%;
+}
+
+#int_hero
+{
+    width: 32.5%;
+	height: 100%;
+
+}
+#agi_hero
+{
+    width: 36%;
+	height: 100%;
+}
+#str_hero
+{
+    width: 27.5%;
+	height: 100%;
+}
+
+.TalentPanel {
+	position: 10px 0px 0px;
+	width: 100%;
+	height: 100%;
+	margin-bottom:2px;
+	horizontal-align: center;
+    vertical-align: center;
+	flow-children: right-wrap;
+    max-width: 100%;
+    horizontal-align: center;
+}
+.HeroPanel_Talent
+{
+	width: 82px;
+	height: 52px;
+	border: 3px;
+	horizontal-align: left;
+    vertical-align: top;
+	border-radius: 12px;
+} 
+.HeroPanel_Talent:Hover
+{
+	brightness:2.0;
+}
+.HeroPanel_Talent:active
+{
+    padding-bottom:4px;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:4px;
+} 
+.BuyPanelTalentHero
+{
+	width: 100%;
+	position: 0px -10px 0;
+	height: 15%;
+	flow-children: right-wrap;
+    horizontal-align: center;
+	vertical-align: bottom;
+	z-index: 9999;
+}

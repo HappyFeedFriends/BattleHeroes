@@ -1,0 +1,323 @@
+""
+{
+	"item_recipe_black_king_bar_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15090"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1400"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_black_king_bar_1"
+		"ItemRequirements"
+		{
+			"01"						"item_ogre_axe;item_mithril_hammer"
+		}
+	}	
+	"item_recipe_black_king_bar_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15091"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1400"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_black_king_bar_2"
+		"ItemRequirements"
+		{
+			"01"						"item_black_king_bar_1"
+		}
+	}	
+	"item_recipe_black_king_bar_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15052"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1750"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_black_king_bar_3"
+		"ItemRequirements"
+		{
+			"01"						"item_black_king_bar_2"
+		}
+	}	
+	"item_recipe_black_king_bar_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15053"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1900"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_black_king_bar_4"
+		"ItemRequirements"
+		{
+			"01"						"item_black_king_bar_3"
+		}
+	}	
+	"item_recipe_black_king_bar_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15054"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_black_king_bar_5"
+		"ItemRequirements"
+		{
+			"01"						"item_black_king_bar_4"
+		}
+	}
+	"item_black_king_bar_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_black_king_bar_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_black_king_bar.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"1"
+		"AbilityCooldown"				"70"
+		"AbilitySharedCooldown"			"black_king_bar"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Black;king;bar;black king bar"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Black King Bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"10 14 20 24 28"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_damage"	   		"24 30 45 60 80"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"6 8 10 12 14"
+			}
+		}
+	}	
+	"item_black_king_bar_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_black_king_bar_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_black_king_bar.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"2"
+		"AbilityCooldown"				"65"
+		"AbilitySharedCooldown"			"black_king_bar"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Black;king;bar;black king bar"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Black King Bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"10 14 20 24 28"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_damage"	   		"24 30 45 60 80"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"6 8 10 12 14"
+			}
+		}
+	}	
+	"item_black_king_bar_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_black_king_bar_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_black_king_bar.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"3"
+		"AbilityCooldown"				"65"
+		"AbilitySharedCooldown"			"black_king_bar"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Black;king;bar;black king bar"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Black King Bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"10 14 20 24 28"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_damage"	   		"24 30 45 60 80"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"6 8 10 12 14"
+			}
+		}
+	}	
+	"item_black_king_bar_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_black_king_bar_4"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_black_king_bar.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"4"
+		"AbilityCooldown"				"55"
+		"AbilitySharedCooldown"			"black_king_bar"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Black;king;bar;black king bar"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Black King Bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"10 14 20 24 28"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_damage"	   		"24 30 45 60 80"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"6 8 10 12 14"
+			}
+		}
+	}	
+	"item_black_king_bar_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_black_king_bar_5"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_black_king_bar.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"5"
+		"AbilityCooldown"				"50"
+		"AbilitySharedCooldown"			"black_king_bar"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Black;king;bar;black king bar"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Black King Bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"10 14 20 24 28"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_damage"	   		"24 30 45 60 80"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"6 8 10 12 14"
+			}
+		}
+	}
+}

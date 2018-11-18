@@ -1,0 +1,421 @@
+""
+{
+	"item_recipe_mask_of_madness_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15070"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1900"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_mask_of_madness_1"
+		"ItemRequirements"
+		{
+			"01"						"item_lifesteal;item_quarterstaff"
+		}
+	}	
+	"item_recipe_mask_of_madness_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15071"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"800"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_mask_of_madness_2"
+		"ItemRequirements"
+		{
+			"01"						"item_mask_of_madness_1"
+		}
+	}	
+	"item_recipe_mask_of_madness_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15072"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1000"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_mask_of_madness_3"
+		"ItemRequirements"
+		{
+			"01"						"item_mask_of_madness_2"
+		}
+	}	"item_recipe_mask_of_madness_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15073"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_mask_of_madness_4"
+		"ItemRequirements"
+		{
+			"01"						"item_mask_of_madness_3"
+		}
+	}	"item_recipe_mask_of_madness_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15074"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_mask_of_madness_5"
+		"ItemRequirements"
+		{
+			"01"						"item_mask_of_madness_4"
+		}
+	}
+	"item_mask_of_madness_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_mask_of_madness_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/mask_of_madness.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"1"
+		"AbilityCooldown"				"30"
+		"AbilitySharedCooldown"			"mask_of_madness"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Mask;Madness;Mask of Madness"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Mask of Madness"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"20 40 55 70 125"
+			}						
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"attack_speed"	   		"10 15 20 30 55"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"attack_speed_use"	   		"110 150 180 250 300"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"move_speed_use"	   		"10 14 17 22 26"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"armor_use"	   				"-8 -7 -4 -2 0"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"lifesteal"	   				"15 15 15 15 20"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   				"5 7 9 10 11"
+			}																			
+		}
+	}	
+	"item_mask_of_madness_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_mask_of_madness_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/mask_of_madness.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"2"
+		"AbilityCooldown"				"30"
+		"AbilitySharedCooldown"			"mask_of_madness"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Mask;Madness;Mask of Madness"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Mask of Madness"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"20 40 55 70 125"
+			}						
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"attack_speed"	   		"10 15 20 30 55"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"attack_speed_use"	   		"110 150 180 250 300"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"move_speed_use"	   		"10 14 17 22 26"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"armor_use"	   				"-8 -7 -4 -2 0"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"lifesteal"	   				"15 15 15 15 20"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   				"5 7 9 10 11"
+			}																			
+		}
+	}	
+	"item_mask_of_madness_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_mask_of_madness_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/mask_of_madness.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"3"
+		"AbilityCooldown"				"30"
+		"AbilitySharedCooldown"			"mask_of_madness"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Mask;Madness;Mask of Madness"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Mask of Madness"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"20 40 55 70 125"
+			}						
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"attack_speed"	   		"10 15 20 30 55"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"attack_speed_use"	   		"110 150 180 250 300"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"move_speed_use"	   		"10 14 17 22 26"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"armor_use"	   				"-8 -7 -4 -2 0"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"lifesteal"	   				"15 15 15 15 20"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   				"5 7 9 10 11"
+			}																			
+		}
+	}	
+	"item_mask_of_madness_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_mask_of_madness_4"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/mask_of_madness.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"4"
+		"AbilityCooldown"				"25"
+		"AbilitySharedCooldown"			"mask_of_madness"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Mask;Madness;Mask of Madness"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Mask of Madness"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"20 40 55 70 125"
+			}						
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"attack_speed"	   		"10 15 20 30 55"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"attack_speed_use"	   		"110 150 180 250 300"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"move_speed_use"	   		"10 14 17 22 26"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"armor_use"	   				"-8 -7 -4 -2 0"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"lifesteal"	   				"15 15 15 15 20"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   				"5 7 9 10 11"
+			}																			
+		}
+	}	
+	"item_mask_of_madness_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_mask_of_madness_5"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/mask_of_madness.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"5"
+		"AbilityCooldown"				"25"
+		"AbilitySharedCooldown"			"mask_of_madness"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Mask;Madness;Mask of Madness"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Mask of Madness"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"20 40 55 70 125"
+			}						
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"attack_speed"	   		"10 15 20 30 55"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"attack_speed_use"	   		"110 150 180 250 300"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"move_speed_use"	   		"10 14 17 22 26"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"armor_use"	   				"-8 -7 -4 -2 0"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"lifesteal"	   				"15 15 15 15 20"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   				"5 7 9 10 11"
+			}																			
+		}
+	}
+}

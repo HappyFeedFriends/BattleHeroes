@@ -1,0 +1,1192 @@
+"lang"
+{
+	"Language"		"russian"
+	"Tokens"
+	{		 
+		"select_kill_limit"						"Лимит Убийств"
+		"SPELL_SHOP"							"Магазин Способностей"
+		"spell_shop_hotkey"						"Магазин способностей [TAB]"
+		"not_enough_ability_points"				"Не хватает очков для покупки способности"
+		"not_enough_ability_points_talent"	    "Не хватает очков для покупки таланта"
+		"hud_error_bh_ability_buy"	    		"Данная способность уже приобретена"
+		"hud_error_bh_talent_buy"	    		"Данный Талант уже приобретён"
+		"Price: "								"Цена: "
+		"no_buy_ability"						"Нельзя купить данную способность"
+		" point_ability"						" Очков способностей"
+		"duel_winner_1"							"Дуэль окончена."
+		"duel_winner_2"							"Выигрыш золота победителей: "
+		"duel_gold"								"золота"
+		"duel_over_winner_none"					"Дуэль окончена. Нету победителя."
+		"duel_no_heroes"						"В одной из команд не хватает героев."
+		"next_duel"								"До дуэли:"
+		"duel_end"								"Время Дуэли:"
+		"duel_error_use"						"Нельзя использовать в данной области"
+		"duel_error_uses"						"Нельзя использовать на дуэли"
+		"prob"	 								""
+		"button_talent_shop"					"Магазин Талантов\n [F4]"
+		"empty_points: "					    "Не используемые очки способностей: "
+		"empty_talents: "						"Доступно для покупки:\n "
+		"talents"								"талантов"
+		"TALENT_SHOP"							"МАГАЗИН ТАЛАНТОВ"
+		"no_used_bosses"						"Нельзя использовать на боссов"
+		"no_used_hard_neutrals"					"Нельзя использовать на данный вид крипов"
+		"Fountain_disabled"						"Защита фонтана отключена"
+		"hud_error_blocked_attack"				"Нельзя атаковать крипов рядом с фонтаном"
+		"hud_error_clone_used"					"Клон не может использовать данный предмет"
+		"buy_ability"							"Продажа Способностей"
+		"ButtonSell"							"ПРОДАТЬ"
+		"ButtonBuy"								"КУПИТЬ"
+		//*************************************************************
+		// Custom Toast
+		//*************************************************************
+		"custom_toast_PlayerDeniedSelf" 		"{killer_name} {denied_icon} не отдаётся врагу" 
+		"custom_toast_PlayerDenied" 			"{killer_name} {denied_icon} не отдаёт врагу {victim_name}"
+		"custom_toast_BossKilled" 				"{team_name} {killed_icon} {victim_name} {gold}"		
+		"custom_toast_bottle_up" 				"{player_name} помещает в бутыль {rune_name}"		
+		"custom_toast_bottle_use" 				"{player_name} использует из бутыли {rune_name}"		
+		"custom_toast_rune_up" 					"{player_name} подбирает {rune_name}"		
+		"custom_toast_fountain" 				"{team_name} {killed_icon} {victim_name} {gold}"		
+		"custom_toast_killed_courier" 			"{killer_name} {killed_icon} {courier_icon} {courier_team} {gold}"	
+		"custom_toast_killed_streak"			"{killer_name} {killed_icon} {victim_name} Серия из {kill_streak} убийств прервана {gold} "
+		"custom_toast_killed_streak_fountain"	"{team_name} {killed_icon} {victim_name} {gold} на {PlayerTeamCount} {HeroCount}"
+		
+		"custom_toast_courier" 					"Курьер"
+		"custom_toast_hero"						"игрока"
+		"custom_toast_heroes"					"игроков"
+	
+		"Custom_toast_rune_double_damage"		"Двойной урон"
+		"Custom_toast_rune_haste"				"Ускорение"
+		"Custom_toast_rune_iillusion"			"Иллюзий"
+		"Custom_toast_rune_invisibility"		"Невидимость"
+		"Custom_toast_rune_regeneration"		"Регенерация"
+		"Custom_toast_rune_bounty"				"Богатство"
+		//*************************************************************
+		// Custom errors
+		//*************************************************************
+		"DOTA_Tooltip_ability_special_bonus_unique_faceless_void_4_Description"		"Grants a %dodge_chance_pct%%% chance to avoid damage entirely."
+		"DOTA_Tooltip_Ability_empty_slot_1"		"Слот под способность"
+		"DOTA_Tooltip_Ability_empty_slot_2"		"Слот под способность"
+		"DOTA_Tooltip_Ability_empty_slot_3"		"Слот под способность"
+		"DOTA_Tooltip_Ability_empty_slot_4"		"Слот под способность"
+		"DOTA_Tooltip_Ability_empty_slot_5"		"Слот под способность"
+		"DOTA_Tooltip_Ability_empty_slot_6"		"Слот под способность"
+		"DOTA_Tooltip_Ability_empty_slot_7"		"Слот под способность"
+		
+		"dota_ability_variable_amplify"			"к урону от способностей"
+		"dota_ability_variable_reflect_bh"		"к отражению получаемого урона"
+		"dota_ability_variable_lifesteal_bh"	"к вампиризму"
+		
+		"DOTA_Tooltip_Ability_special_bonus_strength_bh_"			"к силе"
+		"DOTA_Tooltip_Ability_special_bonus_intellect_bh_"			"к интеллекту"
+		"DOTA_Tooltip_Ability_special_bonus_agility_bh_"			"к ловкости"		
+		"DOTA_Tooltip_Ability_special_bonus_attack_speed_bh_"		"к скорости атаки"		
+		"DOTA_Tooltip_Ability_special_bonus_hp_bh_"					"к здоровью"
+		"DOTA_Tooltip_Ability_special_bonus_mp_bh_"					"к мане"
+		"DOTA_Tooltip_Ability_special_bonus_all_stats_bh_"			"ко всем атрибутам"
+		"DOTA_Tooltip_Ability_special_bonus_attack_damage_bh_"		"к урону"
+		"DOTA_Tooltip_Ability_special_bonus_magic_resistance_bh_"	"к сопротивлению магии"
+		"DOTA_Tooltip_Ability_special_bonus_gold_bonus_bh_"			"золота за убитого крипа"
+		"DOTA_Tooltip_Ability_special_bonus_xp_bonus_bh_"			"опыта за убитого крипа"
+		"DOTA_Tooltip_Ability_special_bonus_cooldown_reduction_bh_"	"время перезарядки"
+		"DOTA_Tooltip_Ability_special_bonus_armor_bh_"				"к броне"
+		"DOTA_Tooltip_Ability_special_bonus_magic_damage_bh_"		"к урону от способностей"
+		//***************************************************************
+		// Aether Lens
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_aether_lens_1"				"Aether Lens"
+		"DOTA_Tooltip_Ability_item_aether_lens_1_description"	"<h1>Пассивная: Aethereal Focus</h1> Увеличивает магические способности владельца на %amplify%%%."
+		"DOTA_Tooltip_Ability_item_aether_lens_1_intellect"	    "+$int"
+		//"DOTA_Tooltip_Ability_item_aether_lens_1_mana_regen"	"%+$mana_regen"
+		"DOTA_Tooltip_Ability_item_aether_lens_1_mana"			"+$mana"
+		"DOTA_Tooltip_Ability_item_aether_lens_1_intellect"	    "+$int"		
+		
+		"DOTA_Tooltip_Ability_item_aether_lens_2"				"Aether Lens"
+		"DOTA_Tooltip_Ability_item_aether_lens_2_description"	"<h1>Пассивная: Aethereal Focus</h1> Увеличивает магические способности владельца на %amplify%%%."
+		"DOTA_Tooltip_Ability_item_aether_lens_2_intellect"	    "+$int"
+		//"DOTA_Tooltip_Ability_item_aether_lens_2_mana_regen"	"%+$mana_regen"
+		"DOTA_Tooltip_Ability_item_aether_lens_2_mana"			"+$mana"
+		"DOTA_Tooltip_Ability_item_aether_lens_2_intellect"	    "+$int"		
+		
+		"DOTA_Tooltip_Ability_item_aether_lens_3"				"Aether Lens"
+		"DOTA_Tooltip_Ability_item_aether_lens_3_description"	"<h1>Пассивная: Aethereal Focus</h1> Увеличивает магические способности владельца на %amplify%%%."
+		"DOTA_Tooltip_Ability_item_aether_lens_3_intellect"	    "+$int"
+		//"DOTA_Tooltip_Ability_item_aether_lens_3_mana_regen"	"%+$mana_regen"
+		"DOTA_Tooltip_Ability_item_aether_lens_3_mana"			"+$mana"
+		"DOTA_Tooltip_Ability_item_aether_lens_3_intellect"	    "+$int"	
+		
+		"DOTA_Tooltip_Ability_item_aether_lens_4"				"Aether Lens"
+		"DOTA_Tooltip_Ability_item_aether_lens_4_description"	"<h1>Пассивная: Aethereal Focus</h1> Увеличивает магические способности владельца на %amplify%%%."
+		"DOTA_Tooltip_Ability_item_aether_lens_4_intellect"	    "+$int"
+		//"DOTA_Tooltip_Ability_item_aether_lens_4_mana_regen"	"%+$mana_regen"
+		"DOTA_Tooltip_Ability_item_aether_lens_4_mana"			"+$mana"
+		"DOTA_Tooltip_Ability_item_aether_lens_4_intellect"	    "+$int"	
+		
+		"DOTA_Tooltip_Ability_item_aether_lens_5"				"Aether Lens"
+		"DOTA_Tooltip_Ability_item_aether_lens_5_description"	"<h1>Пассивная: Aethereal Focus</h1> Увеличивает магические способности владельца на %amplify%%%."
+		"DOTA_Tooltip_Ability_item_aether_lens_5_intellect"	    "+$int"
+		//"DOTA_Tooltip_Ability_item_aether_lens_5_mana_regen"	"%+$mana_regen"
+		"DOTA_Tooltip_Ability_item_aether_lens_5_mana"			"+$mana"
+		"DOTA_Tooltip_Ability_item_aether_lens_5_intellect"	    "+$int"
+		
+		"DOTA_Tooltip_Ability_item_recipe_aether_lens_1"	    "РЕЦЕПТ: Aether Lens"
+		"DOTA_Tooltip_Ability_item_recipe_aether_lens_2"	    "РЕЦЕПТ: Aether Lens"
+		"DOTA_Tooltip_Ability_item_recipe_aether_lens_3"	    "РЕЦЕПТ: Aether Lens"
+		"DOTA_Tooltip_Ability_item_recipe_aether_lens_4"	    "РЕЦЕПТ: Aether Lens"
+		"DOTA_Tooltip_Ability_item_recipe_aether_lens_5"	    "РЕЦЕПТ: Aether Lens"
+		
+		//***************************************************************
+		// Desolator
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_desolator_1"					"Desolator"
+		"DOTA_Tooltip_Ability_item_desolator_1_description"		"<h1>Пассивная: Corruption</h1> Атаки уменьшают броню цели на %armor_reduction%. Эффект длится %duration% сек."
+		"DOTA_Tooltip_Ability_item_desolator_1_damage_bonus"	"+$damage"		
+		
+		"DOTA_Tooltip_Ability_item_desolator_2"					"Desolator"
+		"DOTA_Tooltip_Ability_item_desolator_2_description"		"<h1>Пассивная: Corruption</h1> Атаки уменьшают броню цели на %armor_reduction%. Эффект длится %duration% сек."
+		"DOTA_Tooltip_Ability_item_desolator_2_damage_bonus"	"+$damage"	
+		
+		"DOTA_Tooltip_Ability_item_desolator_3"					"Desolator"
+		"DOTA_Tooltip_Ability_item_desolator_3_description"		"<h1>Пассивная: Corruption</h1> Атаки уменьшают броню цели на %armor_reduction%. Эффект длится %duration% сек."
+		"DOTA_Tooltip_Ability_item_desolator_3_damage_bonus"	"+$damage"	
+		
+		"DOTA_Tooltip_Ability_item_desolator_4"					"Desolator"
+		"DOTA_Tooltip_Ability_item_desolator_4_description"		"<h1>Пассивная: Corruption</h1> Атаки уменьшают броню цели на %armor_reduction%. Эффект длится %duration% сек."
+		"DOTA_Tooltip_Ability_item_desolator_4_damage_bonus"	"+$damage"	
+		
+		"DOTA_Tooltip_Ability_item_desolator_5"					"Desolator"
+		"DOTA_Tooltip_Ability_item_desolator_5_description"		"<h1>Пассивная: Corruption</h1> Атаки уменьшают броню цели на %armor_reduction%. Эффект длится %duration% сек."
+		"DOTA_Tooltip_Ability_item_desolator_5_damage_bonus"	"+$damage"
+		"DOTA_Tooltip_modifier_desolator_bh_debuff"				"Desolator"
+		"DOTA_Tooltip_modifier_desolator_bh_debuff_description"	"Броня снижена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% ед."
+		
+		"DOTA_Tooltip_Ability_item_recipe_desolator_1"	    	"РЕЦЕПТ: Desolator"
+		"DOTA_Tooltip_Ability_item_recipe_desolator_2"	    	"РЕЦЕПТ: Desolator"
+		"DOTA_Tooltip_Ability_item_recipe_desolator_3"	    	"РЕЦЕПТ: Desolator"
+		"DOTA_Tooltip_Ability_item_recipe_desolator_4"	    	"РЕЦЕПТ: Desolator"
+		"DOTA_Tooltip_Ability_item_recipe_desolator_5"	    	"РЕЦЕПТ: Desolator"
+		
+		//***************************************************************
+		// Octarine Core
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_octarine_core_1"				"Octarine Core"
+		"DOTA_Tooltip_Ability_item_octarine_core_1_description"	"<h1>Пассивная: Cooldown Reduction</h1>Уменьшает время перезарядки всех способностей и предметов на %reduction_cooldown%%%.\n<h1>Пассивная: Spell Lifesteal</h1>Даёт магический вампиризм, который восстанавливает здоровье за наносимый способностями урон. <br><br>Восстанавливает здоровье в размере <br>По героям: %magic_lifesteal_hero%%%<br> По крипам: %magic_lifesteal_creep%%%."
+		"DOTA_Tooltip_Ability_item_octarine_core_1_intellect"	"+$int"
+		"DOTA_Tooltip_Ability_item_octarine_core_1_mana"		"+$mana"
+		"DOTA_Tooltip_Ability_item_octarine_core_1_amplify"		"%+$amplify"
+		
+		"DOTA_Tooltip_Ability_item_octarine_core_2"				"Octarine Core"
+		"DOTA_Tooltip_Ability_item_octarine_core_2_description"	"<h1>Пассивная: Cooldown Reduction</h1>Уменьшает время перезарядки всех способностей и предметов на %reduction_cooldown%%%.\n<h1>Пассивная: Spell Lifesteal</h1>Даёт магический вампиризм, который восстанавливает здоровье за наносимый способностями урон. <br><br>Восстанавливает здоровье в размере <br>По героям: %magic_lifesteal_hero%%%<br> По крипам: %magic_lifesteal_creep%%%."
+		"DOTA_Tooltip_Ability_item_octarine_core_2_intellect"	"+$int"
+		"DOTA_Tooltip_Ability_item_octarine_core_2_mana"		"+$mana"
+		"DOTA_Tooltip_Ability_item_octarine_core_2_amplify"		"%+$amplify"		
+		
+		"DOTA_Tooltip_Ability_item_octarine_core_3"				"Octarine Core"
+		"DOTA_Tooltip_Ability_item_octarine_core_3_description"	"<h1>Пассивная: Cooldown Reduction</h1>Уменьшает время перезарядки всех способностей и предметов на %reduction_cooldown%%%.\n<h1>Пассивная: Spell Lifesteal</h1>Даёт магический вампиризм, который восстанавливает здоровье за наносимый способностями урон. <br><br>Восстанавливает здоровье в размере <br>По героям: %magic_lifesteal_hero%%%<br> По крипам: %magic_lifesteal_creep%%%."
+		"DOTA_Tooltip_Ability_item_octarine_core_3_intellect"	"+$int"
+		"DOTA_Tooltip_Ability_item_octarine_core_3_mana"		"+$mana"
+		"DOTA_Tooltip_Ability_item_octarine_core_3_amplify"		"%+$amplify"		
+		
+		"DOTA_Tooltip_Ability_item_octarine_core_4"				"Octarine Core"
+		"DOTA_Tooltip_Ability_item_octarine_core_4_description"	"<h1>Пассивная: Cooldown Reduction</h1>Уменьшает время перезарядки всех способностей и предметов на %reduction_cooldown%%%.\n<h1>Пассивная: Spell Lifesteal</h1>Даёт магический вампиризм, который восстанавливает здоровье за наносимый способностями урон. <br><br>Восстанавливает здоровье в размере <br>По героям: %magic_lifesteal_hero%%%<br> По крипам: %magic_lifesteal_creep%%%."
+		"DOTA_Tooltip_Ability_item_octarine_core_4_intellect"	"+$int"
+		"DOTA_Tooltip_Ability_item_octarine_core_4_mana"		"+$mana"
+		"DOTA_Tooltip_Ability_item_octarine_core_4_amplify"		"%+$amplify"		
+		
+		"DOTA_Tooltip_Ability_item_octarine_core_5"				"Octarine Core"
+		"DOTA_Tooltip_Ability_item_octarine_core_5_description"	"<h1>Пассивная: Cooldown Reduction</h1>Уменьшает время перезарядки всех способностей и предметов на %reduction_cooldown%%%.\n<h1>Пассивная: Spell Lifesteal</h1>Даёт магический вампиризм, который восстанавливает здоровье за наносимый способностями урон. <br><br>Восстанавливает здоровье в размере <br>По героям: %magic_lifesteal_hero%%%<br> По крипам: %magic_lifesteal_creep%%%."
+		"DOTA_Tooltip_Ability_item_octarine_core_5_intellect"	"+$int"
+		"DOTA_Tooltip_Ability_item_octarine_core_5_mana"		"+$mana"
+		"DOTA_Tooltip_Ability_item_octarine_core_5_amplify"		"%+$amplify"
+		
+		"DOTA_Tooltip_Ability_item_recipe_octarine_core_1"	    "РЕЦЕПТ: Octarine Core"
+		"DOTA_Tooltip_Ability_item_recipe_octarine_core_2"	    "РЕЦЕПТ: Octarine Core"
+		"DOTA_Tooltip_Ability_item_recipe_octarine_core_3"	    "РЕЦЕПТ: Octarine Core"
+		"DOTA_Tooltip_Ability_item_recipe_octarine_core_4"	    "РЕЦЕПТ: Octarine Core"
+		"DOTA_Tooltip_Ability_item_recipe_octarine_core_5"	    "РЕЦЕПТ: Octarine Core"
+		
+		//***************************************************************
+		// Satanic
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_satanic_1"					"Satanic"
+		"DOTA_Tooltip_Ability_item_satanic_1_description"		"<h1>Активируемая: Unholy Rage</h1> <font size='smaller'>Увеличивает эффект вампиризма на %attack_lifesteal_activate%%% в течении %duration% сек. </font>\n<h1>Пассивная: Lifesteal</h1> Каждая атака восстанавливает владельцу здоровье в размере %attack_lifesteal%%% от нанесённого урона."
+		"DOTA_Tooltip_Ability_item_satanic_1_strength"			"+$str"
+		"DOTA_Tooltip_Ability_item_satanic_1_damage"			"+$damage"		
+		
+		"DOTA_Tooltip_Ability_item_satanic_2"					"Satanic"
+		"DOTA_Tooltip_Ability_item_satanic_2_description"		"<h1>Активируемая: Unholy Rage</h1> <font size='smaller'>Увеличивает эффект вампиризма на %attack_lifesteal_activate%%% в течении %duration% сек. </font>\n<h1>Пассивная: Lifesteal</h1> Каждая атака восстанавливает владельцу здоровье в размере %attack_lifesteal%%% от нанесённого урона."
+		"DOTA_Tooltip_Ability_item_satanic_2_strength"			"+$str"
+		"DOTA_Tooltip_Ability_item_satanic_2_damage"			"+$damage"		
+		
+		"DOTA_Tooltip_Ability_item_satanic_3"					"Satanic"
+		"DOTA_Tooltip_Ability_item_satanic_3_description"		"<h1>Активируемая: Unholy Rage</h1> <font size='smaller'>Увеличивает эффект вампиризма на %attack_lifesteal_activate%%% в течении %duration% сек. </font>\n<h1>Пассивная: Lifesteal</h1> Каждая атака восстанавливает владельцу здоровье в размере %attack_lifesteal%%% от нанесённого урона."
+		"DOTA_Tooltip_Ability_item_satanic_3_strength"			"+$str"
+		"DOTA_Tooltip_Ability_item_satanic_3_damage"			"+$damage"
+		"DOTA_Tooltip_modifier_satanic_bh_active"				"Satanic"
+		"DOTA_Tooltip_modifier_satanic_bh_active_description"	"Вампиризм увеличен до %dMODIFIER_PROPERTY_TOOLTIP%%%"
+		
+		"DOTA_Tooltip_Ability_item_recipe_satanic_1"	    "РЕЦЕПТ: Satanic"
+		"DOTA_Tooltip_Ability_item_recipe_satanic_2"	    "РЕЦЕПТ: Satanic"
+		"DOTA_Tooltip_Ability_item_recipe_satanic_3"	    "РЕЦЕПТ: Satanic"
+		
+		//***************************************************************
+		// Battle Fury
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_battle_fury_1"				"Battle Fury"
+		"DOTA_Tooltip_Ability_item_battle_fury_1_damage"		"+$damage"
+		"DOTA_Tooltip_Ability_item_battle_fury_1_regen_hp"		"+$hp_regen"
+		"DOTA_Tooltip_Ability_item_battle_fury_1_regen_mana"	"+$mana_regen"
+		"DOTA_Tooltip_Ability_item_battle_fury_1_description"	"<h1>Пассивная: Cleave</h1> Атаки героя прорубают жертву, нанося врагам вокруг неё физический урон, равный %cleave_damage%%% от урона (только в ближнем бою). <br> Бонусы двух или более Battle Fury суммируются."
+	
+		"DOTA_Tooltip_Ability_item_battle_fury_2"				"Battle Fury"
+		"DOTA_Tooltip_Ability_item_battle_fury_2_damage"		"+$damage"
+		"DOTA_Tooltip_Ability_item_battle_fury_2_regen_hp"		"+$hp_regen"
+		"DOTA_Tooltip_Ability_item_battle_fury_2_regen_mana"	"+$mana_regen"
+		"DOTA_Tooltip_Ability_item_battle_fury_2_description"	"<h1>Пассивная: Cleave</h1> Атаки героя прорубают жертву, нанося врагам вокруг неё физический урон, равный %cleave_damage%%% от урона (только в ближнем бою). <br> Бонусы двух или более Battle Fury суммируются."
+	
+		"DOTA_Tooltip_Ability_item_battle_fury_3"				"Battle Fury"
+		"DOTA_Tooltip_Ability_item_battle_fury_3_damage"		"+$damage"
+		"DOTA_Tooltip_Ability_item_battle_fury_3_regen_hp"		"+$hp_regen"
+		"DOTA_Tooltip_Ability_item_battle_fury_3_regen_mana"	"+$mana_regen"
+		"DOTA_Tooltip_Ability_item_battle_fury_3_description"	"<h1>Пассивная: Cleave</h1> Атаки героя прорубают жертву, нанося врагам вокруг неё физический урон, равный %cleave_damage%%% от урона (только в ближнем бою). <br> Бонусы двух или более Battle Fury суммируются."
+		
+		"DOTA_Tooltip_Ability_item_recipe_battle_fury_1"	    "РЕЦЕПТ: Battle Fury"
+		"DOTA_Tooltip_Ability_item_recipe_battle_fury_2"	    "РЕЦЕПТ: Battle Fury"
+		"DOTA_Tooltip_Ability_item_recipe_battle_fury_3"	    "РЕЦЕПТ: Battle Fury"
+		
+		//***************************************************************
+		// Bow of pain
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_bow_of_pain_1"				"Bow Of Pain"
+		"DOTA_Tooltip_Ability_item_bow_of_pain_1_description"	"<h1>Пассивная: Split Shot</h1> Атаки героя раздваиваются до %bonus_target% раз, нанося  %split_damage%%% от урона (только в дальнем бою). <br> Бонусы от двух или более Bow Of Pain не суммируются."
+		"DOTA_Tooltip_Ability_item_bow_of_pain_1_damage"		"+$damage"
+		"DOTA_Tooltip_Ability_item_bow_of_pain_1_all_stats"		"+$all"
+		"DOTA_Tooltip_Ability_item_bow_of_pain_1_attack_speed"	"+$attack"		
+		
+		"DOTA_Tooltip_Ability_item_bow_of_pain_2"				"Bow Of Pain"
+		"DOTA_Tooltip_Ability_item_bow_of_pain_2_description"	"<h1>Пассивная: Split Shot</h1> Атаки героя раздваиваются до %bonus_target% раз, нанося  %split_damage%%% от урона (только в дальнем бою). <br> Бонусы от двух или более Bow Of Pain не суммируются."
+		"DOTA_Tooltip_Ability_item_bow_of_pain_2_damage"		"+$damage"
+		"DOTA_Tooltip_Ability_item_bow_of_pain_2_all_stats"		"+$all"
+		"DOTA_Tooltip_Ability_item_bow_of_pain_2_attack_speed"	"+$attack"		
+		
+		"DOTA_Tooltip_Ability_item_bow_of_pain_3"				"Bow Of Pain"
+		"DOTA_Tooltip_Ability_item_bow_of_pain_3_description"	"<h1>Пассивная: Split Shot</h1> Атаки героя раздваиваются до %bonus_target% раз, нанося  %split_damage%%% от урона (только в дальнем бою). <br> Бонусы от двух или более Bow Of Pain не суммируются."
+		"DOTA_Tooltip_Ability_item_bow_of_pain_3_damage"		"+$damage"
+		"DOTA_Tooltip_Ability_item_bow_of_pain_3_all_stats"		"+$all"
+		"DOTA_Tooltip_Ability_item_bow_of_pain_3_attack_speed"	"+$attack"
+		
+		"DOTA_Tooltip_Ability_item_recipe_bow_of_pain_1"	    "РЕЦЕПТ: Bow Of Pain"
+		"DOTA_Tooltip_Ability_item_recipe_bow_of_pain_2"	    "РЕЦЕПТ: Bow Of Pain"
+		"DOTA_Tooltip_Ability_item_recipe_bow_of_pain_3"	    "РЕЦЕПТ: Bow Of Pain"
+		
+		//***************************************************************
+		// Mask of Madness
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_mask_of_madness_1"			  "Mask Of Madness"
+		"DOTA_Tooltip_Ability_item_mask_of_madness_1_description" "<h1>Активируемая: Berserk</h1> Даёт владельцу %attack_speed_use% скорости атаки и %move_speed_use%%% скорости передвижения, но уменьшает его броню на %armor_use% и запрещает ему применять способности. Действует %duration% сек.\n<h1>Пассивная: Lifesteal</h1> Каждая атака восстанавливает владельцу здоровье в размере %lifesteal%%% от нанесённого урона."
+		"DOTA_Tooltip_Ability_item_mask_of_madness_1_bonus_damage" "+$damage"
+		"DOTA_Tooltip_Ability_item_mask_of_madness_1_attack_speed" "+$attack"		
+		
+		"DOTA_Tooltip_Ability_item_mask_of_madness_2"			  "Mask Of Madness"
+		"DOTA_Tooltip_Ability_item_mask_of_madness_2_description" "<h1>Активируемая: Berserk</h1> Даёт владельцу %attack_speed_use% скорости атаки и %move_speed_use%%% скорости передвижения, но уменьшает его броню на %armor_use% и запрещает ему применять способности. Действует %duration% сек.\n<h1>Пассивная: Lifesteal</h1> Каждая атака восстанавливает владельцу здоровье в размере %lifesteal%%% от нанесённого урона."
+		"DOTA_Tooltip_Ability_item_mask_of_madness_2_bonus_damage" "+$damage"
+		"DOTA_Tooltip_Ability_item_mask_of_madness_2_attack_speed" "+$attack"		
+		
+		"DOTA_Tooltip_Ability_item_mask_of_madness_3"			  "Mask Of Madness"
+		"DOTA_Tooltip_Ability_item_mask_of_madness_3_description" "<h1>Активируемая: Berserk</h1> Даёт владельцу %attack_speed_use% скорости атаки и %move_speed_use%%% скорости передвижения, но уменьшает его броню на %armor_use% и запрещает ему применять способности. Действует %duration% сек.\n<h1>Пассивная: Lifesteal</h1> Каждая атака восстанавливает владельцу здоровье в размере %lifesteal%%% от нанесённого урона."
+		"DOTA_Tooltip_Ability_item_mask_of_madness_3_bonus_damage" "+$damage"
+		"DOTA_Tooltip_Ability_item_mask_of_madness_3_attack_speed" "+$attack"		
+		
+		"DOTA_Tooltip_Ability_item_mask_of_madness_4"			  "Mask Of Madness"
+		"DOTA_Tooltip_Ability_item_mask_of_madness_4_description" "<h1>Активируемая: Berserk</h1> Даёт владельцу %attack_speed_use% скорости атаки и %move_speed_use%%% скорости передвижения, но уменьшает его броню на %armor_use% и запрещает ему применять способности. Действует %duration% сек.\n<h1>Пассивная: Lifesteal</h1> Каждая атака восстанавливает владельцу здоровье в размере %lifesteal%%% от нанесённого урона."
+		"DOTA_Tooltip_Ability_item_mask_of_madness_4_bonus_damage" "+$damage"
+		"DOTA_Tooltip_Ability_item_mask_of_madness_4_attack_speed" "+$attack"		
+		
+		"DOTA_Tooltip_Ability_item_mask_of_madness_5"			  "Mask Of Madness"
+		"DOTA_Tooltip_Ability_item_mask_of_madness_5_description" "<h1>Активируемая: Berserk</h1> Даёт владельцу %attack_speed_use% скорости атаки и %move_speed_use%%% скорости передвижения, но уменьшает его броню на %armor_use% и запрещает ему применять способности. Действует %duration% сек.\n<h1>Пассивная: Lifesteal</h1> Каждая атака восстанавливает владельцу здоровье в размере %lifesteal%%% от нанесённого урона."
+		"DOTA_Tooltip_Ability_item_mask_of_madness_5_bonus_damage" "+$damage"
+		"DOTA_Tooltip_Ability_item_mask_of_madness_5_attack_speed" "+$attack"
+		"DOTA_Tooltip_modifier_mask_of_madness_bh_use" 			   "Mask Of Madness"
+		"DOTA_Tooltip_modifier_mask_of_madness_bh_use_description" "Скорость атаки увеличена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%,вы не можете использовать заклинания."
+		
+		"DOTA_Tooltip_Ability_item_recipe_mask_of_madness_1"	   "РЕЦЕПТ: Mask Of Madness"
+		"DOTA_Tooltip_Ability_item_recipe_mask_of_madness_2"	   "РЕЦЕПТ: Mask Of Madness"
+		"DOTA_Tooltip_Ability_item_recipe_mask_of_madness_3"	   "РЕЦЕПТ: Mask Of Madness"
+		"DOTA_Tooltip_Ability_item_recipe_mask_of_madness_4"	   "РЕЦЕПТ: Mask Of Madness"
+		"DOTA_Tooltip_Ability_item_recipe_mask_of_madness_5"	   "РЕЦЕПТ: Mask Of Madness"
+		
+		//***************************************************************
+		// Hand Of Midas
+		//***************************************************************		
+		
+		"DOTA_Tooltip_Ability_item_hand_of_midas_1"					"Hand Of Midas"
+		"DOTA_Tooltip_Ability_item_hand_of_midas_1_attack_speed"	"+$attack"
+		"DOTA_Tooltip_Ability_item_hand_of_midas_1_description"		"<h1>Активируемая: Transmute</h1> Убивает выбранную цель (но не героя), давая за неё %gold% золота и в %xp% раза больше опыта. <br><br>Не действует на древних крипов/сильнейших крипов/боссов.<br><br>Дальность применения: %cast_range_tooltip%"
+		
+		"DOTA_Tooltip_Ability_item_hand_of_midas_2"					"Hand Of Midas"
+		"DOTA_Tooltip_Ability_item_hand_of_midas_2_attack_speed"	"+$attack"
+		"DOTA_Tooltip_Ability_item_hand_of_midas_2_description"		"<h1>Активируемая: Transmute</h1> Убивает выбранную цель (но не героя), давая за неё %gold% золота и в %xp% раза больше опыта. <br><br>Не действует на древних крипов/сильнейших крипов/боссов.<br><br>Дальность применения: %cast_range_tooltip%"
+		
+		"DOTA_Tooltip_Ability_item_hand_of_midas_3"					"Hand Of Midas"
+		"DOTA_Tooltip_Ability_item_hand_of_midas_3_attack_speed"	"+$attack"
+		"DOTA_Tooltip_Ability_item_hand_of_midas_3_description"		"<h1>Активируемая: Transmute</h1> Убивает выбранную цель (но не героя), давая за неё %gold% золота и в %xp% раза больше опыта. <br><br>Не действует на древних крипов/сильнейших крипов/боссов.<br><br>Дальность применения: %cast_range_tooltip%"
+		
+		"DOTA_Tooltip_Ability_item_recipe_hand_of_midas_1"			"РЕЦЕПТ: Hand Of Midas"
+		"DOTA_Tooltip_Ability_item_recipe_hand_of_midas_2"			"РЕЦЕПТ: Hand Of Midas"
+		"DOTA_Tooltip_Ability_item_recipe_hand_of_midas_3"			"РЕЦЕПТ: Hand Of Midas"
+		
+		//***************************************************************
+		// Black King Bar
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_black_king_bar_1"				"Black King Bar"
+		"DOTA_Tooltip_Ability_item_black_king_bar_1_description"	"<h1>Активируемая: Avatar</h1> Даёт невосприимчивость к магии и полное сопротивление магическому урону.<br><br>Длительность: %duration%<br>Тип развеивания: <span class=\"GameplayValues GameplayVariable\">нормальное</span>"
+		"DOTA_Tooltip_Ability_item_black_king_bar_1_bonus_damage"	"+$damage"
+		"DOTA_Tooltip_Ability_item_black_king_bar_1_bonus_strength"	"+$str"		
+		
+		"DOTA_Tooltip_Ability_item_black_king_bar_2"				"Black King Bar"
+		"DOTA_Tooltip_Ability_item_black_king_bar_2_description"	"<h1>Активируемая: Avatar</h1> Даёт невосприимчивость к магии и полное сопротивление магическому урону.<br><br>Длительность: %duration%<br>Тип развеивания: <span class=\"GameplayValues GameplayVariable\">нормальное</span>"
+		"DOTA_Tooltip_Ability_item_black_king_bar_2_bonus_damage"	"+$damage"
+		"DOTA_Tooltip_Ability_item_black_king_bar_2_bonus_strength"	"+$str"		
+		
+		"DOTA_Tooltip_Ability_item_black_king_bar_3"				"Black King Bar"
+		"DOTA_Tooltip_Ability_item_black_king_bar_3_description"	"<h1>Активируемая: Avatar</h1> Даёт невосприимчивость к магии и полное сопротивление магическому урону.<br><br>Длительность: %duration%<br>Тип развеивания: <span class=\"GameplayValues GameplayVariable\">нормальное</span>"
+		"DOTA_Tooltip_Ability_item_black_king_bar_3_bonus_damage"	"+$damage"
+		"DOTA_Tooltip_Ability_item_black_king_bar_3_bonus_strength"	"+$str"		
+		
+		"DOTA_Tooltip_Ability_item_black_king_bar_4"				"Black King Bar"
+		"DOTA_Tooltip_Ability_item_black_king_bar_4_description"	"<h1>Активируемая: Avatar</h1> Даёт невосприимчивость к магии и полное сопротивление магическому урону.<br><br>Длительность: %duration%<br>Тип развеивания: <span class=\"GameplayValues GameplayVariable\">нормальное</span>"
+		"DOTA_Tooltip_Ability_item_black_king_bar_4_bonus_damage"	"+$damage"
+		"DOTA_Tooltip_Ability_item_black_king_bar_4_bonus_strength"	"+$str"		
+		
+		"DOTA_Tooltip_Ability_item_black_king_bar_5"				"Black King Bar"
+		"DOTA_Tooltip_Ability_item_black_king_bar_5_description"	"<h1>Активируемая: Avatar</h1> Даёт невосприимчивость к магии и полное сопротивление магическому урону.<br><br>Длительность: %duration%<br>Тип развеивания: <span class=\"GameplayValues GameplayVariable\">нормальное</span>"
+		"DOTA_Tooltip_Ability_item_black_king_bar_5_bonus_damage"	"+$damage"
+		"DOTA_Tooltip_Ability_item_black_king_bar_5_bonus_strength"	"+$str"
+		"DOTA_Tooltip_modifier_magic_immune_bh"						"Иммунитет к магии"
+		"DOTA_Tooltip_Ability_item_recipe_black_king_bar_1"			"РЕЦЕПТ: Black King Bar"
+		"DOTA_Tooltip_Ability_item_recipe_black_king_bar_2"			"РЕЦЕПТ: Black King Bar"
+		"DOTA_Tooltip_Ability_item_recipe_black_king_bar_3"			"РЕЦЕПТ: Black King Bar"
+		"DOTA_Tooltip_Ability_item_recipe_black_king_bar_4"			"РЕЦЕПТ: Black King Bar"
+		"DOTA_Tooltip_Ability_item_recipe_black_king_bar_5"			"РЕЦЕПТ: Black King Bar"
+		
+		//***************************************************************
+		// Godly Black King Bar
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_1"						"Godly Black King Bar"																																						
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_1_description"			"<h1>Активируемая: Godly Hero</h1>Даёт полную неуязвимость на короткий промежуток времени. <br><br>Длительность: %duration%<br>Тип развеивания: <font color='#fddb6d'><span class=\"GameplayValues GameplayVariable\">Невозможное</span></font>"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_1_bonus_all"			"+$all"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_1_bonus_armor"			"+$armor"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_1_bonus_attack_speed"	"+$attack"		
+		
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_2"						"Godly Black King Bar"																																						
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_2_description"			"<h1>Активируемая: Godly Hero</h1>Даёт полную неуязвимость на короткий промежуток времени. <br><br>Длительность: %duration%<br>Тип развеивания: <font color='#fddb6d'><span class=\"GameplayValues GameplayVariable\">Невозможное</span></font>"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_2_bonus_all"			"+$all"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_2_bonus_armor"			"+$armor"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_2_bonus_attack_speed"	"+$attack"		
+		
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_3"						"Godly Black King Bar"																																						
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_3_description"			"<h1>Активируемая: Godly Hero</h1>Даёт полную неуязвимость на короткий промежуток времени. <br><br>Длительность: %duration%<br>Тип развеивания: <font color='#fddb6d'><span class=\"GameplayValues GameplayVariable\">Невозможное</span></font>"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_3_bonus_all"			"+$all"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_3_bonus_armor"			"+$armor"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_3_bonus_attack_speed"	"+$attack"		
+		
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_4"						"Godly Black King Bar"																																						
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_4_description"			"<h1>Активируемая: Godly Hero</h1>Даёт полную неуязвимость на короткий промежуток времени. <br><br>Длительность: %duration%<br>Тип развеивания: <font color='#fddb6d'><span class=\"GameplayValues GameplayVariable\">Невозможное</span></font>"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_4_bonus_all"			"+$all"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_4_bonus_armor"			"+$armor"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_4_bonus_attack_speed"	"+$attack"		
+		
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_5"						"Godly Black King Bar"																																						
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_5_description"			"<h1>Активируемая: Godly Hero</h1>Даёт полную неуязвимость на короткий промежуток времени. <br><br>Длительность: %duration%<br>Тип развеивания: <font color='#fddb6d'><span class=\"GameplayValues GameplayVariable\">Невозможное</span></font>"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_5_bonus_all"			"+$all"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_5_bonus_armor"			"+$armor"
+		"DOTA_Tooltip_Ability_item_godly_black_king_bar_5_bonus_attack_speed"	"+$attack"
+		
+		"DOTA_Tooltip_Ability_item_recipe_godly_black_king_bar_1"				"РЕЦЕПТ: Godly Black King Bar"
+		"DOTA_Tooltip_Ability_item_recipe_godly_black_king_bar_2"				"РЕЦЕПТ: Godly Black King Bar"
+		"DOTA_Tooltip_Ability_item_recipe_godly_black_king_bar_3"				"РЕЦЕПТ: Godly Black King Bar"
+		"DOTA_Tooltip_Ability_item_recipe_godly_black_king_bar_4"				"РЕЦЕПТ: Godly Black King Bar"
+		"DOTA_Tooltip_Ability_item_recipe_godly_black_king_bar_5"				"РЕЦЕПТ: Godly Black King Bar"
+		
+		//***************************************************************
+		// Bloodthorn
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_bloodthorn_1"					"Bloodthorn"
+		"DOTA_Tooltip_Ability_item_bloodthorn_1_description" 		"<h1>Активируемая: Soul Rend</h1> Запрещает выбранной цели использовать способности на %duration% сек. По окончании эффекта жертве наносится магический урон в размере %damage_end%%% от урона, полученного за время действия.<br><br>По цели невозможно промахнуться, а все атаки по ней наносят %critical_active%%% урона.<br><br>Дальность применения: %cast_range_tooltip%\n<h1>Пассивная: Critical Strike</h1> Каждая атака может с вероятностью в %passive_chance_crit%%% нанести %passive_critical%%% урона."
+		"DOTA_Tooltip_Ability_item_bloodthorn_1_bonus_intellect"	"+$int"
+		"DOTA_Tooltip_Ability_item_bloodthorn_1_bonus_attackspeed"	"+$attack"
+		"DOTA_Tooltip_Ability_item_bloodthorn_1_bonus_damage"		"+$damage"		
+		
+		"DOTA_Tooltip_Ability_item_bloodthorn_2"					"Bloodthorn"
+		"DOTA_Tooltip_Ability_item_bloodthorn_2_description" 		"<h1>Активируемая: Soul Rend</h1> Запрещает выбранной цели использовать способности на %duration% сек. По окончании эффекта жертве наносится магический урон в размере %damage_end%%% от урона, полученного за время действия.<br><br>По цели невозможно промахнуться, а все атаки по ней наносят %critical_active%%% урона.<br><br>Дальность применения: %cast_range_tooltip%\n<h1>Пассивная: Critical Strike</h1> Каждая атака может с вероятностью в %passive_chance_crit%%% нанести %passive_critical%%% урона."
+		"DOTA_Tooltip_Ability_item_bloodthorn_2_bonus_intellect"	"+$int"
+		"DOTA_Tooltip_Ability_item_bloodthorn_2_bonus_attackspeed"	"+$attack"
+		"DOTA_Tooltip_Ability_item_bloodthorn_2_bonus_damage"		"+$damage"		
+		
+		"DOTA_Tooltip_Ability_item_bloodthorn_3"					"Bloodthorn"
+		"DOTA_Tooltip_Ability_item_bloodthorn_3_description" 		"<h1>Активируемая: Soul Rend</h1> Запрещает выбранной цели использовать способности на %duration% сек. По окончании эффекта жертве наносится магический урон в размере %damage_end%%% от урона, полученного за время действия.<br><br>По цели невозможно промахнуться, а все атаки по ней наносят %critical_active%%% урона.<br><br>Дальность применения: %cast_range_tooltip%\n<h1>Пассивная: Critical Strike</h1> Каждая атака может с вероятностью в %passive_chance_crit%%% нанести %passive_critical%%% урона."
+		"DOTA_Tooltip_Ability_item_bloodthorn_3_bonus_intellect"	"+$int"
+		"DOTA_Tooltip_Ability_item_bloodthorn_3_bonus_attackspeed"	"+$attack"
+		"DOTA_Tooltip_Ability_item_bloodthorn_3_bonus_damage"		"+$damage"
+		"DOTA_Tooltip_Ability_item_recipe_bloodthorn_1"				"РЕЦЕПТ: Bloodthorn"
+		"DOTA_Tooltip_Ability_item_recipe_bloodthorn_2"				"РЕЦЕПТ: Bloodthorn"
+		"DOTA_Tooltip_Ability_item_recipe_bloodthorn_3"				"РЕЦЕПТ: Bloodthorn"
+		
+		"DOTA_Tooltip_modifier_bloodthor_bh_active"					"Bloodthorn"
+		"DOTA_Tooltip_modifier_bloodthor_bh_active_description"		"По вам нельзя промахнуться,каждая полученная по вам атака наносит критический урон в размере %dMODIFIER_PROPERTY_TOOLTIP%%%"
+		
+		//***************************************************************
+		// Units
+		//***************************************************************
+
+		"DOTA_Tooltip_Ability_item_dagon_bh_1"						"Dagon"		
+		"DOTA_Tooltip_Ability_item_dagon_bh_1_description"			"<h1>Активируемая: Energy Burst</h1> Выпускает мощный всплеск энергии, наносящий магический урон выбранному вражескому существу. Предмет можно улучшить.<br><br>Урон: %damage%.<br>Дальность: %range%."		
+		"DOTA_Tooltip_Ability_item_dagon_bh_1_intellect"			"+$int"
+		"DOTA_Tooltip_Ability_item_dagon_bh_1_all_stats"			"+$all"		
+		
+		"DOTA_Tooltip_Ability_item_dagon_bh_2"						"Dagon"		
+		"DOTA_Tooltip_Ability_item_dagon_bh_2_description"			"<h1>Активируемая: Energy Burst</h1> Выпускает мощный всплеск энергии, наносящий магический урон выбранному вражескому существу. Предмет можно улучшить.<br><br>Урон: %damage%.<br>Дальность: %range%."		
+		"DOTA_Tooltip_Ability_item_dagon_bh_2_intellect"			"+$int"
+		"DOTA_Tooltip_Ability_item_dagon_bh_2_all_stats"			"+$all"		
+		
+		"DOTA_Tooltip_Ability_item_dagon_bh_3"						"Dagon"		
+		"DOTA_Tooltip_Ability_item_dagon_bh_3_description"			"<h1>Активируемая: Energy Burst</h1> Выпускает мощный всплеск энергии, наносящий магический урон выбранному вражескому существу. Предмет можно улучшить.<br><br>Урон: %damage%.<br>Дальность: %range%."		
+		"DOTA_Tooltip_Ability_item_dagon_bh_3_intellect"			"+$int"
+		"DOTA_Tooltip_Ability_item_dagon_bh_3_all_stats"			"+$all"		
+		
+		"DOTA_Tooltip_Ability_item_dagon_bh_3"						"Dagon"		
+		"DOTA_Tooltip_Ability_item_dagon_bh_3_description"			"<h1>Активируемая: Energy Burst</h1> Выпускает мощный всплеск энергии, наносящий магический урон выбранному вражескому существу. Предмет можно улучшить.<br><br>Урон: %damage%.<br>Дальность: %range%."		
+		"DOTA_Tooltip_Ability_item_dagon_bh_3_intellect"			"+$int"
+		"DOTA_Tooltip_Ability_item_dagon_bh_3_all_stats"			"+$all"		
+		
+		"DOTA_Tooltip_Ability_item_dagon_bh_4"						"Dagon"		
+		"DOTA_Tooltip_Ability_item_dagon_bh_4_description"			"<h1>Активируемая: Energy Burst</h1> Выпускает мощный всплеск энергии, наносящий магический урон выбранному вражескому существу. Предмет можно улучшить.<br><br>Урон: %damage%.<br>Дальность: %range%."		
+		"DOTA_Tooltip_Ability_item_dagon_bh_4_intellect"			"+$int"
+		"DOTA_Tooltip_Ability_item_dagon_bh_4_all_stats"			"+$all"		
+		
+		"DOTA_Tooltip_Ability_item_dagon_bh_5"						"Dagon"		
+		"DOTA_Tooltip_Ability_item_dagon_bh_5_description"			"<h1>Активируемая: Energy Burst</h1> Выпускает мощный всплеск энергии, наносящий магический урон выбранному вражескому существу. Предмет можно улучшить.<br><br>Урон: %damage%.<br>Дальность: %range%."		
+		"DOTA_Tooltip_Ability_item_dagon_bh_5_intellect"			"+$int"
+		"DOTA_Tooltip_Ability_item_dagon_bh_5_all_stats"			"+$all"
+		"DOTA_Tooltip_Ability_item_recipe_dagon_bh_1"				"РЕЦЕПТ: DAGON"
+		"DOTA_Tooltip_Ability_item_recipe_dagon_bh_2"				"РЕЦЕПТ: DAGON"
+		"DOTA_Tooltip_Ability_item_recipe_dagon_bh_3"				"РЕЦЕПТ: DAGON"
+		"DOTA_Tooltip_Ability_item_recipe_dagon_bh_4"				"РЕЦЕПТ: DAGON"
+		"DOTA_Tooltip_Ability_item_recipe_dagon_bh_5"				"РЕЦЕПТ: DAGON"
+		
+		//***************************************************************
+		// Eye of Skadi
+		//***************************************************************		
+		
+		"DOTA_Tooltip_Ability_item_skadi_1"							"Eye Of Skadi"
+		"DOTA_Tooltip_Ability_item_skadi_1_description"				"<h1>Пассивная: Cold Attack</h1> Каждая атака замедляет скорость передвижения жертвы на %slow_movespeed%%% и скорость её атаки на %slow_attackspeed%. <br><br>Длительность замедления зависит от типа атаки владельца: в ближнем бою %duration_melee% сек., в дальнем — %duration_ranged% сек."
+		"DOTA_Tooltip_Ability_item_skadi_1_all_stats"				"+$all"
+		"DOTA_Tooltip_Ability_item_skadi_1_hp"						"+$health"
+		"DOTA_Tooltip_Ability_item_skadi_1_mp"						"+$mana"		
+		
+		"DOTA_Tooltip_Ability_item_skadi_2"							"Eye Of Skadi"
+		"DOTA_Tooltip_Ability_item_skadi_2_description"				"<h1>Пассивная: Cold Attack</h1> Каждая атака замедляет скорость передвижения жертвы на %slow_movespeed%%% и скорость её атаки на %slow_attackspeed%. <br><br>Длительность замедления зависит от типа атаки владельца: в ближнем бою %duration_melee% сек., в дальнем — %duration_ranged% сек."
+		"DOTA_Tooltip_Ability_item_skadi_2_all_stats"				"+$all"
+		"DOTA_Tooltip_Ability_item_skadi_2_hp"						"+$health"
+		"DOTA_Tooltip_Ability_item_skadi_2_mp"						"+$mana"		
+		
+		"DOTA_Tooltip_Ability_item_skadi_3"							"Eye Of Skadi"
+		"DOTA_Tooltip_Ability_item_skadi_3_description"				"<h1>Пассивная: Cold Attack</h1> Каждая атака замедляет скорость передвижения жертвы на %slow_movespeed%%% и скорость её атаки на %slow_attackspeed%. <br><br>Длительность замедления зависит от типа атаки владельца: в ближнем бою %duration_melee% сек., в дальнем — %duration_ranged% сек."
+		"DOTA_Tooltip_Ability_item_skadi_3_all_stats"				"+$all"
+		"DOTA_Tooltip_Ability_item_skadi_3_hp"						"+$health"
+		"DOTA_Tooltip_Ability_item_skadi_3_mp"						"+$mana"		
+		
+		"DOTA_Tooltip_Ability_item_skadi_4"							"Eye Of Skadi"
+		"DOTA_Tooltip_Ability_item_skadi_4_description"				"<h1>Пассивная: Cold Attack</h1> Каждая атака замедляет скорость передвижения жертвы на %slow_movespeed%%% и скорость её атаки на %slow_attackspeed%. <br><br>Длительность замедления зависит от типа атаки владельца: в ближнем бою %duration_melee% сек., в дальнем — %duration_ranged% сек."
+		"DOTA_Tooltip_Ability_item_skadi_4_all_stats"				"+$all"
+		"DOTA_Tooltip_Ability_item_skadi_4_hp"						"+$health"
+		"DOTA_Tooltip_Ability_item_skadi_4_mp"						"+$mana"		
+		
+		"DOTA_Tooltip_Ability_item_skadi_5"							"Eye Of Skadi"
+		"DOTA_Tooltip_Ability_item_skadi_5_description"				"<h1>Пассивная: Cold Attack</h1> Каждая атака замедляет скорость передвижения жертвы на %slow_movespeed%%% и скорость её атаки на %slow_attackspeed%. <br><br>Длительность замедления зависит от типа атаки владельца: в ближнем бою %duration_melee% сек., в дальнем — %duration_ranged% сек."
+		"DOTA_Tooltip_Ability_item_skadi_5_all_stats"				"+$all"
+		"DOTA_Tooltip_Ability_item_skadi_5_hp"						"+$health"
+		"DOTA_Tooltip_Ability_item_skadi_5_mp"						"+$mana"
+		"DOTA_Tooltip_modifier_skadi_bh_debuff"						"Eye Of Skadi"
+		"DOTA_Tooltip_modifier_skadi_bh_debuff_description"			"Вы замедлены на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%,а ваша скорость атаки уменьшена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%"
+		
+		"DOTA_Tooltip_Ability_item_recipe_skadi_1"					"РЕЦЕПТ: Eye Of Skadi"
+		"DOTA_Tooltip_Ability_item_recipe_skadi_2"					"РЕЦЕПТ: Eye Of Skadi"
+		"DOTA_Tooltip_Ability_item_recipe_skadi_3"					"РЕЦЕПТ: Eye Of Skadi"
+		"DOTA_Tooltip_Ability_item_recipe_skadi_4"					"РЕЦЕПТ: Eye Of Skadi"
+		"DOTA_Tooltip_Ability_item_recipe_skadi_5"					"РЕЦЕПТ: Eye Of Skadi"
+		
+		//***************************************************************
+		// Skadi and Desolator
+		//***************************************************************		
+		
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_1"				"Skadi & Desolator"
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_1_description" 	"<h1>Пассивная: Cold Attack</h1> Каждая атака замедляет скорость передвижения жертвы на %slow_movespeed%%% и скорость её атаки на %slow_attackspeed%. <br><br>Длительность замедления зависит от типа атаки владельца: в ближнем бою %duration_melee% сек., в дальнем — %duration_ranged% сек.\n<h1>Пассивная: Corruption</h1> Атаки уменьшают броню цели на %armor_reduction%. Эффект длится %duration% сек."
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_1_all_stats"		"+$all"
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_1_hp"			"+$health"
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_1_mp"			"+$mana"
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_1_damage_bonus"	"+$damage"
+		
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_2"				"Skadi & Desolator"
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_2_description" 	"<h1>Пассивная: Cold Attack</h1> Каждая атака замедляет скорость передвижения жертвы на %slow_movespeed%%% и скорость её атаки на %slow_attackspeed%. <br><br>Длительность замедления зависит от типа атаки владельца: в ближнем бою %duration_melee% сек., в дальнем — %duration_ranged% сек.\n<h1>Пассивная: Corruption</h1> Атаки уменьшают броню цели на %armor_reduction%. Эффект длится %duration% сек."
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_2_all_stats"		"+$all"
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_2_hp"			"+$health"
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_2_mp"			"+$mana"
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_2_damage_bonus"	"+$damage"		
+		
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_3"				"Skadi & Desolator"
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_3_description" 	"<h1>Пассивная: Cold Attack</h1> Каждая атака замедляет скорость передвижения жертвы на %slow_movespeed%%% и скорость её атаки на %slow_attackspeed%. <br><br>Длительность замедления зависит от типа атаки владельца: в ближнем бою %duration_melee% сек., в дальнем — %duration_ranged% сек.\n<h1>Пассивная: Corruption</h1> Атаки уменьшают броню цели на %armor_reduction%. Эффект длится %duration% сек."
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_3_all_stats"		"+$all"
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_3_hp"			"+$health"
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_3_mp"			"+$mana"
+		"DOTA_Tooltip_Ability_item_skadi_and_desolator_3_damage_bonus"	"+$damage"
+		
+		"DOTA_Tooltip_Ability_item_recipe_skadi_and_desolator_1"		"РЕЦЕПТ: Skadi & Desolator"
+		"DOTA_Tooltip_Ability_item_recipe_skadi_and_desolator_2"		"РЕЦЕПТ: Skadi & Desolator"
+		"DOTA_Tooltip_Ability_item_recipe_skadi_and_desolator_3"		"РЕЦЕПТ: Skadi & Desolator"
+		
+		//***************************************************************
+		// Refresher Orb
+		//***************************************************************			
+		
+		"DOTA_Tooltip_Ability_item_refresher_orb_1"						"Refresher Orb"
+		"DOTA_Tooltip_Ability_item_refresher_orb_1_description"			"<h1>Активируемая: Reset</h1>Сбрасывает время перезарядки всех ваших предметов и способностей.\n<h1>Пассивная: Cooldown Reduction</h1>Уменьшает время перезарядки всех способностей и предметов на %reduction_cooldown%%%.\n<h1>Пассивная: Spell Lifesteal</h1>Даёт магический вампиризм, который восстанавливает здоровье за наносимый способностями урон. <br><br>Восстанавливает здоровье в размере <br>По героям: %magic_lifesteal_hero%%%<br> По крипам: %magic_lifesteal_creep%%%."
+		"DOTA_Tooltip_Ability_item_refresher_orb_1_intellect"			"+$int"
+		"DOTA_Tooltip_Ability_item_refresher_orb_1_mana"				"+$mana"
+		"DOTA_Tooltip_Ability_item_refresher_orb_1_amplify"				"%+$amplify"		
+		
+		"DOTA_Tooltip_Ability_item_refresher_orb_2"						"Refresher Orb"
+		"DOTA_Tooltip_Ability_item_refresher_orb_2_description"			"<h1>Активируемая: Reset</h1>Сбрасывает время перезарядки всех ваших предметов и способностей.\n<h1>Пассивная: Cooldown Reduction</h1>Уменьшает время перезарядки всех способностей и предметов на %reduction_cooldown%%%.\n<h1>Пассивная: Spell Lifesteal</h1>Даёт магический вампиризм, который восстанавливает здоровье за наносимый способностями урон. <br><br>Восстанавливает здоровье в размере <br>По героям: %magic_lifesteal_hero%%%<br> По крипам: %magic_lifesteal_creep%%%."
+		"DOTA_Tooltip_Ability_item_refresher_orb_2_intellect"			"+$int"
+		"DOTA_Tooltip_Ability_item_refresher_orb_2_mana"				"+$mana"
+		"DOTA_Tooltip_Ability_item_refresher_orb_2_amplify"				"%+$amplify"		
+		
+		"DOTA_Tooltip_Ability_item_refresher_orb_3"						"Refresher Orb"
+		"DOTA_Tooltip_Ability_item_refresher_orb_3_description"			"<h1>Активируемая: Reset</h1>Сбрасывает время перезарядки всех ваших предметов и способностей.\n<h1>Пассивная: Cooldown Reduction</h1>Уменьшает время перезарядки всех способностей и предметов на %reduction_cooldown%%%.\n<h1>Пассивная: Spell Lifesteal</h1>Даёт магический вампиризм, который восстанавливает здоровье за наносимый способностями урон. <br><br>Восстанавливает здоровье в размере <br>По героям: %magic_lifesteal_hero%%%<br> По крипам: %magic_lifesteal_creep%%%."
+		"DOTA_Tooltip_Ability_item_refresher_orb_3_intellect"			"+$int"
+		"DOTA_Tooltip_Ability_item_refresher_orb_3_mana"				"+$mana"
+		"DOTA_Tooltip_Ability_item_refresher_orb_3_amplify"				"%+$amplify"
+	
+		"DOTA_Tooltip_Ability_item_recipe_refresher_orb_1"				"РЕЦЕПТ: Refresher Orb"
+		"DOTA_Tooltip_Ability_item_recipe_refresher_orb_2"				"РЕЦЕПТ: Refresher Orb"
+		"DOTA_Tooltip_Ability_item_recipe_refresher_orb_3"				"РЕЦЕПТ: Refresher Orb"
+	
+		//***************************************************************
+		// Scythe Of Vyse
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_1"					"Scythe Of Vyse"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_1_description"		"<h1>Активируемая: Hex</h1>Превращает цель в безобидную зверушку на %duration% сек. Жертва не может атаковать, применять способности или использовать предметы, а её базовая скорость падает до %base_movespeed%.<br>Мгновенно уничтожает иллюзии.<br><br>Дальность применения: %range_tooltip%"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_1_bonus_strength"		"+$str"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_1_bonus_agility"		"+$agi"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_1_bonus_intellect"	"+$int"		
+		
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_2"					"Scythe Of Vyse"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_2_description"		"<h1>Активируемая: Hex</h1>Превращает цель в безобидную зверушку на %duration% сек. Жертва не может атаковать, применять способности или использовать предметы, а её базовая скорость падает до %base_movespeed%.<br>Мгновенно уничтожает иллюзии.<br><br>Дальность применения: %range_tooltip%"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_2_bonus_strength"		"+$str"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_2_bonus_agility"		"+$agi"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_2_bonus_intellect"	"+$int"		
+		
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_3"					"Scythe Of Vyse"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_3_description"		"<h1>Активируемая: Hex</h1>Превращает цель в безобидную зверушку на %duration% сек. Жертва не может атаковать, применять способности или использовать предметы, а её базовая скорость падает до %base_movespeed%.<br>Мгновенно уничтожает иллюзии.<br><br>Дальность применения: %range_tooltip%\n<h1>Пассивная: Auto - Hex </h1> Превращает цель в радиусе %range_tooltip% в безобидную зверушку на %duration% сек. Жертва не может атаковать, применять способности или использовать предметы, а её базовая скорость падает до %base_movespeed%."
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_3_bonus_strength"		"+$str"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_3_bonus_agility"		"+$agi"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_3_bonus_intellect"	"+$int"		
+		
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_4"					"Scythe Of Vyse"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_4_description"		"<h1>Активируемая: Hex</h1>Превращает цель в безобидную зверушку на %duration% сек. Жертва не может атаковать, применять способности или использовать предметы, а её базовая скорость падает до %base_movespeed%.<br>Мгновенно уничтожает иллюзии.<br><br>Дальность применения: %range_tooltip%\n<h1>Пассивная: Auto - Hex </h1> Превращает цель в радиусе %range_tooltip% в безобидную зверушку на %duration% сек. Жертва не может атаковать, применять способности или использовать предметы, а её базовая скорость падает до %base_movespeed%."
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_4_bonus_strength"		"+$str"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_4_bonus_agility"		"+$agi"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_4_bonus_intellect"	"+$int"		
+		
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_5"					"Scythe Of Vyse"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_5_description"		"<h1>Активируемая: Hex</h1>Превращает цель в безобидную зверушку на %duration% сек. Жертва не может атаковать, применять способности или использовать предметы, а её базовая скорость падает до %base_movespeed%.<br>Мгновенно уничтожает иллюзии.<br><br>Дальность применения: %range_tooltip%\n<h1>Пассивная: Auto - Hex </h1> Превращает цель в радиусе %range_tooltip% в безобидную зверушку на %duration% сек. Жертва не может атаковать, применять способности или использовать предметы, а её базовая скорость падает до %base_movespeed%."
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_5_bonus_strength"		"+$str"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_5_bonus_agility"		"+$agi"
+		"DOTA_Tooltip_Ability_item_scythe_of_vyse_5_bonus_intellect"	"+$int"
+		
+		"DOTA_Tooltip_Ability_item_recipe_scythe_of_vyse_1"				"РЕЦЕПТ: Scythe Of Vyse"
+		"DOTA_Tooltip_Ability_item_recipe_scythe_of_vyse_2"				"РЕЦЕПТ: Scythe Of Vyse"
+		"DOTA_Tooltip_Ability_item_recipe_scythe_of_vyse_3"				"РЕЦЕПТ: Scythe Of Vyse"
+		"DOTA_Tooltip_Ability_item_recipe_scythe_of_vyse_4"				"РЕЦЕПТ: Scythe Of Vyse"
+		"DOTA_Tooltip_Ability_item_recipe_scythe_of_vyse_5"				"РЕЦЕПТ: Scythe Of Vyse"
+		"DOTA_Tooltip_modifier_scythe_of_vyse_bh_debuff"				"Hexed"
+		
+		//***************************************************************
+		// Veil Of Discord
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_veil_of_discord_1"					"Veil Of Discord"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_1_description"		"<h1>Активируемая: Magic Weakness</h1> Ослабляет врагов в области радиусом %radius%, уменьшая их сопротивление магическому урону на %reduction_magic%%%.<br><br>Дальность применения: %range_tooltip%<br>Длительность: %duration% сек."
+		"DOTA_Tooltip_Ability_item_veil_of_discord_1_bonus_health"		"+$health"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_1_bonus_armor"		"+$armor"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_1_bonus_agility"		"+$agi"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_1_bonus_strength"	"+$str"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_1_bonus_intellect"	"+$int"		
+		
+		"DOTA_Tooltip_Ability_item_veil_of_discord_2"					"Veil Of Discord"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_2_description"		"<h1>Активируемая: Magic Weakness</h1> Ослабляет врагов в области радиусом %radius%, уменьшая их сопротивление магическому урону на %reduction_magic%%%.<br><br>Дальность применения: %range_tooltip%<br>Длительность: %duration% сек."
+		"DOTA_Tooltip_Ability_item_veil_of_discord_2_bonus_health"		"+$health"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_2_bonus_armor"		"+$armor"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_2_bonus_agility"		"+$agi"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_2_bonus_strength"	"+$str"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_2_bonus_intellect"	"+$int"		
+		
+		"DOTA_Tooltip_Ability_item_veil_of_discord_3"					"Veil Of Discord"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_3_description"		"<h1>Активируемая: Magic Weakness</h1> Ослабляет врагов в области радиусом %radius%, уменьшая их сопротивление магическому урону на %reduction_magic%%%.<br><br>Дальность применения: %range_tooltip%<br>Длительность: %duration% сек."
+		"DOTA_Tooltip_Ability_item_veil_of_discord_3_bonus_health"		"+$health"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_3_bonus_armor"		"+$armor"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_3_bonus_agility"		"+$agi"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_3_bonus_strength"	"+$str"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_3_bonus_intellect"	"+$int"		
+		
+		"DOTA_Tooltip_Ability_item_veil_of_discord_4"					"Veil Of Discord"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_4_description"		"<h1>Активируемая: Magic Weakness</h1> Ослабляет врагов в области радиусом %radius%, уменьшая их сопротивление магическому урону на %reduction_magic%%%.<br><br>Дальность применения: %range_tooltip%<br>Длительность: %duration% сек."
+		"DOTA_Tooltip_Ability_item_veil_of_discord_4_bonus_health"		"+$health"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_4_bonus_armor"		"+$armor"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_4_bonus_agility"		"+$agi"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_4_bonus_strength"	"+$str"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_4_bonus_intellect"	"+$int"		
+		
+		"DOTA_Tooltip_Ability_item_veil_of_discord_5"					"Veil Of Discord"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_5_description"		"<h1>Активируемая: Magic Weakness</h1> Ослабляет врагов в области радиусом %radius%, уменьшая их сопротивление магическому урону на %reduction_magic%%%.<br><br>Дальность применения: %range_tooltip%<br>Длительность: %duration% сек."
+		"DOTA_Tooltip_Ability_item_veil_of_discord_5_bonus_health"		"+$health"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_5_bonus_armor"		"+$armor"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_5_bonus_agility"		"+$agi"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_5_bonus_strength"	"+$str"
+		"DOTA_Tooltip_Ability_item_veil_of_discord_5_bonus_intellect"	"+$int"
+		
+		"DOTA_Tooltip_Ability_item_recipe_veil_of_discord_1"			"РЕЦЕПТ: Veil Of Discord"
+		"DOTA_Tooltip_Ability_item_recipe_veil_of_discord_2"			"РЕЦЕПТ: Veil Of Discord"
+		"DOTA_Tooltip_Ability_item_recipe_veil_of_discord_3"			"РЕЦЕПТ: Veil Of Discord"
+		"DOTA_Tooltip_Ability_item_recipe_veil_of_discord_4"			"РЕЦЕПТ: Veil Of Discord"
+		"DOTA_Tooltip_Ability_item_recipe_veil_of_discord_5"			"РЕЦЕПТ: Veil Of Discord"
+		
+		//***************************************************************
+		// Hearth Of Tarrasque
+		//***************************************************************		
+		
+		"DOTA_Tooltip_Ability_item_hearth_of_tarrasque_1"				 "Heart of Tarrasque"
+		"DOTA_Tooltip_Ability_item_hearth_of_tarrasque_1_description"	 "<h1>Пассивная: Health Regeneration</h1> Восстанавливает %bonus_regen_hp%%% от максимального здоровья в секунду. <br><br>Если получить урон от вражеского героя или Рошана, способность отключается на %cooldown_melee% сек. для героев ближнего боя или на %cooldown_ranged% сек. для героев дальнего боя."
+		"DOTA_Tooltip_Ability_item_hearth_of_tarrasque_1_bonus_strength" "+$str"
+		"DOTA_Tooltip_Ability_item_hearth_of_tarrasque_1_bonus_health" 	 "+$health"		
+		
+		"DOTA_Tooltip_Ability_item_hearth_of_tarrasque_2"				 "Heart of Tarrasque"
+		"DOTA_Tooltip_Ability_item_hearth_of_tarrasque_2_description"	 "<h1>Пассивная: Health Regeneration</h1> Восстанавливает %bonus_regen_hp%%% от максимального здоровья в секунду. <br><br>Если получить урон от вражеского героя или Рошана, способность отключается на %cooldown_melee% сек. для героев ближнего боя или на %cooldown_ranged% сек. для героев дальнего боя."
+		"DOTA_Tooltip_Ability_item_hearth_of_tarrasque_2_bonus_strength" "+$str"
+		"DOTA_Tooltip_Ability_item_hearth_of_tarrasque_2_bonus_health" 	 "+$health"		
+		
+		"DOTA_Tooltip_Ability_item_hearth_of_tarrasque_3"				 "Heart of Tarrasque"
+		"DOTA_Tooltip_Ability_item_hearth_of_tarrasque_3_description"	 "<h1>Пассивная: Health Regeneration</h1> Восстанавливает %bonus_regen_hp%%% от максимального здоровья в секунду. <br><br>Если получить урон от вражеского героя или Рошана, способность отключается на %cooldown_melee% сек. для героев ближнего боя или на %cooldown_ranged% сек. для героев дальнего боя."
+		"DOTA_Tooltip_Ability_item_hearth_of_tarrasque_3_bonus_strength" "+$str"
+		"DOTA_Tooltip_Ability_item_hearth_of_tarrasque_3_bonus_health" 	 "+$health"
+		
+		"DOTA_Tooltip_Ability_item_recipe_hearth_of_tarrasque_1"		 "РЕЦЕПТ: Heart of Tarrasque"
+		"DOTA_Tooltip_Ability_item_recipe_hearth_of_tarrasque_2"		 "РЕЦЕПТ: Heart of Tarrasque"
+		"DOTA_Tooltip_Ability_item_recipe_hearth_of_tarrasque_3"		 "РЕЦЕПТ: Heart of Tarrasque"
+		
+		//***************************************************************
+		// Assault Cuirass
+		//***************************************************************		
+		
+		"DOTA_Tooltip_Ability_item_assault_cuirass_1"					 "Assault Cuirass"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_1_description"		 "<h1>Пассивная: Assault Aura</h1> Увеличивает броню союзных построек и существ на %aura_bonus_armor%, а их скорость атаки — на %aura_bonus_spd%. Снижает броню врагов поблизости на %aura_debuff_armor%.<br><br>Радиус: %radius%"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_1_bonus_attack_speed" "+$attack"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_1_bonus_armor" 		 "+$armor"		
+		
+		"DOTA_Tooltip_Ability_item_assault_cuirass_2"					 "Assault Cuirass"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_2_description"		 "<h1>Пассивная: Assault Aura</h1> Увеличивает броню союзных построек и существ на %aura_bonus_armor%, а их скорость атаки — на %aura_bonus_spd%. Снижает броню врагов поблизости на %aura_debuff_armor%.<br><br>Радиус: %radius%"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_2_bonus_attack_speed" "+$attack"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_2_bonus_armor" 		 "+$armor"		
+		
+		"DOTA_Tooltip_Ability_item_assault_cuirass_3"					 "Assault Cuirass"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_3_description"		 "<h1>Пассивная: Assault Aura</h1> Увеличивает броню союзных построек и существ на %aura_bonus_armor%, а их скорость атаки — на %aura_bonus_spd%. Снижает броню врагов поблизости на %aura_debuff_armor%.<br><br>Радиус: %radius%"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_3_bonus_attack_speed" "+$attack"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_3_bonus_armor" 		 "+$armor"		
+		
+		"DOTA_Tooltip_Ability_item_assault_cuirass_4"					 "Assault Cuirass"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_4_description"		 "<h1>Пассивная: Assault Aura</h1> Увеличивает броню союзных построек и существ на %aura_bonus_armor%, а их скорость атаки — на %aura_bonus_spd%. Снижает броню врагов поблизости на %aura_debuff_armor%.<br><br>Радиус: %radius%"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_4_bonus_attack_speed" "+$attack"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_4_bonus_armor" 		 "+$armor"	
+		"DOTA_Tooltip_Ability_item_assault_cuirass_4_bonus_health" 		 "+$health"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_4_bonus_strength" 	 "+$str"		
+		
+		"DOTA_Tooltip_Ability_item_assault_cuirass_5"					 "Assault Cuirass"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_5_description"		 "<h1>Пассивная: Assault Aura</h1> Увеличивает броню союзных построек и существ на %aura_bonus_armor%, а их скорость атаки — на %aura_bonus_spd%. Снижает броню врагов поблизости на %aura_debuff_armor%.<br><br>Радиус: %radius%"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_5_bonus_attack_speed" "+$attack"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_5_bonus_armor" 		 "+$armor"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_5_bonus_health" 		 "+$health"
+		"DOTA_Tooltip_Ability_item_assault_cuirass_5_bonus_strength" 	 "+$str"
+		
+		"DOTA_Tooltip_modifier_assault_cuirass_buff"					"Assault Cuirass"
+		"DOTA_Tooltip_modifier_assault_cuirass_buff_description"		"Ваша броня увеличена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%,скорость атаки увеличена на %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT%"
+		"DOTA_Tooltip_modifier_assault_cuirass_debuff"					"Assault Cuirass"
+		"DOTA_Tooltip_modifier_assault_cuirass_debuff_description"		"Ваша броня уменьшена на %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS%"
+		
+		"DOTA_Tooltip_Ability_item_recipe_assault_cuirass_1"			"РЕЦЕПТ: Assault Cuirass"
+		"DOTA_Tooltip_Ability_item_recipe_assault_cuirass_2"			"РЕЦЕПТ: Assault Cuirass"
+		"DOTA_Tooltip_Ability_item_recipe_assault_cuirass_3"			"РЕЦЕПТ: Assault Cuirass"
+		"DOTA_Tooltip_Ability_item_recipe_assault_cuirass_4"			"РЕЦЕПТ: Assault Cuirass"
+		"DOTA_Tooltip_Ability_item_recipe_assault_cuirass_5"			"РЕЦЕПТ: Assault Cuirass"
+		
+		//***************************************************************
+		// Monkey King Bar
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_1"					"Monkey King Bar"
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_1_description"		"<h1>Пассивная: True Strike</h1> Исключает шанс промаха у героя при атаке."
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_1_bonus_damage"		"+$damage"
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_1_bonus_agility"		"+$agi"		
+		
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_2"					"Monkey King Bar"
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_2_description"		"<h1>Пассивная: True Strike</h1> Исключает шанс промаха у героя при атаке."
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_2_bonus_damage"		"+$damage"
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_2_bonus_agility"		"+$agi"		
+		
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_3"					"Monkey King Bar"
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_3_description"		"<h1>Пассивная: True Strike</h1> Исключает шанс промаха у героя при атаке."
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_3_bonus_damage"		"+$damage"
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_3_bonus_agility"		"+$agi"		
+		
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_4"					"Monkey King Bar"
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_4_description"		"<h1>Пассивная: True Strike</h1> Исключает шанс промаха у героя при атаке."
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_4_bonus_damage"		"+$damage"
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_4_bonus_agility"		"+$agi"		
+		
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_5"					"Monkey King Bar"
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_5_description"		"<h1>Пассивная: True Strike</h1> Исключает шанс промаха у героя при атаке."
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_5_bonus_damage"		"+$damage"
+		"DOTA_Tooltip_Ability_item_monkey_king_bar_5_bonus_agility"		"+$agi"
+		
+		"DOTA_Tooltip_Ability_item_recipe_monkey_king_bar_1"			"РЕЦЕПТ: Monkey King Bar"
+		"DOTA_Tooltip_Ability_item_recipe_monkey_king_bar_2"			"РЕЦЕПТ: Monkey King Bar"
+		"DOTA_Tooltip_Ability_item_recipe_monkey_king_bar_3"			"РЕЦЕПТ: Monkey King Bar"
+		"DOTA_Tooltip_Ability_item_recipe_monkey_king_bar_4"			"РЕЦЕПТ: Monkey King Bar"
+		"DOTA_Tooltip_Ability_item_recipe_monkey_king_bar_5"			"РЕЦЕПТ: Monkey King Bar"
+		
+		//***************************************************************
+		// Butterfly
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_butterfly_1"							"Butterfly"
+		"DOTA_Tooltip_Ability_item_butterfly_1_description"				"<h1>Активируемая: Flutter</h1> Ускоряет передвижение на %active_bonus_movespeed%%%. Действует %duration% сек."
+		"DOTA_Tooltip_Ability_item_butterfly_1_bonus_agility"			"+$agi"
+		"DOTA_Tooltip_Ability_item_butterfly_1_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_Ability_item_butterfly_1_bonus_evasion"			"%+$evasion"
+		"DOTA_Tooltip_Ability_item_butterfly_1_bonus_attack_speed"		"+$attack"		
+		
+		"DOTA_Tooltip_Ability_item_butterfly_2"							"Butterfly"
+		"DOTA_Tooltip_Ability_item_butterfly_2_description"				"<h1>Активируемая: Flutter</h1> Ускоряет передвижение на %active_bonus_movespeed%%%. Действует %duration% сек."
+		"DOTA_Tooltip_Ability_item_butterfly_2_bonus_agility"			"+$agi"
+		"DOTA_Tooltip_Ability_item_butterfly_2_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_Ability_item_butterfly_2_bonus_evasion"			"%+$evasion"
+		"DOTA_Tooltip_Ability_item_butterfly_2_bonus_attack_speed"		"+$attack"		
+		
+		"DOTA_Tooltip_Ability_item_butterfly_3"							"Butterfly"
+		"DOTA_Tooltip_Ability_item_butterfly_3_description"				"<h1>Активируемая: Flutter</h1> Ускоряет передвижение на %active_bonus_movespeed%%%. Действует %duration% сек."
+		"DOTA_Tooltip_Ability_item_butterfly_3_bonus_agility"			"+$agi"
+		"DOTA_Tooltip_Ability_item_butterfly_3_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_Ability_item_butterfly_3_bonus_evasion"			"%+$evasion"
+		"DOTA_Tooltip_Ability_item_butterfly_3_bonus_attack_speed"		"+$attack"		
+		
+		"DOTA_Tooltip_Ability_item_butterfly_4"							"Butterfly"
+		"DOTA_Tooltip_Ability_item_butterfly_4_description"				"<h1>Активируемая: Flutter</h1> Ускоряет передвижение на %active_bonus_movespeed%%%. Действует %duration% сек."
+		"DOTA_Tooltip_Ability_item_butterfly_4_bonus_agility"			"+$agi"
+		"DOTA_Tooltip_Ability_item_butterfly_4_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_Ability_item_butterfly_4_bonus_evasion"			"%+$evasion"
+		"DOTA_Tooltip_Ability_item_butterfly_4_bonus_attack_speed"		"+$attack"		
+		
+		"DOTA_Tooltip_Ability_item_butterfly_5"							"Butterfly"
+		"DOTA_Tooltip_Ability_item_butterfly_5_description"				"<h1>Активируемая: Flutter</h1> Ускоряет передвижение на %active_bonus_movespeed%%%. Действует %duration% сек."
+		"DOTA_Tooltip_Ability_item_butterfly_5_bonus_agility"			"+$agi"
+		"DOTA_Tooltip_Ability_item_butterfly_5_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_Ability_item_butterfly_5_bonus_evasion"			"%+$evasion"
+		"DOTA_Tooltip_Ability_item_butterfly_5_bonus_attack_speed"		"+$attack"
+		
+		"DOTA_Tooltip_modifier_butterfly_bh_buff"						"Butterfly"
+		"DOTA_Tooltip_modifier_butterfly_bh_buff_description"			"Вы передвигаетесь на %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%% быстрей"
+		
+		"DOTA_Tooltip_Ability_item_recipe_butterfly_1"					"РЕЦЕПТ: Butterfly"
+		"DOTA_Tooltip_Ability_item_recipe_butterfly_2"					"РЕЦЕПТ: Butterfly"
+		"DOTA_Tooltip_Ability_item_recipe_butterfly_3"					"РЕЦЕПТ: Butterfly"
+		"DOTA_Tooltip_Ability_item_recipe_butterfly_4"					"РЕЦЕПТ: Butterfly"
+		"DOTA_Tooltip_Ability_item_recipe_butterfly_5"					"РЕЦЕПТ: Butterfly"
+		
+		//***************************************************************
+		//	Daedalus
+		//***************************************************************			
+		
+		"DOTA_Tooltip_Ability_item_daedalus_1"							"Daedalus"
+		"DOTA_Tooltip_Ability_item_daedalus_1_description"				"<h1>Пассивная: Critical Strike</h1> Каждая атака может с вероятностью в %critical_chance%%% нанести %critical_damage%%% урона."
+		"DOTA_Tooltip_Ability_item_daedalus_1_bonus_damage"				"+$damage"		
+		
+		"DOTA_Tooltip_Ability_item_daedalus_2"							"Daedalus"
+		"DOTA_Tooltip_Ability_item_daedalus_2_description"				"<h1>Пассивная: Critical Strike</h1> Каждая атака может с вероятностью в %critical_chance%%% нанести %critical_damage%%% урона."
+		"DOTA_Tooltip_Ability_item_daedalus_2_bonus_damage"				"+$damage"		
+		
+		"DOTA_Tooltip_Ability_item_daedalus_3"							"Daedalus"
+		"DOTA_Tooltip_Ability_item_daedalus_3_description"				"<h1>Пассивная: Critical Strike</h1> Каждая атака может с вероятностью в %critical_chance%%% нанести %critical_damage%%% урона."
+		"DOTA_Tooltip_Ability_item_daedalus_3_bonus_damage"				"+$damage"		
+		
+		"DOTA_Tooltip_Ability_item_daedalus_4"							"Daedalus"
+		"DOTA_Tooltip_Ability_item_daedalus_4_description"				"<h1>Пассивная: Critical Strike</h1> Каждая атака может с вероятностью в %critical_chance%%% нанести %critical_damage%%% урона."
+		"DOTA_Tooltip_Ability_item_daedalus_4_bonus_damage"				"+$damage"		
+		
+		"DOTA_Tooltip_Ability_item_daedalus_5"							"Daedalus"
+		"DOTA_Tooltip_Ability_item_daedalus_5_description"				"<h1>Пассивная: Critical Strike</h1> Каждая атака может с вероятностью в %critical_chance%%% нанести %critical_damage%%% урона."
+		"DOTA_Tooltip_Ability_item_daedalus_5_bonus_damage"				"+$damage"
+		
+		"DOTA_Tooltip_Ability_item_recipe_daedalus_1"					"РЕЦЕПТ: Daedalus"
+		"DOTA_Tooltip_Ability_item_recipe_daedalus_2"					"РЕЦЕПТ: Daedalus"
+		"DOTA_Tooltip_Ability_item_recipe_daedalus_3"					"РЕЦЕПТ: Daedalus"
+		"DOTA_Tooltip_Ability_item_recipe_daedalus_4"					"РЕЦЕПТ: Daedalus"
+		"DOTA_Tooltip_Ability_item_recipe_daedalus_5"					"РЕЦЕПТ: Daedalus"
+		
+		//***************************************************************
+		// Demonic Peak
+		//***************************************************************		
+		
+		"DOTA_Tooltip_Ability_item_demonic_peak_1"						"Demonic Peak"
+		"DOTA_Tooltip_Ability_item_demonic_peak_1_description"			"<h1>Пассивная: Blood Pure</h1> При атаке,герой наносит дополнительный, чистый урон в размере %damage_pure%%% от урона героя.\n<h1>Пассивная: True Strike</h1> Исключает шанс промаха у героя при атаке."
+		"DOTA_Tooltip_Ability_item_demonic_peak_1_bonus_damage"			"+$damage"		
+		
+		"DOTA_Tooltip_Ability_item_demonic_peak_2"						"Demonic Peak"
+		"DOTA_Tooltip_Ability_item_demonic_peak_2_description"			"<h1>Пассивная: Blood Pure</h1> При атаке,герой наносит дополнительный, чистый урон в размере %damage_pure%%% от урона героя.\n<h1>Пассивная: True Strike</h1> Исключает шанс промаха у героя при атаке."
+		"DOTA_Tooltip_Ability_item_demonic_peak_2_bonus_damage"			"+$damage"
+		
+		"DOTA_Tooltip_Ability_item_recipe_demonic_peak_1"				"РЕЦЕПТ: Demonic Peak"
+		"DOTA_Tooltip_Ability_item_recipe_demonic_peak_2"				"РЕЦЕПТ: Demonic Peak"
+		
+		//***************************************************************
+		// Armor Of Midas
+		//***************************************************************		
+		
+		"DOTA_Tooltip_Ability_item_armor_of_midas"						"Armor Of Midas"
+		"DOTA_Tooltip_Ability_item_armor_of_midas_description"			"<h1>Пассивная: Golden Armor</h1> Каждый раз, когда вас атакует вражеский герой, вы получите золото и опыт.<br> Золота: %gold_per_attack% ед. <br> Опыта: %xp_per_attack% ед."
+		//***************************************************************
+		// Helmet Of Midas
+		//***************************************************************		
+		
+		"DOTA_Tooltip_Ability_item_helmet_of_midas"						"Helmet Of Midas"
+		"DOTA_Tooltip_Ability_item_helmet_of_midas_description"			"<h1>Пассивная: Helmet Gold</h1> Каждый убитый вами крип дополнительно принесёт вам золото и опыт.<br> Золота: %gold_per_unit% ед. <br> Опыта: %xp_per_unit% ед."
+		
+		//***************************************************************
+		// Ethereal Blade
+		//***************************************************************	
+		
+		"DOTA_Tooltip_Ability_item_ethereal_blade_1"					"Ethereal Blade"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_1_description"		"<h1>Активируемая: Ether Blast</h1> Придаёт цели бесплотную форму, которая полностью защищает от физического урона, но не позволяет атаковать и увеличивает получаемый магический урон на %ethereal_damage_bonus%%%. Действует %duration_friendly% сек. на союзников и %duration_enemy% сек. на врагов.<br><br>Также замедляет вражескую цель на %blast_movement_slow%%% и наносит ей магический урон в размере %blast_agility_multiplier% * ваш основной атрибут + %blast_damage_base%.<br><br>Дальность применения: %tooltip_range%"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_1_bonus_strength"		"+$str"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_1_bonus_intellect"	"+$int"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_1_bonus_agility"		"+$agi"		
+		
+		"DOTA_Tooltip_Ability_item_ethereal_blade_2"					"Ethereal Blade"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_2_description"		"<h1>Активируемая: Ether Blast</h1> Придаёт цели бесплотную форму, которая полностью защищает от физического урона, но не позволяет атаковать и увеличивает получаемый магический урон на %ethereal_damage_bonus%%%. Действует %duration_friendly% сек. на союзников и %duration_enemy% сек. на врагов.<br><br>Также замедляет вражескую цель на %blast_movement_slow%%% и наносит ей магический урон в размере %blast_agility_multiplier% * ваш основной атрибут + %blast_damage_base%.<br><br>Дальность применения: %tooltip_range%"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_2_bonus_strength"		"+$str"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_2_bonus_intellect"	"+$int"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_2_bonus_agility"		"+$agi"		
+		
+		"DOTA_Tooltip_Ability_item_ethereal_blade_3"					"Ethereal Blade"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_3_description"		"<h1>Активируемая: Ether Blast</h1> Придаёт цели бесплотную форму, которая полностью защищает от физического урона, но не позволяет атаковать и увеличивает получаемый магический урон на %ethereal_damage_bonus%%%. Действует %duration_friendly% сек. на союзников и %duration_enemy% сек. на врагов.<br><br>Также замедляет вражескую цель на %blast_movement_slow%%% и наносит ей магический урон в размере %blast_agility_multiplier% * ваш основной атрибут + %blast_damage_base%.<br><br>Дальность применения: %tooltip_range%"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_3_bonus_strength"		"+$str"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_3_bonus_intellect"	"+$int"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_3_bonus_agility"		"+$agi"		
+		
+		"DOTA_Tooltip_Ability_item_ethereal_blade_4"					"Ethereal Blade"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_4_description"		"<h1>Активируемая: Ether Blast</h1> Придаёт цели бесплотную форму, которая полностью защищает от физического урона, но не позволяет атаковать и увеличивает получаемый магический урон на %ethereal_damage_bonus%%%. Действует %duration_friendly% сек. на союзников и %duration_enemy% сек. на врагов.<br><br>Также замедляет вражескую цель на %blast_movement_slow%%% и наносит ей магический урон в размере %blast_agility_multiplier% * ваш основной атрибут + %blast_damage_base%.<br><br>Дальность применения: %tooltip_range%"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_4_bonus_strength"		"+$str"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_4_bonus_intellect"	"+$int"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_4_bonus_agility"		"+$agi"		
+		
+		"DOTA_Tooltip_Ability_item_ethereal_blade_5"					"Ethereal Blade"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_5_description"		"<h1>Активируемая: Ether Blast</h1> Придаёт цели бесплотную форму, которая полностью защищает от физического урона, но не позволяет атаковать и увеличивает получаемый магический урон на %ethereal_damage_bonus%%%. Действует %duration_friendly% сек. на союзников и %duration_enemy% сек. на врагов.<br><br>Также замедляет вражескую цель на %blast_movement_slow%%% и наносит ей магический урон в размере %blast_agility_multiplier% * ваш основной атрибут + %blast_damage_base%.<br><br>Дальность применения: %tooltip_range%"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_5_bonus_strength"		"+$str"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_5_bonus_intellect"	"+$int"
+		"DOTA_Tooltip_Ability_item_ethereal_blade_5_bonus_agility"		"+$agi"
+		
+		"DOTA_Tooltip_modifier_ethereal_bh_buff"						"Ethereal Blade"
+		"DOTA_Tooltip_modifier_ethereal_bh_debuff"						"Ethereal Blade"
+		"DOTA_Tooltip_modifier_ethereal_bh_buff_description"			"Находится в призрачной форме. Получает увеличенный на %dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_DECREPIFY_UNIQUE%%% магический урон, не может атаковать или быть целью атаки."
+		"DOTA_Tooltip_modifier_ethereal_bh_debuff_description"			"Находится в призрачной форме. Получает увеличенный на %dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_DECREPIFY_UNIQUE%%% магический урон, не может атаковать или быть целью атаки."
+		
+		//***************************************************************
+		// Blade Mail
+		//***************************************************************		
+		
+		"DOTA_Tooltip_Ability_item_blade_mail_1"						"Blade Mail"
+		"DOTA_Tooltip_Ability_item_blade_mail_1_description"			"<h1>Активируемая: Damage Return</h1> Отражает любой получаемый урон в размере %reflect_damage%%%, наносящему его врагу. Длится %duration% сек."
+		"DOTA_Tooltip_Ability_item_blade_mail_1_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_Ability_item_blade_mail_1_bonus_armor"			"+$armor"
+		"DOTA_Tooltip_Ability_item_blade_mail_1_bonus_intellect"		"+$int"		
+		
+		"DOTA_Tooltip_Ability_item_blade_mail_2"						"Blade Mail"
+		"DOTA_Tooltip_Ability_item_blade_mail_2_description"			"<h1>Активируемая: Damage Return</h1> Отражает любой получаемый урон в размере %reflect_damage%%%, наносящему его врагу. Длится %duration% сек."
+		"DOTA_Tooltip_Ability_item_blade_mail_2_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_Ability_item_blade_mail_2_bonus_armor"			"+$armor"
+		"DOTA_Tooltip_Ability_item_blade_mail_2_bonus_intellect"		"+$int"		
+		
+		"DOTA_Tooltip_Ability_item_blade_mail_3"						"Blade Mail"
+		"DOTA_Tooltip_Ability_item_blade_mail_3_description"			"<h1>Активируемая: Damage Return</h1> Отражает любой получаемый урон в размере %reflect_damage%%%, наносящему его врагу. Длится %duration% сек."
+		"DOTA_Tooltip_Ability_item_blade_mail_3_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_Ability_item_blade_mail_3_bonus_armor"			"+$armor"
+		"DOTA_Tooltip_Ability_item_blade_mail_3_bonus_intellect"		"+$int"		
+		
+		"DOTA_Tooltip_Ability_item_blade_mail_4"						"Blade Mail"
+		"DOTA_Tooltip_Ability_item_blade_mail_4_description"			"<h1>Активируемая: Damage Return</h1> Отражает любой получаемый урон в размере %reflect_damage%%%, наносящему его врагу. Длится %duration% сек."
+		"DOTA_Tooltip_Ability_item_blade_mail_4_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_Ability_item_blade_mail_4_bonus_armor"			"+$armor"
+		"DOTA_Tooltip_Ability_item_blade_mail_4_bonus_intellect"		"+$int"		
+		
+		"DOTA_Tooltip_Ability_item_blade_mail_5"						"Blade Mail"
+		"DOTA_Tooltip_Ability_item_blade_mail_5_description"			"<h1>Активируемая: Damage Return</h1> Отражает любой получаемый урон в размере %reflect_damage%%%, наносящему его врагу. Длится %duration% сек."
+		"DOTA_Tooltip_Ability_item_blade_mail_5_bonus_damage"			"+$damage"
+		"DOTA_Tooltip_Ability_item_blade_mail_5_bonus_armor"			"+$armor"
+		"DOTA_Tooltip_Ability_item_blade_mail_5_bonus_intellect"		"+$int"
+		
+		"DOTA_Tooltip_modifier_blade_mail_bh"							"Blade Mail"
+		
+		//***************************************************************
+		// Kaya
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_kaya_1"								"Kaya"
+		"DOTA_Tooltip_Ability_item_kaya_1_bonus_intellect"				"+$int"
+		"DOTA_Tooltip_Ability_item_kaya_1_bonus_mg"						"+$amplify"
+		"DOTA_Tooltip_Ability_item_kaya_1_manacost"						"%Уменьшение расхода и потери маны:"		
+		
+		"DOTA_Tooltip_Ability_item_kaya_2"								"Kaya"
+		"DOTA_Tooltip_Ability_item_kaya_2_bonus_intellect"				"+$int"
+		"DOTA_Tooltip_Ability_item_kaya_2_bonus_mg"						"+$amplify"
+		"DOTA_Tooltip_Ability_item_kaya_2_manacost"						"%Уменьшение расхода и потери маны:"		
+		
+		"DOTA_Tooltip_Ability_item_kaya_3"								"Kaya"
+		"DOTA_Tooltip_Ability_item_kaya_3_bonus_intellect"				"+$int"
+		"DOTA_Tooltip_Ability_item_kaya_3_bonus_mg"						"+$amplify"
+		"DOTA_Tooltip_Ability_item_kaya_3_manacost"						"%Уменьшение расхода и потери маны:"		
+		
+		"DOTA_Tooltip_Ability_item_kaya_4"								"Kaya"
+		"DOTA_Tooltip_Ability_item_kaya_4_bonus_intellect"				"+$int"
+		"DOTA_Tooltip_Ability_item_kaya_4_bonus_mg"						"+$amplify"
+		"DOTA_Tooltip_Ability_item_kaya_4_manacost"						"%Уменьшение расхода и потери маны:"		
+		
+		"DOTA_Tooltip_Ability_item_kaya_5"								"Kaya"
+		"DOTA_Tooltip_Ability_item_kaya_5_bonus_intellect"				"+$int"
+		"DOTA_Tooltip_Ability_item_kaya_5_bonus_mg"						"+$amplify"
+		"DOTA_Tooltip_Ability_item_kaya_5_manacost"						"%Уменьшение расхода и потери маны:"
+		
+		"DOTA_Tooltip_Ability_item_recipe_kaya_1"						"РЕЦЕПТ: Kaya"
+		"DOTA_Tooltip_Ability_item_recipe_kaya_2"						"РЕЦЕПТ: Kaya"
+		"DOTA_Tooltip_Ability_item_recipe_kaya_3"						"РЕЦЕПТ: Kaya"
+		"DOTA_Tooltip_Ability_item_recipe_kaya_4"						"РЕЦЕПТ: Kaya"
+		"DOTA_Tooltip_Ability_item_recipe_kaya_5"						"РЕЦЕПТ: Kaya"
+		
+		//***************************************************************
+		// Gem of Shard
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_gem_shard"							"Gem Shard"
+		"DOTA_Tooltip_Ability_item_gem_shard_description"				"<h1>Активная: Passived True Sight</h1> Даёт владельцу постоянный эффект True Sight <br> Эффект пропадает после смерти.\n<h1>Пассивная: True Sight </h1> Даёт владельцу и его союзникам возможность видеть невидимых существ и варды в радиусе %radius%. \n <h1>Пассивная: Everlasting</h1><font color='#e03e2e'>Предмет выпадает при смерти и не может быть уничтожен.</font>"
+		"DOTA_Tooltip_Ability_item_recipe_gem_shard"						"РЕЦЕПТ: Gem Shard"
+		
+		"DOTA_Tooltip_modifier_gem_shard_bh"							"Gem Shard"
+		"DOTA_Tooltip_modifier_gem_shard_bh_description"				"Вы можете увидеть невидимых существ."		
+		"DOTA_Tooltip_modifier_gem_shard_bh_passive"					"Gem Shard"
+		"DOTA_Tooltip_modifier_gem_shard_bh_passive_description"		"Вы можете увидеть невидимых существ."
+		
+		//***************************************************************
+		// Dragon's Breath
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_dragons_breath_1"					"Dragon's Breath"
+		"DOTA_Tooltip_Ability_item_dragons_breath_1_intellect"			"+$int"
+		"DOTA_Tooltip_Ability_item_dragons_breath_1_all_stats"			"+$all"
+		"DOTA_Tooltip_Ability_item_dragons_breath_1_description"		"<h1>Активируемая: Dragon Breath</h1> Выпускает мощный всплеск ядовитого огня, наносящий магический урон выбранному вражескому существу и дополнительно отскакивая до %max_target% вражеских целей. Каждый задетый вражеский герой замедляется на небольшое время. Предмет можно улучшить.<br><br>Урон: %damage%.<br>Дальность: %range%. <br> Замедление: %slow%%%. <br> Длительность замедления: %duration%."
+
+		"DOTA_Tooltip_Ability_item_dragons_breath_2"					"Dragon's Breath"
+		"DOTA_Tooltip_Ability_item_dragons_breath_2_intellect"			"+$int"
+		"DOTA_Tooltip_Ability_item_dragons_breath_2_all_stats"			"+$all"
+		"DOTA_Tooltip_Ability_item_dragons_breath_2_description"		"<h1>Активируемая: Dragon Breath</h1> Выпускает мощный всплеск ядовитого огня, наносящий магический урон выбранному вражескому существу и дополнительно отскакивая до %max_target% вражеских целей. Каждый задетый вражеский герой замедляется на небольшое время. Предмет можно улучшить.<br><br>Урон: %damage%.<br>Дальность: %range%. <br> Замедление: %slow%%%. <br> Длительность замедления: %duration%."
+
+		"DOTA_Tooltip_Ability_item_dragons_breath_3"					"Dragon's Breath"
+		"DOTA_Tooltip_Ability_item_dragons_breath_3_intellect"			"+$int"
+		"DOTA_Tooltip_Ability_item_dragons_breath_3_all_stats"			"+$all"
+		"DOTA_Tooltip_Ability_item_dragons_breath_3_description"		"<h1>Активируемая: Dragon Breath</h1> Выпускает мощный всплеск ядовитого огня, наносящий магический урон выбранному вражескому существу и дополнительно отскакивая до %max_target% вражеских целей. Каждый задетый вражеский герой замедляется на небольшое время. Предмет можно улучшить.<br><br>Урон: %damage%.<br>Дальность: %range%. <br> Замедление: %slow%%%. <br> Длительность замедления: %duration%."
+
+		"DOTA_Tooltip_Ability_item_dragons_breath_4"					"Dragon's Breath"
+		"DOTA_Tooltip_Ability_item_dragons_breath_4_intellect"			"+$int"
+		"DOTA_Tooltip_Ability_item_dragons_breath_4_all_stats"			"+$all"
+		"DOTA_Tooltip_Ability_item_dragons_breath_4_description"		"<h1>Активируемая: Dragon Breath</h1> Выпускает мощный всплеск ядовитого огня, наносящий магический урон выбранному вражескому существу и дополнительно отскакивая до %max_target% вражеских целей. Каждый задетый вражеский герой замедляется на небольшое время. Предмет можно улучшить.<br><br>Урон: %damage%.<br>Дальность: %range%. <br> Замедление: %slow%%%. <br> Длительность замедления: %duration%."
+
+		"DOTA_Tooltip_Ability_item_dragons_breath_5"					"Dragon's Breath"
+		"DOTA_Tooltip_Ability_item_dragons_breath_5_intellect"			"+$int"
+		"DOTA_Tooltip_Ability_item_dragons_breath_5_all_stats"			"+$all"
+		"DOTA_Tooltip_Ability_item_dragons_breath_5_description"		"<h1>Активируемая: Dragon Breath</h1> Выпускает мощный всплеск ядовитого огня, наносящий магический урон выбранному вражескому существу и дополнительно отскакивая до %max_target% вражеских целей. Каждый задетый вражеский герой замедляется на небольшое время. Предмет можно улучшить.<br><br>Урон: %damage%.<br>Дальность: %range%. <br> Замедление: %slow%%%. <br> Длительность замедления: %duration%."
+		
+		//***************************************************************
+		// Levitation of boots
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_item_levitation_of_boots"					"Levitation of Boots"
+		"DOTA_Tooltip_Ability_item_levitation_of_boots_description"		"<h1>Активируемая: Levitation</h1> Увеличивает скорость передвижения на %bonus_move_melee%%% для героев ближнего боя и на %bonus_move_range%%% для героев дальнего боя,позволяет проходить сквозь существ и подниматься на возвышенности. Действует %duration% сек. \n Основые бонусы скорости передвижения от нескольких пар ботинков не складываются."
+		"DOTA_Tooltip_Ability_item_levitation_of_boots_movespeed_bonus" "%+$move_speed"
+		"DOTA_Tooltip_Ability_item_levitation_of_boots_bonus_damage" 	"+$damage"
+		"DOTA_Tooltip_modifier_levitation_boots_active"					"Levitation"
+		"DOTA_Tooltip_modifier_levitation_boots_active_description"		"Вы можете передвигаться по возвышенностям и получили бонус к скорости передвижения."
+		
+
+		"DOTA_Tooltip_Ability_item_aghanim_bh"					"Aghanim`s Scepter"
+		"DOTA_Tooltip_Ability_item_aghanim_bh_all_stats"		"+$int"
+		"DOTA_Tooltip_Ability_item_aghanim_bh_all"				"+$str"
+		"DOTA_Tooltip_Ability_item_aghanim_bh_health_bonus"		"+$health"
+		"DOTA_Tooltip_Ability_item_aghanim_bh_mana_bonus"		"+$mana" 
+		"DOTA_Tooltip_Ability_item_aghanim_bh_description"		"<h1>Активируемая: Passived Aghanim</h1> Даёт владельцу постоянный эффект Ultimate Upgrade.\n<h1>Пассивная: Ultimate Upgrade</h1>Улучшает ульт и другие способности некоторых героев."
+		
+		"DOTA_Tooltip_item_aghanim_scepter_bh_active"					"Эффект Aghanim`s Scepter"
+		//***************************************************************
+		// Books
+		//***************************************************************		
+		
+		"DOTA_Tooltip_Ability_item_book_of_strength_25"					"Book Of Strength"
+		"DOTA_Tooltip_Ability_item_book_of_strength_25_description"		"<h1>Активируемая: Book of Strength</h1> увеличивает силу героя на %strength% единиц."			
+		
+		"DOTA_Tooltip_Ability_item_book_of_strength_50"					"Book Of Strength"
+		"DOTA_Tooltip_Ability_item_book_of_strength_50_description"		"<h1>Активируемая: Book of Strength</h1> увеличивает силу героя на %strength% единиц."			
+		
+		"DOTA_Tooltip_Ability_item_book_of_strength_75"					"Book Of Strength"
+		"DOTA_Tooltip_Ability_item_book_of_strength_75_description"		"<h1>Активируемая: Book of Strength</h1> увеличивает силу героя на %strength% единиц."	
+		
+		"DOTA_Tooltip_Ability_item_book_of_intellect_25"				"Book Of Intellect"
+		"DOTA_Tooltip_Ability_item_book_of_intellect_25_description"	"<h1>Активируемая: Book of Intellect</h1> увеличивает интеллект героя на %intellect% единиц."			
+		
+		"DOTA_Tooltip_Ability_item_book_of_intellect_50"				"Book Of Intellect"
+		"DOTA_Tooltip_Ability_item_book_of_intellect_50_description"	"<h1>Активируемая: Book of Intellect</h1> увеличивает интеллект героя на %intellect% единиц."			
+		
+		"DOTA_Tooltip_Ability_item_book_of_intellect_75"				"Book Of Intellect"
+		"DOTA_Tooltip_Ability_item_book_of_intellect_75_description"	"<h1>Активируемая: Book of Intellect</h1> увеличивает интеллект героя на %intellect% единиц."	
+		
+		"DOTA_Tooltip_Ability_item_book_of_agility_25"					"Book Of Agility"
+		"DOTA_Tooltip_Ability_item_book_of_agility_25_description"		"<h1>Активируемая: Book of Agility</h1> увеличивает ловкость героя на %agility% единиц."			
+		
+		"DOTA_Tooltip_Ability_item_book_of_agility_50"					"Book Of Agility"
+		"DOTA_Tooltip_Ability_item_book_of_agility_50_description"		"<h1>Активируемая: Book of Agility</h1> увеличивает ловкость героя на %agility% единиц."			
+		
+		"DOTA_Tooltip_Ability_item_book_of_agility_75"					"Book Of Agility"
+		"DOTA_Tooltip_Ability_item_book_of_agility_75_description"		"<h1>Активируемая: Book of Agility</h1> увеличивает ловкость героя на %agility% единиц."	
+		
+		"DOTA_Tooltip_Ability_item_stone_of_lvl_1"						"Level Up Stone"
+		"DOTA_Tooltip_Ability_item_stone_of_lvl_1_description"			"<h1>Активируемая: Level Up</h1> поднимает уровень героя на %lvl%."		
+		
+		"DOTA_Tooltip_Ability_item_stone_of_lvl_10"						"Level Up Stone"
+		"DOTA_Tooltip_Ability_item_stone_of_lvl_10_description"			"<h1>Активируемая: Level Up</h1> поднимает уровень героя на %lvl%."		
+		
+		"DOTA_Tooltip_Ability_item_stone_of_all_15"						"All Stats Stone"
+		"DOTA_Tooltip_Ability_item_stone_of_all_15_description"			"<h1>Активируемая: All Stats</h1> увеличивает все атрибуты героя на %bonus_all% ед."		
+		
+		"DOTA_Tooltip_Ability_item_stone_of_all_30"						"All Stats Stone"
+		"DOTA_Tooltip_Ability_item_stone_of_all_30_description"			"<h1>Активируемая: All Stats</h1> увеличивает все атрибуты героя на %bonus_all% ед."		
+		
+		"DOTA_Tooltip_Ability_item_stone_of_all_60"						"All Stats Stone"
+		"DOTA_Tooltip_Ability_item_stone_of_all_60_description"			"<h1>Активируемая: All Stats</h1> увеличивает все атрибуты героя на %bonus_all% ед."
+		
+		//***************************************************************
+		// Boss Loot
+		//***************************************************************	
+		
+		"DOTA_Tooltip_Ability_item_god_blood"							"God Blood"
+		"DOTA_Tooltip_Ability_item_god_blood_description"				"Священный артефакт убитых богов,имеющий большую силу и цену в лавках,его с радостью купят или обменяют на улучшенный артефакт для героя. \n Можно получить только при убийстве боссов."
+		"DOTA_Tooltip_Ability_item_god_blood_damage"					"+$damage"
+		
+		"DOTA_Tooltip_Ability_item_fire_soul"							"Fire Soul"
+		"DOTA_Tooltip_Ability_item_fire_soul_description"				"Священный артефакт убитых богов,имеющий большую силу и цену в лавках,его с радостью купят или обменяют на улучшенный артефакт для героя. \n Можно получить только при убийстве боссов."
+		"DOTA_Tooltip_Ability_item_fire_soul_reflect_damage"			"%+$reflect_bh"		
+		
+		"DOTA_Tooltip_Ability_item_frozen_soul"							"Frozen Soul"
+		"DOTA_Tooltip_Ability_item_frozen_soul_description"				"Священный артефакт убитых богов,имеющий большую силу и цену в лавках,его с радостью купят или обменяют на улучшенный артефакт для героя. \n Можно получить только при убийстве боссов."
+		"DOTA_Tooltip_Ability_item_frozen_soul_damage"					"+$damage"
+		"DOTA_Tooltip_Ability_item_frozen_soul_all_stats"				"+$all"		
+		
+		"DOTA_Tooltip_Ability_item_demonic_hearth"						"Demonic Hearth"
+		"DOTA_Tooltip_Ability_item_demonic_hearth_description"			"Священный артефакт убитых богов,имеющий большую силу и цену в лавках,его с радостью купят или обменяют на улучшенный артефакт для героя. \n Можно получить только при убийстве боссов."
+		"DOTA_Tooltip_Ability_item_demonic_hearth_lifesteal"			"%+$lifesteal_bh"
+		
+		
+		//***************************************************************
+		// Lycan
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_lycan_summon_wolves_bh"					"Summon Wolves"
+		"DOTA_Tooltip_Ability_lycan_summon_wolves_bh_description"		"Призывает %wolf_count% волков, которые будут сражаться на стороне героя. Волки %bonus_ability_one% - %bonus_ability_two% уровней и более  могут покалечить противника, а волки %bonus_ability_two% и более уровня обладают постоянной невидимостью.<br> Характеристики: <br> Урон: %damage%. <br> Здоровье: %health%. <br> Скорость передвижения: %wolf_movespeed%. <br> Задержка атаки: %attack_time%.<br> Время жизни: %duration% секунд."
+		"DOTA_Tooltip_ability_lycan_summon_wolves_bh_Lore"				"То самое заклинание, что исказило его сущность, также позволяет призывать волков-напарников."
+		
+		//***************************************************************
+		// Tinker
+		//***************************************************************
+		
+		"DOTA_Tooltip_Ability_tinker_rearm_bh"							"Rearm"
+		"DOTA_Tooltip_Ability_tinker_rearm_bh_description"				"ПРЕРЫВАЕМАЯ — уменьшает время перезарядки всех способностей и предметов."
+		"DOTA_Tooltip_ability_tinker_rearm_bh_channel_tooltip"			"CБРОС ПЕРЕЗАРЯДКИ:"
+		
+		//***************************************************************
+		// Juggernaut
+		//***************************************************************
+		
+		"DOTA_Tooltip_ability_juggernaut_blade_dance_bh"						"Blade Dance"
+		"DOTA_Tooltip_ability_juggernaut_blade_dance_bh_Description"			"Даёт герою шанс нанести атакой критический урон."
+		"DOTA_Tooltip_ability_juggernaut_blade_dance_bh_Lore"					"Как последний представитель своего культа, Юрнеро должен убедиться, что вы запомните стиль его боя."
+		"DOTA_Tooltip_ability_juggernaut_blade_dance_bh_blade_dance_crit_chance" "%ШАНС КРИТИЧЕСКОЙ АТАКИ"
+		"DOTA_Tooltip_ability_juggernaut_blade_dance_bh_blade_dance_crit_mult"	 "%КРИТИЧЕСКИЙ УРОН:"
+		
+		//***************************************************************
+		// Units
+		//***************************************************************
+		
+		"npc_battle_heroes_boss_golem"			"Огненный Голем"
+		"npc_battle_heroes_boss_doom"			"Огненный демон"		
+		"npc_battle_heroes_boss_golem_1"		"Огненный Голем"
+		"npc_battle_heroes_boss_doom_1"			"Огненный демон"
+		"npc_battle_heroes_boss_dragon"			"Виверна"
+		"npc_battle_heroes_boss_dragon_1"		"Виверна"
+		"npc_battle_heroes_boss_nian"			"Первейший Дракон"
+		"npc_dota_neutral_easy_melee"			"Ближники[изи]"
+		"npc_dota_neutral_medium_melee"			"Ближники[средний]"
+		"npc_dota_neutral_medium_melee_2"		"Ближники[средний]"
+		"npc_dota_neutral_medium_ranged"		"Дальний[средний]"
+		"npc_dota_neutrals_hard_ranged"			"Дальний[сложный]"
+		"npc_dota_neutrals_hard_melee"			"Ближний[сложный]"
+		"npc_dota_neutrals_hard_melee_big"		"Ближний[очень сложно]"
+		"npc_lycan_wolf_bh"						"Волк"
+		
+		//***************************************************************
+		// Talents
+		//***************************************************************	
+		
+		"DOTA_Tooltip_ability_special_bonus_unique_silencer_3"	"+7% Glaives of Wisdom Damage"
+	
+		//***************************************************************
+		// Global Modifiers
+		//***************************************************************
+		
+		"DOTA_Tooltip_modifier_invulnerability_bh"								"Неуязвимость"
+		"DOTA_Tooltip_modifier_movespeed_slow_procentage_bh"					"Замедление"
+		"DOTA_Tooltip_modifier_movespeed_slow_procentage_bh_description"		"Вы замедлены"		
+		"DOTA_Tooltip_modifier_movespeed_slow_bh"								"Замедление"
+		
+		//***************************************************************
+		// Other
+		//***************************************************************
+
+		"DOTA_Tooltip_ability_bosses_shield"									"BOSSES SHIELD"
+		"DOTA_Tooltip_modifier_fountain_protect_bh"								"FOUNTAIN PROTECTION"
+		"DOTA_Tooltip_modifier_fountain_protect_bh_description"					"Неуязвимость фонтана, также увеличивает регенеацию здоровья на  %dMODIFIER_PROPERTY_HEALTH_REGEN_PERCENTAGE%%% и маны на %dMODIFIER_PROPERTY_MANA_REGEN_TOTAL_PERCENTAGE%%%. <br> Вражеские герои автоматически умирают в области действия. <br> Действует до %dMODIFIER_PROPERTY_TOOLTIP% минуты игры."
+		
+	}
+}

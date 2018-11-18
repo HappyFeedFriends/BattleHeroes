@@ -1,0 +1,315 @@
+""
+{
+
+	"item_recipe_monkey_king_bar_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15130"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1400"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_monkey_king_bar_1"
+		"ItemRequirements"
+		{
+			"01"						"item_demon_edge;item_javelin;item_quarterstaff"
+		}
+	}	
+	"item_recipe_monkey_king_bar_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15131"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1400"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_monkey_king_bar_2"
+		"ItemRequirements"
+		{
+			"01"						"item_monkey_king_bar_1"
+		}
+	}	
+	"item_recipe_monkey_king_bar_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15132"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1400"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_monkey_king_bar_3"
+		"ItemRequirements"
+		{
+			"01"						"item_monkey_king_bar_2"
+		}
+	}	
+	"item_recipe_monkey_king_bar_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15133"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1400"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_monkey_king_bar_4"
+		"ItemRequirements"
+		{
+			"01"						"item_monkey_king_bar_3"
+		}
+	}	
+	"item_recipe_monkey_king_bar_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15134"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1400"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_monkey_king_bar_5"
+		"ItemRequirements"
+		{
+			"01"						"item_monkey_king_bar_4"
+		}
+	}
+	
+	"item_monkey_king_bar_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_monkey_king_bar_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_monkey_king_bar.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"1"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"mkb"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Monkey King bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"				 "52 70 90 110 130"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"				 "10 18 24 30 34"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_attack_speed"	   	"10 25 35 45 55"
+			}							
+		}
+	}	
+	"item_monkey_king_bar_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_monkey_king_bar_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_monkey_king_bar.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"2"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"mkb"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Monkey King bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"				 "52 70 90 110 130"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"				 "10 18 24 30 34"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_attack_speed"	   	"10 25 35 45 55"
+			}							
+		}
+	}	
+	"item_monkey_king_bar_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_monkey_king_bar_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_monkey_king_bar.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"3"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"mkb"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Monkey King bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"				 "52 70 90 110 130"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"				 "10 18 24 30 34"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_attack_speed"	   	"10 25 35 45 55"
+			}							
+		}
+	}	
+	"item_monkey_king_bar_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_monkey_king_bar_4"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_monkey_king_bar.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"4"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"mkb"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Monkey King bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"				 "52 70 90 110 130"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"				 "10 18 24 30 34"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_attack_speed"	   	"10 25 35 45 55"
+			}							
+		}
+	}	
+	"item_monkey_king_bar_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_monkey_king_bar_5"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_monkey_king_bar.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"5"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"mkb"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Monkey King bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"				 "52 70 90 110 130"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"				 "10 18 24 30 34"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_attack_speed"	   	"10 25 35 45 55"
+			}							
+		}
+	}	
+}

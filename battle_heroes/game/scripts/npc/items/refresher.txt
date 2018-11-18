@@ -1,0 +1,239 @@
+""
+{
+
+	"item_recipe_refresher_orb_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------					
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1800"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_refresher_orb_1"
+		"ItemRequirements"
+		{
+			"01"						"item_octarine_core_5;item_refresher;item_fire_soul"
+		}
+	}	
+	"item_recipe_refresher_orb_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------					
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2000"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_refresher_orb_2"
+		"ItemRequirements"
+		{
+			"01"						"item_refresher_orb_1"
+		}
+	}	
+	"item_recipe_refresher_orb_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------					
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2000"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_refresher_orb_3"
+		"ItemRequirements"
+		{
+			"01"						"item_refresher_orb_2"
+		}
+	}
+	
+	"item_refresher_orb_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_refresher_orb_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_refresher.lua"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"1"
+		"AbilitySharedCooldown"			"refresher"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"AbilityCooldown"				"170"
+		"ItemShopTags"					"refresher orb"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"refresher"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				"50 65 80"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana"	   				"2100 2500 4000"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"amplify"	   	  		"40"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_creep"	 "10 15 20"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_hero"	 "40"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reduction_cooldown"	 "30 35 40"
+			}				
+		}
+	}	
+	"item_refresher_orb_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_refresher_orb_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_refresher.lua"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"2"
+		"AbilitySharedCooldown"			"refresher"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"AbilityCooldown"				"140"
+		"ItemShopTags"					"refresher orb"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"refresher"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				"50 65 80"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana"	   				"2100 2500 4000"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"amplify"	   	  		"40"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_creep"	 "10 15 20"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_hero"	 "40"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reduction_cooldown"	 "30 35 40"
+			}				
+		}
+	}	
+	"item_refresher_orb_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_refresher_orb_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_refresher.lua"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"3"
+		"AbilitySharedCooldown"			"refresher"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"AbilityCooldown"				"90"
+		"ItemShopTags"					"refresher orb"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"refresher"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				"50 65 80"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana"	   				"2100 2500 4000"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"amplify"	   	  		"40"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_creep"	 "10 15 20"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_hero"	 "40"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reduction_cooldown"	 "30 35 40"
+			}				
+		}
+	}
+}

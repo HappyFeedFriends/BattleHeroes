@@ -1,0 +1,471 @@
+""
+{
+
+	"item_recipe_dragons_breath_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------					
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_dragons_breath_1"
+		"ItemRequirements"
+		{
+			"01"						"item_dagon_bh_5;item_fire_soul"
+		}
+	}	
+	"item_recipe_dragons_breath_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------					
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_dragons_breath_2"
+		"ItemRequirements"
+		{
+			"01"						"item_dragons_breath_1"
+		}
+	}	
+	"item_recipe_dragons_breath_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------					
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_dragons_breath_3"
+		"ItemRequirements"
+		{
+			"01"						"item_dragons_breath_2"
+		}
+	}	
+	"item_recipe_dragons_breath_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------					
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_dragons_breath_4"
+		"ItemRequirements"
+		{
+			"01"						"item_dragons_breath_3"
+		}
+	}	
+	"item_recipe_dragons_breath_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------					
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_dragons_breath_5"
+		"ItemRequirements"
+		{
+			"01"						"item_dragons_breath_4"
+		}
+	}
+
+	"item_dragons_breath_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_dragons_breath_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_dragons_breath.lua"
+		"AbilityCooldown"				"30"
+		"AbilityManaCost"				"120"
+		"AbilitySharedCooldown"			"dragon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"1"
+		"AbilityCastRange"				"800"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"dragon;breath;dragon breath"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"dragon breath"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"1100 1400 1600 1800 2100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"range"					"800"
+			}				
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				"35 45 55 65 70"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				"25"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"900"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"3.7"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"slow"					"-40 -45 -50 -55 -60"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_target"			"2 3 4 5 6"
+			}
+		}
+	}	
+	
+	"item_dragons_breath_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_dragons_breath_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_dragons_breath.lua"
+		"AbilityCooldown"				"30"
+		"AbilityManaCost"				"120"
+		"AbilitySharedCooldown"			"dragon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"2"
+		"AbilityCastRange"				"800"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"dragon;breath;dragon breath"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"dragon breath"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"1100 1400 1600 1800 2100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"range"					"800"
+			}				
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				"35 45 55 65 70"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				"25"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"900"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"3.7"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"slow"					"-40 -45 -50 -55 -60"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_target"			"2 3 4 5 6"
+			}
+		}
+	}	
+	"item_dragons_breath_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_dragons_breath_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_dragons_breath.lua"
+		"AbilityCooldown"				"25"
+		"AbilityManaCost"				"120"
+		"AbilitySharedCooldown"			"dragon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"3"
+		"AbilityCastRange"				"800"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"dragon;breath;dragon breath"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"dragon breath"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"1100 1400 1600 1800 2100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"range"					"800"
+			}				
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				"35 45 55 65 70"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				"25"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"900"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"3.7"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"slow"					"-40 -45 -50 -55 -60"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_target"			"2 3 4 5 6"
+			}
+		}
+	}	
+	"item_dragons_breath_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_dragons_breath_4"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_dragons_breath.lua"
+		"AbilityCooldown"				"25"
+		"AbilityManaCost"				"120"
+		"AbilitySharedCooldown"			"dragon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"4"
+		"AbilityCastRange"				"800"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"dragon;breath;dragon breath"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"dragon breath"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"1100 1400 1600 1800 2100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"range"					"800"
+			}				
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				"35 45 55 65 70"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				"25"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"900"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"3.7"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"slow"					"-40 -45 -50 -55 -60"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_target"			"2 3 4 5 6"
+			}
+		}
+	}	
+	"item_dragons_breath_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_dragons_breath_5"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_dragons_breath.lua"
+		"AbilityCooldown"				"20"
+		"AbilityManaCost"				"120"
+		"AbilitySharedCooldown"			"dragon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"5"
+		"AbilityCastRange"				"800"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"dragon;breath;dragon breath"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"dragon breath"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"1100 1400 1600 1800 2100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"range"					"800"
+			}				
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				"35 45 55 65 70"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				"25"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"900"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"				"3.7"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"slow"					"-40 -45 -50 -55 -60"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_target"			"2 3 4 5 6"
+			}
+		}
+	}
+}

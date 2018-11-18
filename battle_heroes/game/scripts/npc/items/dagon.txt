@@ -1,0 +1,365 @@
+""
+{
+
+	"item_recipe_dagon_bh_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"32100"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1250"	
+		"ItemShopTags"					"artifacts"
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_dagon_bh_1"
+		"ItemRequirements"
+		{
+			"01"						"item_staff_of_wizardry;item_null_talisman"
+		}
+	}	
+	"item_recipe_dagon_bh_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"32101"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1350"	
+		"ItemShopTags"					"artifacts"
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_dagon_bh_2"
+		"ItemRequirements"
+		{
+			"01"						"item_dagon_bh_1"
+		}
+	}	
+	"item_recipe_dagon_bh_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"32102"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1450"	
+		"ItemShopTags"					"artifacts"
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_dagon_bh_3"
+		"ItemRequirements"
+		{
+			"01"						"item_dagon_bh_2"
+		}
+	}	
+	"item_recipe_dagon_bh_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"32103"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1550"	
+		"ItemShopTags"					"artifacts"
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_dagon_bh_4"
+		"ItemRequirements"
+		{
+			"01"						"item_dagon_bh_3"
+		}
+	}	
+	"item_recipe_dagon_bh_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"32104"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1650"	
+		"ItemShopTags"					"artifacts"
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_dagon_bh_5"
+		"ItemRequirements"
+		{
+			"01"						"item_dagon_bh_4"
+		}
+	}
+		
+	"item_dagon_bh_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_dagon_bh_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_dagon.lua"
+		"AbilityCooldown"				"30"
+		"AbilityManaCost"				"120"
+		"AbilitySharedCooldown"			"dagon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"1"
+		"AbilityCastRange"				"600 650 700 750 800"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"dragon;staff;dragon staff"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"dragon staff"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"400 500 600 700 920"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"range"					"600 650 700 750 800"
+			}				
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				"18 22 25 27 30"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				"3 5 7 9 12"
+			}
+		}
+	}	
+	"item_dagon_bh_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_dagon_bh_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_dagon.lua"
+		"AbilityCooldown"				"30"
+		"AbilityManaCost"				"120"
+		"AbilitySharedCooldown"			"dagon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"2"
+		"AbilityCastRange"				"600 650 700 750 800"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"dragon;staff;dragon staff"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"dragon staff"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"400 500 600 700 920"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"range"					"600 650 700 750 800"
+			}				
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				"18 22 25 27 30"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				"3 5 7 9 12"
+			}
+		}
+	}	
+	"item_dagon_bh_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_dagon_bh_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_dagon.lua"
+		"AbilityCooldown"				"30"
+		"AbilityManaCost"				"120"
+		"AbilitySharedCooldown"			"dagon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"3"
+		"AbilityCastRange"				"600 650 700 750 800"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"dragon;staff;dragon staff"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"dragon staff"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"400 500 600 700 920"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"range"					"600 650 700 750 800"
+			}				
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				"18 22 25 27 30"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				"3 5 7 9 12"
+			}
+		}
+	}	
+	"item_dagon_bh_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_dagon_bh_4"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_dagon.lua"
+		"AbilityCooldown"				"30"
+		"AbilityManaCost"				"120"
+		"AbilitySharedCooldown"			"dagon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"4"
+		"AbilityCastRange"				"600 650 700 750 800"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"dragon;staff;dragon staff"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"dragon staff"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"400 500 600 700 920"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"range"					"600 650 700 750 800"
+			}				
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				"18 22 25 27 30"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				"3 5 7 9 12"
+			}
+		}
+	}	
+	"item_dagon_bh_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_dagon_bh_5"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_dagon.lua"
+		"AbilityCooldown"				"30"
+		"AbilityManaCost"				"120"
+		"AbilitySharedCooldown"			"dagon"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"5"
+		"AbilityCastRange"				"600 650 700 750 800"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"dragon;staff;dragon staff"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"dragon staff"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				"400 500 600 700 920"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"range"					"600 650 700 750 800"
+			}				
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				"18 22 25 27 30"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				"3 5 7 9 12"
+			}
+		}
+	}
+}

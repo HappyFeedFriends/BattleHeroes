@@ -1,0 +1,244 @@
+""
+{
+	"item_recipe_bow_of_pain_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15050"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"800"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_bow_of_pain_1"
+		"ItemRequirements"
+		{
+			"01"						"item_mithril_hammer;item_gloves;item_claymore"
+		}
+	}	
+	"item_recipe_bow_of_pain_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15051"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1300"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_bow_of_pain_2"
+		"ItemRequirements"
+		{
+			"01"						"item_bow_of_pain_1"
+		}
+	}	
+	"item_recipe_bow_of_pain_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15052"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1900"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_bow_of_pain_3"
+		"ItemRequirements"
+		{
+			"01"						"item_bow_of_pain_2"
+		}
+	}
+	"item_bow_of_pain_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_bow_of_pain_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/bow_of_pain.lua"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"1"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Bow Of Pain"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Bow Of Pain"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				 "60 80 120"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_stats"	   			"10 20 30"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"attack_speed"	   		"40 55 75"
+			}												
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"bonus_target"	 		 "3 5 7"
+			}			
+			"06"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"split_damage"	 		 "30 45 65"
+			}			
+			"07"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"radius"	 			 "900"
+			}							
+		}
+	}	
+	"item_bow_of_pain_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_bow_of_pain_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/bow_of_pain.lua"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"2"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Bow Of Pain"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Bow Of Pain"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				 "60 80 120"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_stats"	   			"10 20 30"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"attack_speed"	   		"40 55 75"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"regen_mana"	   		 "3.45 4.54 6.78"
+			}									
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"bonus_target"	 		 "3 5 7"
+			}			
+			"06"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"split_damage"	 		 "30 45 65"
+			}			
+			"07"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"radius"	 			 "900"
+			}							
+		}
+	}	
+	"item_bow_of_pain_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_bow_of_pain_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/bow_of_pain.lua"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"3"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Bow Of Pain"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Bow Of Pain"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				 "60 80 120"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_stats"	   			"10 20 30"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"attack_speed"	   		"40 55 75"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"regen_mana"	   		 "3.45 4.54 6.78"
+			}									
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"bonus_target"	 		 "3 5 7"
+			}			
+			"06"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"split_damage"	 		 "30 45 65"
+			}			
+			"07"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"radius"	 			 "900"
+			}							
+		}
+	}
+}

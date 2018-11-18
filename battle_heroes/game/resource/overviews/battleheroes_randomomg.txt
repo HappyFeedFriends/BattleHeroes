@@ -1,0 +1,8 @@
+battleheroes_randomomg
+{
+	material materials/overviews/battleheroes_randomomg.vmat
+	pos_x -8448
+	pos_y 8448
+	scale 16.500
+}
+

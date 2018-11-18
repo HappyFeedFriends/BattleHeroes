@@ -1,0 +1,101 @@
+#Talent_list {
+    flow-children: right-wrap;
+    width: 100%;
+    height: 100%;
+	
+}
+
+#Talent_list Button {
+    max-width: 55px; 
+    width: 100%;
+    height: 55px;
+    margin: 6px;	
+}
+#Talent_list Button:hover {
+	transform: translatey( -2px);
+	brightness: 0.8;
+}
+
+#Talent_list Button:disabled DOTAAbilityImage {
+    saturation: 0;
+}
+
+#Talent_list Label {
+    vertical-align: bottom;
+    text-align:center;
+    horizontal-align: right;
+    background-color:black;
+    font-weight: bold;
+    font-size: 14;
+    text-shadow: 0px 0px 0px #FF7500;
+    width: 22%;
+    height: 25%;
+    color: #EACD71;
+    font-family: Radiance;
+	z-index: 200;
+}
+
+#HeroTalentList{
+	horizontal-align:center;
+	vertical-align: top;
+	width: 100%;
+	flow-children: right-wrap;
+}
+#HeroTalentList Button {
+    max-width: 55px; 
+    width: 100%;
+    height: 55px;
+	margin: 6px;
+	border-radius: 12px;
+	//animation-duration: 0.9s;
+   // animation-delay: 0s;
+    //animation-timing-function: ease-in-out;
+    //animation-iteration-count: infinite;
+
+    //animation-name: Anim; 
+}
+
+@keyframes 'Anim'
+{
+    0%{
+        transform: translateY(0px);
+    }
+    50%
+    {
+        transform: translateY(10px);
+    }
+
+    100%
+    {
+        transform: translateY(0px);
+    }
+}
+
+#HeroTalentList Button:hover {
+	transform: translatey( -3px);
+	brightness: 0.7;
+}
+
+#HeroTalentList Button:disabled DOTAAbilityImage {
+    saturation: 0;
+}
+
+#HeroTalentList Button:disabled {
+    saturation: 0;
+}
+
+#HeroTalentList Label {
+    vertical-align: bottom;
+    text-align:center;
+    horizontal-align: right;
+    font-size: 14;
+    text-shadow: 0px 0px 0px #FF7500;
+    color: #ffffff;
+    font-family: Radiance;
+	z-index: 200;
+	position: -3px 0 0;
+}
+
+#HeroTalentList Button:hover Label {
+	color: #EACD71;
+}

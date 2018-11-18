@@ -1,0 +1,487 @@
+"DOTAUnits"
+{
+//======================================================
+// HARD
+//======================================================
+	"npc_battle_heroes_boss_golem"
+	{
+		"BaseClass"					"npc_dota_creature"	
+		"Model"						"models/creeps/lane_creeps/creep_dire_hulk/creep_dire_diretide_ancient_hulk.vmdl"
+		"ModelScale"				"2.4"
+		"Level"						"1"
+		"IsAncient"					"1"
+		"UseNeutralCreepBehavior"  	"1"	
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					""
+		"Ability2"					""		
+		"Ability3"					""		
+		"Ability4"					""		
+		"Ability5"					""			
+		"Ability6"					""			
+		"Ability7"					""		
+		"Ability8"					""			
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"25"			
+		"MagicalResistance"			"25"         
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"			"350"		
+		"AttackDamageMax"			"600"			
+		"AttackAnimationPoint"		"0.3"		
+		"AttackAcquisitionRange"	"100"		
+		"AttackRange"				"150"		
+		"ProjectileModel"			""			
+		"ProjectileSpeed"			""			
+
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"0"		// Gold earned min.
+		"BountyGoldMax"				"0"		// Gold earned max.
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"0"
+		"HealthBarOffset"			"450"
+		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			
+		"MovementSpeed"				"450"		
+		"MovementTurnRate"			"450"		
+		// Status
+
+		"StatusHealth"				"60000"		// Base health.
+		"StatusHealthRegen"			"6"				// Health regeneration rate.
+		"StatusMana"				"0"				// Base mana.
+		"StatusManaRegen"			"0"				// Mana regeneration rate.
+		"TeamName"					"DOTA_TEAM_NEUTRAL"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"VisionDaytimeRange"		"700"		// Range of vision during day light.
+		"VisionNighttimeRange"		"700"		// Range of vision at night time.
+
+	}	
+	"npc_battle_heroes_boss_golem_1"
+	{
+		"BaseClass"					"npc_dota_creature"	
+		"Model"						"models/creeps/lane_creeps/creep_dire_hulk/creep_dire_diretide_ancient_hulk.vmdl"
+		"ModelScale"				"2.4"
+		"Level"						"1"
+		"IsAncient"					"1"
+		"UseNeutralCreepBehavior"  	"1"	
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					""
+		"Ability2"					""		
+		"Ability3"					""		
+		"Ability4"					""		
+		"Ability5"					""			
+		"Ability6"					""			
+		"Ability7"					""		
+		"Ability8"					""			
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"25"			
+		"MagicalResistance"			"25"         
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"			"350"		
+		"AttackDamageMax"			"600"			
+		"AttackAnimationPoint"		"0.3"		
+		"AttackAcquisitionRange"	"100"		
+		"AttackRange"				"150"		
+		"ProjectileModel"			""			
+		"ProjectileSpeed"			""			
+
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"0"		// Gold earned min.
+		"BountyGoldMax"				"0"		// Gold earned max.
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"0"
+		"HealthBarOffset"			"450"
+		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			
+		"MovementSpeed"				"450"		
+		"MovementTurnRate"			"450"		
+		// Status
+
+		"StatusHealth"				"60000"		// Base health.
+		"StatusHealthRegen"			"6"				// Health regeneration rate.
+		"StatusMana"				"0"				// Base mana.
+		"StatusManaRegen"			"0"				// Mana regeneration rate.
+		"TeamName"					"DOTA_TEAM_NEUTRAL"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"VisionDaytimeRange"		"700"		// Range of vision during day light.
+		"VisionNighttimeRange"		"700"		// Range of vision at night time.
+
+	}
+	"npc_battle_heroes_boss_doom"
+	{
+		"BaseClass"					"npc_dota_creature"	
+		"Model"						"models/heroes/doom/doom.vmdl"
+		"ModelScale"				"2.4"
+		"Level"						"1"
+		"IsAncient"					"1"
+		"UseNeutralCreepBehavior"  	"1"	
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					""
+		"Ability2"					""		
+		"Ability3"					""		
+		"Ability4"					""		
+		"Ability5"					""			
+		"Ability6"					""			
+		"Ability7"					""		
+		"Ability8"					""			
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"25"			
+		"MagicalResistance"			"25"         
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"			"350"		
+		"AttackDamageMax"			"600"				
+		"AttackAnimationPoint"		"0.3"		
+		"AttackAcquisitionRange"	"100"		
+		"AttackRange"				"150"		
+		"ProjectileModel"			""			
+		"ProjectileSpeed"			""			
+
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"0"		// Gold earned min.
+		"BountyGoldMax"				"0"		// Gold earned max.
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"0"
+		"HealthBarOffset"			"670"
+		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			
+		"MovementSpeed"				"450"		
+		"MovementTurnRate"			"450"		
+		// Status
+
+		"StatusHealth"				"60000"		// Base health.
+		"StatusHealthRegen"			"6"				// Health regeneration rate.
+		"StatusMana"				"0"				// Base mana.
+		"StatusManaRegen"			"0"				// Mana regeneration rate.
+		"TeamName"					"DOTA_TEAM_NEUTRAL"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"VisionDaytimeRange"		"700"		// Range of vision during day light.
+		"VisionNighttimeRange"		"700"		// Range of vision at night time.
+
+		"Creature"
+		{
+			"AttachWearables"
+			{
+			    "Wearable1" { "ItemDef" "9985" } 
+				"Wearable2" { "ItemDef" "9986" } 
+				"Wearable3" { "ItemDef" "9987" } 
+				"Wearable4" { "ItemDef" "9988" } 
+                "Wearable5" { "ItemDef" "9990" } 
+				"Wearable6" { "ItemDef" "9991" }
+				"Wearable7" { "ItemDef" "6873" } 
+			}
+		}
+	}		
+	"npc_battle_heroes_boss_doom_1"
+	{
+		"BaseClass"					"npc_dota_creature"	
+		"Model"						"models/heroes/doom/doom.vmdl"
+		"ModelScale"				"2.4"
+		"Level"						"1"
+		"IsAncient"					"1"
+		"UseNeutralCreepBehavior"  	"1"	
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					""
+		"Ability2"					""		
+		"Ability3"					""		
+		"Ability4"					""		
+		"Ability5"					""			
+		"Ability6"					""			
+		"Ability7"					""		
+		"Ability8"					""			
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"25"			
+		"MagicalResistance"			"25"         
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"			"350"		
+		"AttackDamageMax"			"600"				
+		"AttackAnimationPoint"		"0.3"		
+		"AttackAcquisitionRange"	"100"		
+		"AttackRange"				"150"		
+		"ProjectileModel"			""			
+		"ProjectileSpeed"			""			
+
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"0"		// Gold earned min.
+		"BountyGoldMax"				"0"		// Gold earned max.
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"0"
+		"HealthBarOffset"			"670"
+		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			
+		"MovementSpeed"				"450"		
+		"MovementTurnRate"			"450"		
+		// Status
+
+		"StatusHealth"				"60000"		// Base health.
+		"StatusHealthRegen"			"6"				// Health regeneration rate.
+		"StatusMana"				"0"				// Base mana.
+		"StatusManaRegen"			"0"				// Mana regeneration rate.
+		"TeamName"					"DOTA_TEAM_NEUTRAL"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"VisionDaytimeRange"		"700"		// Range of vision during day light.
+		"VisionNighttimeRange"		"700"		// Range of vision at night time.
+		"Creature"
+		{
+			"AttachWearables"
+			{
+			    "Wearable1" { "ItemDef" "9985" } 
+				"Wearable2" { "ItemDef" "9986" } 
+				"Wearable3" { "ItemDef" "9987" } 
+				"Wearable4" { "ItemDef" "9988" } 
+                "Wearable5" { "ItemDef" "9990" } 
+				"Wearable6" { "ItemDef" "9991" }
+				"Wearable7" { "ItemDef" "6873" } 
+			}
+		}
+	}			
+	"npc_battle_heroes_boss_nian"
+	{
+		"BaseClass"					"npc_dota_creature"	
+		"Model"						"models/creeps/nian/nian_journey.vmdl"
+		"ModelScale"				"1.4"
+		"Level"						"1"
+		"IsAncient"					"1"
+		"UseNeutralCreepBehavior"  	"1"	
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					""
+		"Ability2"					""		
+		"Ability3"					""		
+		"Ability4"					""		
+		"Ability5"					""			
+		"Ability6"					""			
+		"Ability7"					""		
+		"Ability8"					""			
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"25"			
+		"MagicalResistance"			"25"         
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"			"350"		
+		"AttackDamageMax"			"600"				
+		"AttackAnimationPoint"		"0.3"		
+		"AttackAcquisitionRange"	"100"		
+		"AttackRange"				"150"		
+		"ProjectileModel"			""			
+		"ProjectileSpeed"			""			
+
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"0"		// Gold earned min.
+		"BountyGoldMax"				"0"		// Gold earned max.
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"0"
+		"HealthBarOffset"			"450"
+		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			
+		"MovementSpeed"				"450"		
+		"MovementTurnRate"			"450"		
+		// Status
+
+		"StatusHealth"				"60000"		// Base health.
+		"StatusHealthRegen"			"6"				// Health regeneration rate.
+		"StatusMana"				"0"				// Base mana.
+		"StatusManaRegen"			"0"				// Mana regeneration rate.
+		"TeamName"					"DOTA_TEAM_NEUTRAL"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"VisionDaytimeRange"		"700"		// Range of vision during day light.
+		"VisionNighttimeRange"		"700"		// Range of vision at night time.
+	}	
+	"npc_battle_heroes_boss_dragon"
+	{
+		"BaseClass"					"npc_dota_creature"	
+		"Model"						"models/items/dragon_knight/oblivion_blazer_dragon/oblivion_blazer_dragon.vmdl"
+		"ModelScale"				"1.4"
+		"Level"						"1"
+		"IsAncient"					"1"
+		"UseNeutralCreepBehavior"  	"1"	
+		"ArmorPhysical"				"25"			
+		"MagicalResistance"			"25"         
+		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"			"350"		
+		"AttackDamageMax"			"600"				
+		"AttackAnimationPoint"		"0.3"		
+		"AttackAcquisitionRange"	"100"		
+		"AttackRange"				"750"		
+		"ProjectileModel"			"particles/units/heroes/hero_viper/viper_base_attack.vpcf"			
+		"ProjectileSpeed"			"1400"			
+
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"0"		// Gold earned min.
+		"BountyGoldMax"				"0"		// Gold earned max.
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"0"
+		"HealthBarOffset"			"450"
+		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			
+		"MovementSpeed"				"450"		
+		"MovementTurnRate"			"450"		
+		// Status
+
+		"StatusHealth"				"60000"		// Base health.
+		"StatusHealthRegen"			"6"				// Health regeneration rate.
+		"StatusMana"				"0"				// Base mana.
+		"StatusManaRegen"			"0"				// Mana regeneration rate.
+		"TeamName"					"DOTA_TEAM_NEUTRAL"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+	}	
+	"npc_battle_heroes_boss_dragon_1"
+	{
+		"BaseClass"					"npc_dota_creature"	
+		"Model"						"models/items/dragon_knight/oblivion_blazer_dragon/oblivion_blazer_dragon.vmdl"
+		"ModelScale"				"1.4"
+		"Level"						"1"
+		"IsAncient"					"1"
+		"UseNeutralCreepBehavior"  	"1"	
+		"ArmorPhysical"				"25"			
+		"MagicalResistance"			"25"         
+		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
+		"AttackDamageMin"			"350"		
+		"AttackDamageMax"			"600"				
+		"AttackAnimationPoint"		"0.3"		
+		"AttackAcquisitionRange"	"100"		
+		"AttackRange"				"750"		
+		"ProjectileModel"			"particles/units/heroes/hero_viper/viper_base_attack.vpcf"			
+		"ProjectileSpeed"			"1400"		
+
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"0"		// Gold earned min.
+		"BountyGoldMax"				"0"		// Gold earned max.
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"0"
+		"HealthBarOffset"			"450"
+		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			
+		"MovementSpeed"				"450"		
+		"MovementTurnRate"			"450"		
+		// Status
+
+		"StatusHealth"				"60000"		// Base health.
+		"StatusHealthRegen"			"6"				// Health regeneration rate.
+		"StatusMana"				"0"				// Base mana.
+		"StatusManaRegen"			"0"				// Mana regeneration rate.
+		"TeamName"					"DOTA_TEAM_NEUTRAL"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
+		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+	}
+
+
+
+
+
+
+
+
+
+
+	
+	//
+	"npc_battle_heroes_boss_tusk"
+	{
+		"BaseClass"					"npc_dota_creature"	
+		"Model"						"models/heroes/tuskarr/tuskarr.vmdl"
+		"ModelScale"				"2.9"
+		"Level"						"1"
+		"IsAncient"					"1"
+		"UseNeutralCreepBehavior"  	"1"	
+		// Abilities
+		//----------------------------------------------------------------
+		"Ability1"					""
+		"Ability2"					""		
+		"Ability3"					""		
+		"Ability4"					""		
+		"Ability5"					""			
+		"Ability6"					""			
+		"Ability7"					""		
+		"Ability8"					""			
+		// Armor
+		//----------------------------------------------------------------
+		"ArmorPhysical"				"25"			
+		"MagicalResistance"			"25"         
+		// Attack
+		//----------------------------------------------------------------
+		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
+		"AttackDamageMin"			"350"		
+		"AttackDamageMax"			"600"			
+		"AttackAnimationPoint"		"0.3"		
+		"AttackAcquisitionRange"	"100"		
+		"AttackRange"				"150"		
+		"ProjectileModel"			""			
+		"ProjectileSpeed"			""			
+
+		"BountyXP"					"0"		// Experience earn.
+		"BountyGoldMin"				"0"		// Gold earned min.
+		"BountyGoldMax"				"0"		// Gold earned max.
+		// Bounds
+		//----------------------------------------------------------------
+		"RingRadius"				"0"
+		"HealthBarOffset"			"450"
+		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"
+		// Movement
+		//----------------------------------------------------------------
+		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			
+		"MovementSpeed"				"450"		
+		"MovementTurnRate"			"450"		
+		// Status
+
+		"StatusHealth"				"60000"		// Base health.
+		"StatusHealthRegen"			"6"				// Health regeneration rate.
+		"StatusMana"				"0"				// Base mana.
+		"StatusManaRegen"			"0"				// Mana regeneration rate.
+		"TeamName"					"DOTA_TEAM_NEUTRAL"			// Team name.
+		"CombatClassAttack"			"DOTA_COMBAT_CLASS_ATTACK_HERO"
+		"VisionDaytimeRange"		"700"		// Range of vision during day light.
+		"VisionNighttimeRange"		"700"		// Range of vision at night time.
+		"Creature"
+		{
+			"AttachWearables"
+			{
+			    "Wearable1" { "ItemDef" "9703" } 
+				"Wearable2" { "ItemDef" "9702" } 
+				"Wearable3" { "ItemDef" "9701" } 
+				"Wearable4" { "ItemDef" "9700" } 
+                "Wearable5" { "ItemDef" "9699" } 
+				"Wearable6" { "ItemDef" "9698" }
+			}
+		}
+	}
+}

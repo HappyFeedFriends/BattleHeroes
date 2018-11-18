@@ -1,0 +1,20 @@
+#base "override/ability_override.txt"
+#base "override/remove.txt"
+#base "override/units.txt"
+#base "override/heroes.txt"
+"DOTAAbilities"
+{
+	"item_iron_talon" 
+	{
+		"ItemPurchasable"				"1"
+		"IsObsolete"					"0"
+		"AbilitySpecial"
+		{
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"creep_damage_pct"			"60"
+			}
+		}
+	}
+}

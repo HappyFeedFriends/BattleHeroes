@@ -1,0 +1,414 @@
+""
+{
+
+	"item_recipe_skadi_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------					
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_skadi_1"
+		"ItemRequirements"
+		{
+			"01"						"item_ultimate_orb;item_ultimate_orb;item_point_booster"
+		}
+	}	
+	"item_recipe_skadi_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"18000"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1400"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_skadi_2"
+		"ItemRequirements"
+		{
+			"01"						"item_skadi_1"
+		}
+	}	
+	"item_recipe_skadi_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"18001"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1500"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_skadi_3"
+		"ItemRequirements"
+		{
+			"01"						"item_skadi_2;item_god_blood"
+		}
+	}	
+	"item_recipe_skadi_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15113"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1700"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_skadi_4"
+		"ItemRequirements"
+		{
+			"01"						"item_skadi_3"
+		}
+	}	
+	"item_recipe_skadi_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15114"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2000"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_skadi_5"
+		"ItemRequirements"
+		{
+			"01"						"item_skadi_4;item_frozen_soul"
+		}
+	}
+
+	"item_skadi_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_skadi_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_skadi.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"1"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Eye of Skadi"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Skadi"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				 "25 35 45 50 65"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"hp"	   				"225 300 350 400 550"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mp"	   			 	"250 300 450 650 700"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_movespeed"	 	"-30 -35 -40 -45 -50"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_attackspeed"	 	"-45 -65 -75 -100 -125"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_ranged"	 	"2.5 2.5 2.5 3 3.2"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_melee"	 	"5 5 6 6.7 7.2"
+			}				
+		}
+	}	
+	"item_skadi_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_skadi_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_skadi.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"2"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Eye of Skadi"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Skadi"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				 "25 35 45 50 65"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"hp"	   				"225 300 350 400 550"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mp"	   			 	"250 300 450 650 700"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_movespeed"	 	"-30 -35 -40 -45 -50"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_attackspeed"	 	"-45 -65 -75 -100 -125"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_ranged"	 	"2.5 2.5 2.5 3 3.2"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_melee"	 	"5 5 6 6.7 7.2"
+			}				
+		}
+	}	
+	"item_skadi_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_skadi_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_skadi.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"3"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Eye of Skadi"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Skadi"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				 "25 35 45 50 65"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"hp"	   				"225 300 350 400 550"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mp"	   			 	"250 300 450 650 700"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_movespeed"	 	"-30 -35 -40 -45 -50"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_attackspeed"	 	"-45 -65 -75 -100 -125"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_ranged"	 	"2.5 2.5 2.5 3 3.2"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_melee"	 	"5 5 6 6.7 7.2"
+			}				
+		}
+	}	
+	"item_skadi_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_skadi_4"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_skadi.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"4"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Eye of Skadi"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Skadi"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				 "25 35 45 50 65"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"hp"	   				"225 300 350 400 550"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mp"	   			 	"250 300 450 650 700"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_movespeed"	 	"-30 -35 -40 -45 -50"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_attackspeed"	 	"-45 -65 -75 -100 -125"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_ranged"	 	"2.5 2.5 2.5 3 3.2"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_melee"	 	"5 5 6 6.7 7.2"
+			}				
+		}
+	}	
+	"item_skadi_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_skadi_5"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_skadi.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"5"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Eye of Skadi"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Skadi"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				 "25 35 45 50 65"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"hp"	   				"225 300 350 400 550"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mp"	   			 	"250 300 450 650 700"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_movespeed"	 	"-30 -35 -40 -45 -50"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_attackspeed"	 	"-45 -65 -75 -100 -125"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_ranged"	 	"2.5 2.5 2.5 3 3.2"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_melee"	 	"5 5 6 6.7 7.2"
+			}				
+		}
+	}
+}

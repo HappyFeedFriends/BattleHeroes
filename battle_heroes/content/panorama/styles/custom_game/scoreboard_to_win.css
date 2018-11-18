@@ -1,0 +1,28 @@
+.MainBlockScoreBoard
+{
+	horizontal-align: center;
+	position: 0px 45px 0; 
+	width: 3.9%;	
+	//background-image: url("s2r://panorama/images/hud/reborn/bg_timer_psd.vtex");
+    height: 5.2%;
+	//border-radius: 1px 1px 200px 1px / 1px 100px 100px 100px;
+	//background-size: 55%;
+}
+
+.BlockScoreBoard
+{
+	horizontal-align: center;
+	vertical-align: top;
+	width: 100%;
+	background-image: url("s2r://panorama/images/hud/reborn/bg_timer_psd.vtex");
+    height: 60%;
+	background-size: 100%;
+}
+.BlockScoreBoard Label
+{
+	horizontal-align: center;
+	vertical-align: center;
+	font-size: 19;
+    font-family: "Times New Roman";
+	color: #fff;
+}

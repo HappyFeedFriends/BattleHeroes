@@ -1,0 +1,59 @@
+""
+{
+
+	//"item_recipe_gem_shard"
+	//{
+	//	// General
+	//	//-------------------------------------------------------------------------------------------------------------					
+	//	"Model"							"models/props_gameplay/recipe.mdl"
+	//	"AbilityTextureName"			"item_recipe"
+	//	"BaseClass"                     "item_datadriven"
+	
+	//	// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+	//	"ItemCost"						"1200"	
+	//	"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+	//	"ItemRecipe"					"1"
+	//	"ItemResult"					"item_gem_shard"
+	//	"ItemRequirements"
+	//	{
+	//		"01"						"item_gem"
+	//	}
+	//}
+
+	"item_gem_shard"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_gem_shard"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Model"							"models/props_gameplay/gem01.vmdl"
+		"ScriptFile"					"items/item_gem_shard.lua"
+		"ItemCost"						"2100"
+		"ItemShopTags"					"see_invis"
+		"ItemQuality"					"component"
+		"ItemAliases"					"gem of true sight"
+		"ItemSellable"					"0"
+		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS"
+		"ItemKillable"					"0"
+		"ItemContributesToNetWorthWhenDropped"	"0"
+		"AllowedInBackpack"				"0"
+		"IsTempestDoubleClonable"		"0"
+
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"900"
+			}						
+		}
+	}
+}

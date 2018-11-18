@@ -1,0 +1,69 @@
+#base "items/aether_lens.txt"
+#base "items/desolator.txt"
+#base "items/octarine_core.txt"
+#base "items/satanic.txt"
+#base "items/battle_fury.txt"
+#base "items/bow_of_pain.txt"
+#base "items/mask_of_madness.txt"
+#base "items/hand_of_midas.txt"
+#base "items/black_king_bar.txt"
+#base "items/bloodthorn.txt"
+#base "items/skadi.txt"
+#base "items/dagon.txt"
+#base "items/skadi_and_desolator.txt"
+#base "items/refresher.txt"
+#base "items/godly_bkb.txt"
+#base "items/scythe_of_vyse.txt"
+#base "items/veil_of_discord.txt"
+#base "items/hearth_of_tarrasque.txt"
+#base "items/assault_cuirass.txt"
+#base "items/monkey_king_bar.txt"
+#base "items/butterfly.txt"
+#base "items/daedalus.txt"
+#base "items/armor_of_midas.txt"
+#base "items/helmet_of_midas.txt"
+#base "items/demonic_peak.txt"
+#base "items/ethereal_blade.txt"
+#base "items/blade_mail.txt"
+#base "items/kaya.txt"
+#base "items/gem_shard.txt"
+#base "items/dragons_breath.txt"
+#base "items/levitation_of_boots.txt"
+#base "items/aghanim_scepter.txt"
+#base "items/boss_loot.txt"
+#base "items/stats_book.txt"
+//#base "items/other_item.txt"
+
+"DOTAAbilities"
+{
+	  "item_containers_lua_pack"
+	  {
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityBehavior"       "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"ID"              "1835"
+		"BaseClass"         "item_lua"
+		"AbilityTextureName"        "item_present"
+		"ScriptFile"          "libraries/abilities/item_containers_lua_pack.lua"
+		"MaxLevel"            "1"
+
+		"ItemCost"            "0"
+		"ItemPurchasable"          "0"
+		"ItemKillable"             "0"
+		"ItemDroppable"            "0"
+		"ItemSellable"             "0"
+		"ItemCanChangeContainer"   "0"
+		
+		// Casting
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCastRange"        "0"
+
+		// Time   
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityCooldown"       "0"
+
+		// Cost
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilityManaCost"       "0 0 0 0"
+	  }
+}

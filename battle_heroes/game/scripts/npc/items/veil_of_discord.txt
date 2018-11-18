@@ -1,0 +1,495 @@
+""
+{
+
+	"item_recipe_veil_of_discord_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15100"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"450"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_veil_of_discord_1"
+		"ItemRequirements"
+		{
+			"01"						"item_helm_of_iron_will;item_null_talisman;item_null_talisman"
+		}
+	}	
+	"item_recipe_veil_of_discord_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15101"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"800"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_veil_of_discord_2"
+		"ItemRequirements"
+		{
+			"01"						"item_veil_of_discord_1"
+		}
+	}	
+	"item_recipe_veil_of_discord_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15102"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_veil_of_discord_3"
+		"ItemRequirements"
+		{
+			"01"						"item_veil_of_discord_2"
+		}
+	}	
+	"item_recipe_veil_of_discord_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15103"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1400"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_veil_of_discord_4"
+		"ItemRequirements"
+		{
+			"01"						"item_veil_of_discord_3"
+		}
+	}	
+	"item_recipe_veil_of_discord_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15104"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1400"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_veil_of_discord_5"
+		"ItemRequirements"
+		{
+			"01"						"item_veil_of_discord_4;item_god_blood"
+		}
+	}
+	
+	"item_veil_of_discord_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_veil_of_discord_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"ScriptFile"					"items/item_veil_of_discord.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"1"
+		"AbilityCooldown"				"20"
+		"AbilityManaCost"				"50"
+		"AbilityCastRange"				"1000"
+		"AbilitySharedCooldown"			"veil_of_discord"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Veil of Discord"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"veil;discord"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"300 450 550 600 700"
+			}			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"				 "5 7 9 10 12"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_agility"	   			"6 8 10 12 15"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_strength"	   		"6 8 10 14 17"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"bonus_intellect"	 		"15 18 23 26 30"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"radius"	 				"600 600 600 800 1000"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reduction_magic"	 		"-15 -20 -25 -30 -45"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"range_tooltip"	 			"1000"
+			}			
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	 				"16"
+			}							
+		}
+	}	
+	"item_veil_of_discord_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_veil_of_discord_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"ScriptFile"					"items/item_veil_of_discord.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"2"
+		"AbilityCooldown"				"20"
+		"AbilityManaCost"				"50"
+		"AbilityCastRange"				"1000"
+		"AbilitySharedCooldown"			"veil_of_discord"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Veil of Discord"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"veil;discord"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"300 450 550 600 700"
+			}			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"				 "5 7 9 10 12"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_agility"	   			"6 8 10 12 15"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_strength"	   		"6 8 10 14 17"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"bonus_intellect"	 		"15 18 23 26 30"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"radius"	 				"600 600 600 800 1000"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reduction_magic"	 		"-15 -20 -25 -30 -45"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"range_tooltip"	 			"1000"
+			}			
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	 				"16"
+			}							
+		}
+	}	
+	"item_veil_of_discord_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_veil_of_discord_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"ScriptFile"					"items/item_veil_of_discord.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"3"
+		"AbilityCooldown"				"20"
+		"AbilityManaCost"				"50"
+		"AbilityCastRange"				"1000"
+		"AbilitySharedCooldown"			"veil_of_discord"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Veil of Discord"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"veil;discord"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"300 450 550 600 700"
+			}			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"				 "5 7 9 10 12"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_agility"	   			"6 8 10 12 15"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_strength"	   		"6 8 10 14 17"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"bonus_intellect"	 		"15 18 23 26 30"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"radius"	 				"600 600 600 800 1000"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reduction_magic"	 		"-15 -20 -25 -30 -45"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"range_tooltip"	 			"1000"
+			}			
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	 				"16"
+			}							
+		}
+	}	
+	"item_veil_of_discord_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_veil_of_discord_4"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"ScriptFile"					"items/item_veil_of_discord.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"4"
+		"AbilityCooldown"				"20"
+		"AbilityManaCost"				"50"
+		"AbilityCastRange"				"1000"
+		"AbilitySharedCooldown"			"veil_of_discord"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Veil of Discord"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"veil;discord"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"300 450 550 600 700"
+			}			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"				 "5 7 9 10 12"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_agility"	   			"6 8 10 12 15"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_strength"	   		"6 8 10 14 17"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"bonus_intellect"	 		"15 18 23 26 30"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"radius"	 				"600 600 600 800 1000"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reduction_magic"	 		"-15 -20 -25 -30 -45"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"range_tooltip"	 			"1000"
+			}			
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	 				"16"
+			}							
+		}
+	}	
+	"item_veil_of_discord_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_veil_of_discord_5"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"ScriptFile"					"items/item_veil_of_discord.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"5"
+		"AbilityCooldown"				"20"
+		"AbilityManaCost"				"50"
+		"AbilityCastRange"				"1000"
+		"AbilitySharedCooldown"			"veil_of_discord"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Veil of Discord"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"veil;discord"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_health"			"300 450 550 600 700"
+			}			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_armor"				 "5 7 9 10 12"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_agility"	   			"6 8 10 12 15"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_strength"	   		"6 8 10 14 17"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"bonus_intellect"	 		"15 18 23 26 30"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"radius"	 				"600 600 600 800 1000"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reduction_magic"	 		"-15 -20 -25 -30 -45"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"range_tooltip"	 			"1000"
+			}			
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	 				"16"
+			}							
+		}
+	}
+}

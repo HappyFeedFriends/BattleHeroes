@@ -1,0 +1,6 @@
+<root>
+    <scripts>
+		<include src="file://{resources}/scripts/custom_game/util.js" />
+		<include src="file://{resources}/scripts/custom_game/hide_talent_tree.js" />
+	</scripts>
+</root>

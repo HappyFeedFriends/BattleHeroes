@@ -1,0 +1,16 @@
+""
+{	
+
+	"npc_dota_hero_tinker"
+	{
+		"Ability6"		"tinker_rearm_bh"
+	}	
+	"npc_dota_hero_lycan"
+	{
+		"Ability1"		"lycan_summon_wolves_bh"
+	}
+	"npc_dota_hero_juggernaut"
+	{
+		"Ability3"		"juggernaut_blade_dance_bh"
+	}
+}

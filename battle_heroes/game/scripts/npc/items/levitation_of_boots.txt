@@ -1,0 +1,77 @@
+""
+{
+	"item_recipe_levitation_of_boots"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------					
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_levitation_of_boots"
+		"ItemRequirements"
+		{
+			"01"						"item_phase_boots;item_blades_of_attack;item_blades_of_attack"
+		}
+	}
+
+	"item_levitation_of_boots"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_levitation_of_boots"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_levitation_of_boots.lua"
+		"AbilityCooldown"				"10"
+		"AbilityManaCost"				"25"
+		"AbilitySharedCooldown"			"levitation"
+		"AbilityCastRange"				"800"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"levitation"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"levitation of boots"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"movespeed_bonus"		"75"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_move_range"		"20"
+			}				
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_move_melee"		"35"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"32"
+			}			
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"duration"				"3.5"
+			}			
+		}
+	}
+}

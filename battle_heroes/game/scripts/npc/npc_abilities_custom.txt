@@ -1,0 +1,122 @@
+#base "ability/lycan.txt"
+#base "ability/tinker.txt"
+#base "ability/juggernaut.txt"
+"DOTAAbilities"
+{
+
+
+	"Version"		"1"
+	
+	"empty_slot_1"
+	{
+		"AbilityBehavior"       		"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            			"0"
+		"BaseClass"           			"ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}	
+	"empty_slot_2"
+	{
+		"AbilityBehavior"       		"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            			"0"
+		"BaseClass"           			"ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}	
+	"empty_slot_3"
+	{
+		"AbilityBehavior"       		"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            			"0"
+		"BaseClass"           			"ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}	
+	"empty_slot_4"
+	{
+		"AbilityBehavior"       		"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            			"0"
+		"BaseClass"           			"ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}	
+	"empty_slot_5"
+	{
+		"AbilityBehavior"       		"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            			"0"
+		"BaseClass"           			"ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}	
+	"empty_slot_6"
+	{
+		"AbilityBehavior"       		"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            			"0"
+		"BaseClass"           			"ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}	
+	"empty_slot_7"
+	{
+		"AbilityBehavior"       		"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            			"0"
+		"BaseClass"           			"ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}	
+	"empty_slot_8"
+	{
+		"AbilityBehavior"       		"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            			"0"
+		"BaseClass"           			"ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}	
+	"empty_slot_9"
+	{
+		"AbilityBehavior"       		"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            			"0"
+		"BaseClass"           			"ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}	
+	"empty_slot_10"
+	{
+		"AbilityBehavior"       		"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"MaxLevel"            			"0"
+		"BaseClass"           			"ability_datadriven"
+		"AbilityTextureName"            "rubick_empty1"
+	}
+	
+	//=================================================================================================================
+	// Ability: Special Bonus
+	//=================================================================================================================
+	"special_bonus_unique_silencer_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"ID"					"6879"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"value"				"7"
+			}
+		}
+	}
+	"bosses_shield"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"AbilityTextureName"			"custom_ability/bosses_shield"
+		"ScriptFile"					"heroes/boss.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"MaxLevel"						"1"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"radius"					"900"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,8 @@
+<root> 
+<Panel class="AddonLoadingRoot"> 
+<Image id="gamemode" class="SeqImg" src="file://{images}/custom_game/loading_screen/custom_bg_1.png" /> 
+<Image id="gamemode" class="SeqImg" src="file://{images}/custom_game/loading_screen/custom_bg_2.png" /> 
+<Image id="gamemode" class="SeqImg" src="file://{images}/custom_game/loading_screen/custom_bg_3.png" /> 
+<Image id="gamemode" class="SeqImg" src="file://{images}/custom_game/loading_screen/right.png" /> 
+</Panel> 
+</root>

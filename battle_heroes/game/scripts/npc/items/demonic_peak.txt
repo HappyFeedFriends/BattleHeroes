@@ -1,0 +1,119 @@
+""
+{
+
+	"item_recipe_demonic_peak_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"17000"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1600"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_demonic_peak_1"
+		"ItemRequirements"
+		{
+			"01"						"item_javelin;item_javelin;item_javelin;item_monkey_king_bar_5"
+		}
+	}	
+	"item_recipe_demonic_peak_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"17001"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"8200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_demonic_peak_2"
+		"ItemRequirements"
+		{
+			"01"						"item_demonic_peak_1;item_god_blood;item_frozen_soul"
+		}
+	}
+	
+	"item_demonic_peak_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_demonic_peak_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_demonic_peak.lua"
+		"MaxUpgradeLevel"				"2"
+		"ItemBaseLevel"					"1"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Demonic Peak"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Demonic Peak"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_pure"			"10 20"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_damage"	   		"150 200"
+			}										
+		}
+	}	
+	"item_demonic_peak_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_demonic_peak_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_demonic_peak.lua"
+		"MaxUpgradeLevel"				"2"
+		"ItemBaseLevel"					"2"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Demonic Peak"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Demonic Peak"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_pure"			"10 20"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_damage"	   		"150 200"
+			}										
+		}
+	}
+}

@@ -1,0 +1,8 @@
+battleheroes_createhero
+{
+	material materials/overviews/battleheroes_createhero.vmat
+	pos_x -8448
+	pos_y 8448
+	scale 16.500
+}
+

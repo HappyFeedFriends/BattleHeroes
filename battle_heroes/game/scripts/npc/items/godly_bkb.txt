@@ -1,0 +1,349 @@
+""
+{
+	"item_recipe_godly_black_king_bar_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15140"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"4500"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_godly_black_king_bar_1"
+		"ItemRequirements"
+		{
+			"01"						"item_black_king_bar_5;item_god_blood"
+		}
+	}	
+	"item_recipe_godly_black_king_bar_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15141"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"4500"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_godly_black_king_bar_2"
+		"ItemRequirements"
+		{
+			"01"						"item_godly_black_king_bar_1"
+		}
+	}	
+	"item_recipe_godly_black_king_bar_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15142"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"3000"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_godly_black_king_bar_3"
+		"ItemRequirements"
+		{
+			"01"						"item_godly_black_king_bar_2"
+		}
+	}	
+	"item_recipe_godly_black_king_bar_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15143"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"3500"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_godly_black_king_bar_4"
+		"ItemRequirements"
+		{
+			"01"						"item_godly_black_king_bar_3;item_demonic_hearth"
+		}
+	}	
+	"item_recipe_godly_black_king_bar_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15142"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"3500"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_godly_black_king_bar_5"
+		"ItemRequirements"
+		{
+			"01"						"item_godly_black_king_bar_4"
+		}
+	}
+	
+	"item_godly_black_king_bar_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_godly_black_king_bar_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/godly_bkb.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"1"
+		"AbilityCooldown"				"80"
+		"AbilitySharedCooldown"			"godly_black_king_bar"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Godly;Black;king;bar;black king bar,bkb"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Godly Black King Bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_all"				"15 20 25 30 45"
+			}					
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_armor"	   		"5 8 12 14 16"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_attack_speed"	"50 65 75 80 100"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"3.2 4.2 5 5.6 7.3"
+			}
+		}
+	}	
+	"item_godly_black_king_bar_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_godly_black_king_bar_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/godly_bkb.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"2"
+		"AbilityCooldown"				"80"
+		"AbilitySharedCooldown"			"godly_black_king_bar"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Godly;Black;king;bar;black king bar,bkb"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Godly Black King Bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_all"				"15 20 25 30 45"
+			}					
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_armor"	   		"5 8 12 14 16"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_attack_speed"	"50 65 75 80 100"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"3.2 4.2 5 5.6 7.3"
+			}
+		}
+	}	
+	"item_godly_black_king_bar_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_godly_black_king_bar_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/godly_bkb.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"3"
+		"AbilityCooldown"				"80"
+		"AbilitySharedCooldown"			"godly_black_king_bar"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Godly;Black;king;bar;black king bar,bkb"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Godly Black King Bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_all"				"15 20 25 30 45"
+			}					
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_armor"	   		"5 8 12 14 16"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_attack_speed"	"50 65 75 80 100"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"3.2 4.2 5 5.6 7.3"
+			}
+		}
+	}	
+	"item_godly_black_king_bar_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_godly_black_king_bar_4"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/godly_bkb.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"4"
+		"AbilityCooldown"				"75"
+		"AbilitySharedCooldown"			"godly_black_king_bar"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Godly;Black;king;bar;black king bar,bkb"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Godly Black King Bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_all"				"15 20 25 30 45"
+			}					
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_armor"	   		"5 8 12 14 16"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_attack_speed"	"50 65 75 80 100"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"3.2 4.2 5 5.6 7.3"
+			}
+		}
+	}	
+	"item_godly_black_king_bar_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_godly_black_king_bar_5"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/godly_bkb.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"5"
+		"AbilityCooldown"				"75"
+		"AbilitySharedCooldown"			"godly_black_king_bar"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Godly;Black;king;bar;black king bar,bkb"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Godly Black King Bar"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_all"				"15 20 25 30 45"
+			}					
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_armor"	   		"5 8 12 14 16"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_attack_speed"	"50 65 75 80 100"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"3.2 4.2 5 5.6 7.3"
+			}
+		}
+	}	
+}

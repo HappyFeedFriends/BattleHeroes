@@ -1,0 +1,249 @@
+""
+{
+	"item_recipe_battle_fury_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15040"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"350"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_battle_fury_1"
+		"ItemRequirements"
+		{
+			"01"						"item_demon_edge;item_pers;item_quelling_blade"
+		}
+	}	
+	"item_recipe_battle_fury_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15041"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1600"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_battle_fury_2"
+		"ItemRequirements"
+		{
+			"01"						"item_battle_fury_1"
+		}
+	}	
+	"item_recipe_battle_fury_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15042"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2000"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_battle_fury_3"
+		"ItemRequirements"
+		{
+			"01"						"item_battle_fury_2"
+		}
+	}
+	"item_battle_fury_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_battle_fury_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_bfury.lua"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"1"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Battle Fury"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Battle Fury"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				 "50 65 160"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"regen_hp"	   			"6 7.2 9.2"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"regen_mana"	   			 "3.32"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"cleave_damage"	 		 "25 44 55"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"distance"	 			 "625"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"cleave_starting_width"	 "150"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"cleave_end_width"	 	"330"
+			}				
+		}
+	}	
+	"item_battle_fury_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_battle_fury_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_bfury.lua"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"2"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Battle Fury"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Battle Fury"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				 "50 65 160"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"regen_hp"	   			"6 7.2 9.2"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"regen_mana"	   			 "3.32"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"cleave_damage"	 		 "25 44 55"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"distance"	 			 "625"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"cleave_starting_width"	 "150"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"cleave_end_width"	 	"330"
+			}				
+		}
+	}	
+	"item_battle_fury_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_battle_fury_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_bfury.lua"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"3"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Battle Fury"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Battle Fury"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				 "50 65 160"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"regen_hp"	   			"6 7.2 9.2"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"regen_mana"	   			 "3.32"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"cleave_damage"	 		 "25 44 55"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"distance"	 			 "625"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"cleave_starting_width"	 "150"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"cleave_end_width"	 	"330"
+			}				
+		}
+	}
+}

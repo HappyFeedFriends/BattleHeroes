@@ -1,0 +1,91 @@
+﻿<root>
+    <styles>
+       <include src="file://{resources}/styles/custom_game/util.css" />
+       <include src="file://{resources}/styles/custom_game/custom_shopes/talent/talent_shop.css" />
+	   <include src="s2r://panorama/styles/dotastyles.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/util.js" />  
+		<!-- <include src="file://{resources}/scripts/custom_game/custom_shopes/talent_shop_page.js" />    -->
+        <include src="file://{resources}/scripts/custom_game/custom_shopes/talent_hero_shop.js" />  
+		<include src="file://{resources}/scripts/custom_game/custom_shopes/talent_shop.js" /> 		
+    </scripts>
+    <Panel class="TalentShopes" hittest="false" >
+      <Panel class="TalentMain" id="TalentMainShop">
+				<!--<Panel id="Page_1" class="MainTalent">
+					<Panel class="mainTitle hBlock">
+						<Label id="cmWrapperText" text="#talent_shop" />
+					</Panel>
+					<Panel id="talent_mp" class="vBlock backgroundTalents">
+					</Panel>			
+					<Panel id="talent_hp" class="vBlock backgroundTalents">
+					</Panel>									
+					<Panel id="talent_damage" class="vBlock backgroundTalents">
+					</Panel>			
+					<Panel id="talent_attack_speed" class="vBlock backgroundTalents">
+					</Panel>			 
+					<Panel id="talent_all" class="vBlock backgroundTalents">
+					</Panel>
+					<Panel id="talent_agility" class="vBlock backgroundTalents">
+					</Panel>			
+					<Panel id="talent_strength" class="vBlock backgroundTalents">
+					</Panel>			
+					<Panel id="talent_intellect" class="vBlock backgroundTalents">
+					</Panel>			 
+				 </Panel>	
+
+		 
+				 <Panel id="Page_2" class="MainTalent">
+					<Panel class="mainTitle hBlock">
+						<Label id="cmWrapperText" text="#talent_shop" />
+					</Panel>
+					<Panel id="talent_magic_resistance" class="vBlock backgroundTalents">
+					</Panel>			
+					<Panel id="talent_armor" class="vBlock backgroundTalents">
+					</Panel>						
+					<Panel id="talent_magic_damage" class="vBlock backgroundTalents">
+					</Panel>			
+					<Panel id="talent_gold_bonus" class="vBlock backgroundTalents">
+					</Panel>			
+					<Panel id="talent_xp_bonus" class="vBlock backgroundTalents">
+					</Panel>							 
+					<Panel id="talent_cooldown_reduction" class="vBlock backgroundTalents"> 
+					</Panel>															 
+				 </Panel>	-->			
+
+				 <Panel id="Page_3" class="MainTalent">
+					<Panel class="mainTitle hBlock">
+						<Label id="cmWrapperText" text="#talent_shop" />
+					</Panel>
+					
+					<Panel id="str_hero" class="backgroundTalents">
+					</Panel>
+						
+					<Panel id="agi_hero" class="backgroundTalents">
+						<Panel id="BuyPanelTalentHeroes"  class="BuyPanelTalentHero"  />
+					</Panel>
+						
+					<Panel id="int_hero" class="backgroundTalents">
+					</Panel>	
+					
+				 </Panel>
+				 
+		 		 <Panel id="Ability_info" class="Ability_info">
+					<!--<Panel id="ability_num" class="vBlock backgroundTalents">
+						<Label id="ability_number" text="0" />
+					</Panel> -->
+					<Panel id="points" class="vBlock backgroundTalents">
+						<Label id="ability_points" text="0" />
+					</Panel> 
+				</Panel>
+		 
+				<!--<Panel id="Buttons" class="buttons_talents_shop">
+					<Panel id="right" class="talent_shop_button_right" onactivate="SwapPageRight()" >
+					</Panel>
+					<Label id="num_page" text="NO FOUND" />
+					<Panel id="left" class="talent_shop_button_left" onactivate="SwapPageLeft()" >
+					</Panel>
+				</Panel> -->
+       </Panel>
+    </Panel>
+</root>

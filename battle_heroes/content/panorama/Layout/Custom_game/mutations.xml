@@ -1,0 +1,21 @@
+<root>
+	<styles>
+		<include src="file://{resources}/styles/custom_game/mutations.css" />
+		<include src="file://{resources}/styles/custom_game/util.css" />
+		<include src="s2r://panorama/styles/dotastyles.css" />
+		<include src="s2r://panorama/styles/compendiums/compendium_styles.css" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/util.js" />
+		<include src="file://{resources}/scripts/custom_game/mutations.js" />
+	</scripts>
+	<Panel class="MutationInfo">
+		<Panel class="Spinner" id="MutationSpinner" />
+		<Panel class="MainMutation" id= "MainMutation" >
+			<Label class="Title" text="#dota_mutation_tooltip_title"/> 
+			<Label class="MutationName" id="MutationName1" /> 
+			<Label class="MutationName" id="MutationName2" />
+			<Label class="MutationName" id="MutationName3" /> 
+		</Panel>
+	</Panel>
+</root>

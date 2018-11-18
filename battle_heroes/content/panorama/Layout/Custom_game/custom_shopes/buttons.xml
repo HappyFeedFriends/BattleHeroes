@@ -1,0 +1,27 @@
+<root>
+    <styles>
+       <include src="file://{resources}/styles/custom_game/util.css" />
+       <include src="file://{resources}/styles/custom_game/custom_shopes/ability/ability_shop.css" />
+       <include src="file://{resources}/styles/custom_game/custom_shopes/talent/talent_shop.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/util.js" />
+        <include src="file://{resources}/scripts/custom_game/custom_shopes/shop_button.js" /> 
+        <include src="file://{resources}/scripts/custom_game/custom_shopes/ability_shop.js" /> 
+        <include src="file://{resources}/scripts/custom_game/custom_shopes/talent_shop.js" /> 
+    </scripts>
+    <Panel hittest="false" class="TriggerButtonPanelHud">
+       <Panel class="triggerButtonPanel" id="triggerButtonPanel">
+		<Panel id="LeftButton">   
+		</Panel>
+	   		<Button id="TalentShops"  onactivate="ShowTalentMain()">
+                     <Label text="#button_talent_shop" /> 
+            </Button>
+            <Button id="triggerButton"  onactivate="ShowMainBlock()">
+                     <Label text="#spell_shop_hotkey" />
+			</Button>
+		<Panel id="RightButton">  
+		</Panel>
+       </Panel>	   
+    </Panel>    
+</root>

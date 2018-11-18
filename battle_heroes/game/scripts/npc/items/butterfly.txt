@@ -1,0 +1,399 @@
+""
+{
+
+	"item_recipe_butterfly_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15200"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"450"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_butterfly_1"
+		"ItemRequirements"
+		{
+			"01"						"item_eagle;item_talisman_of_evasion;item_quarterstaff"
+		}
+	}	
+	"item_recipe_butterfly_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15201"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_butterfly_2"
+		"ItemRequirements"
+		{
+			"01"						"item_butterfly_1"
+		}
+	}	
+	"item_recipe_butterfly_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15202"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_butterfly_3"
+		"ItemRequirements"
+		{
+			"01"						"item_butterfly_2"
+		}
+	}	
+	"item_recipe_butterfly_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15203"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2000"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_butterfly_4"
+		"ItemRequirements"
+		{
+			"01"						"item_butterfly_3"
+		}
+	}	
+	"item_recipe_butterfly_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15204"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2100"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_butterfly_5"
+		"ItemRequirements"
+		{
+			"01"						"item_butterfly_4"
+		}
+	}	
+	"item_butterfly_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_butterfly_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_butterfly.lua"
+		"MaxUpgradeLevel"				"5"
+		"AbilityCooldown"				"15"
+		"AbilityManaCost"				"150"
+		"ItemBaseLevel"					"1"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"butterfly"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"butterfly"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"				 "35 45 60 70 80"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_damage"	   			"25 35 45 65 75"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_evasion"	   			"25 35 40 45 50"
+			}												
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"bonus_attack_speed"	 	"30 45 65 75 100"
+			}			
+			"06"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"active_bonus_movespeed"	"30 35 45 50 65"
+			}			
+			"07"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"duration"	 				"4 5.6 6.4 7 8"
+			}										
+		}
+	}	
+	"item_butterfly_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_butterfly_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_butterfly.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"2"
+		"AbilityCooldown"				"15"
+		"AbilityManaCost"				"150"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"butterfly"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"butterfly"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"				 "35 45 60 70 80"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_damage"	   			"25 35 45 65 75"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_evasion"	   			"25 35 40 45 50"
+			}												
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"bonus_attack_speed"	 	"30 45 65 75 100"
+			}			
+			"06"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"active_bonus_movespeed"	"30 35 45 50 65"
+			}			
+			"07"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"duration"	 				"4 5.6 6.4 7 8"
+			}										
+		}
+	}	
+	"item_butterfly_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_butterfly_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_butterfly.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"3"
+		"AbilityCooldown"				"15"
+		"AbilityManaCost"				"150"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"butterfly"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"butterfly"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"				 "35 45 60 70 80"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_damage"	   			"25 35 45 65 75"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_evasion"	   			"25 35 40 45 50"
+			}												
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"bonus_attack_speed"	 	"30 45 65 75 100"
+			}			
+			"06"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"active_bonus_movespeed"	"30 35 45 50 65"
+			}			
+			"07"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"duration"	 				"4 5.6 6.4 7 8"
+			}										
+		}
+	}	
+	"item_butterfly_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_butterfly_4"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_butterfly.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"4"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"butterfly"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"butterfly"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		"AbilityCooldown"				"15"
+		"AbilityManaCost"				"150"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"				 "35 45 60 70 80"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_damage"	   			"25 35 45 65 75"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_evasion"	   			"25 35 40 45 50"
+			}												
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"bonus_attack_speed"	 	"30 45 65 75 100"
+			}			
+			"06"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"active_bonus_movespeed"	"30 35 45 50 65"
+			}			
+			"07"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"duration"	 				"4 5.6 6.4 7 8"
+			}										
+		}
+	}	
+	"item_butterfly_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_butterfly_5"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_butterfly.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"5"
+		"AbilityCooldown"				"15"
+		"AbilityManaCost"				"150"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"butterfly"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"butterfly"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"				 "35 45 60 70 80"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_damage"	   			"25 35 45 65 75"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_evasion"	   			"25 35 40 45 50"
+			}												
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"bonus_attack_speed"	 	"30 45 65 75 100"
+			}			
+			"06"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"active_bonus_movespeed"	"30 35 45 50 65"
+			}			
+			"07"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"duration"	 				"4 5.6 6.4 7 8"
+			}										
+		}
+	}
+}

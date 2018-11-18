@@ -1,0 +1,11 @@
+<root>
+    <styles>
+    	<include src="s2r://panorama/styles/custom_game/util.css" />
+        <include src="s2r://panorama/styles/custom_game/custom_shopes/talent/talent_group.css" />
+        <include src="s2r://panorama/styles/custom_game/custom_shopes/talent/talent_shop.css" />
+    </styles>
+
+    <Panel class="FullBlock">
+        <!--<Panel id="TalentGroupTable" class="hBlock" /> -->
+    </Panel>
+</root>

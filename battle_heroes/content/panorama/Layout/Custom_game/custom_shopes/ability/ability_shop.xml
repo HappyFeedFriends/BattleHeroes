@@ -1,0 +1,40 @@
+<root>
+    <styles>
+       <include src="file://{resources}/styles/custom_game/util.css" />
+	   <include src="s2r://panorama/styles/dotastyles.css" />
+       <include src="file://{resources}/styles/custom_game/custom_shopes/ability/ability_shop.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/util.js" />
+        <include src="file://{resources}/scripts/custom_game/custom_shopes/ability_shop.js" />  
+        <include src="file://{resources}/scripts/custom_game/custom_shopes/shop_button.js" />  
+		<include src="file://{resources}/scripts/custom_game/custom_shopes/talent_shop.js" /> 
+    </scripts>
+    <Panel class="outBlock" hittest="false" >
+      <Panel class="mainBlock" id="mainShop">
+		<Button id="SellAbility"  class="ButtonSellAbility" onactivate="ShowSellMain()">  
+			<Label id="Sellbutton" text="#ButtonSell" /> 
+		</Button>  
+		<Panel id="SellShop" class="SellShop">
+		</Panel>  
+        <Panel id="cmWrapper" class="wrapper">
+            <Panel class="mainTitle hBlock">
+                <Label id="cmWrapperText" text="#spell_shop" />
+            </Panel>
+            <Panel id="spellShopLeft" class="vBlock cmParentCell">
+                <Panel id="heroesTableStr" />
+            </Panel>                        
+			<Panel id="spellShopMiddle" class="vBlock cmParentCell">
+                <Panel id="heroesTableAgi" />
+				<Panel id="BuyPanels" >
+					<Label id="heronames" />
+					<Panel id="buyPanel"  class="vBlock hBlock"  />
+				</Panel>
+            </Panel>
+            <Panel id="spellShopRight" class="vBlock cmParentCell">
+				<Panel id="heroesTableInt" />
+            </Panel>
+         </Panel>
+       </Panel>
+    </Panel>
+</root>

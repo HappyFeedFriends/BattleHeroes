@@ -1,0 +1,340 @@
+""
+{
+
+	"item_recipe_aether_lens_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15000"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_aether_lens_1"
+		"ItemRequirements"
+		{
+			"01"						"item_energy_booster;item_void_stone"
+		}
+	}	
+	"item_recipe_aether_lens_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15001"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1600"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_aether_lens_2"
+		"ItemRequirements"
+		{
+			"01"						"item_aether_lens_1"
+		}
+	}	
+	"item_recipe_aether_lens_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15002"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2500"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_aether_lens_3"
+		"ItemRequirements"
+		{
+			"01"						"item_aether_lens_2"
+		}
+	}	
+	"item_recipe_aether_lens_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15003"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_aether_lens_4"
+		"ItemRequirements"
+		{
+			"01"						"item_aether_lens_3"
+		}
+	}	
+	"item_recipe_aether_lens_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15004"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"3000"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_aether_lens_5"
+		"ItemRequirements"
+		{
+			"01"						"item_aether_lens_4;item_god_blood"
+		}
+	}
+	
+	"item_aether_lens_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_aether_lens_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_aether_lens.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"1"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"aether;lens;aether lens"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"aether lens"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana"				"400 550 700 800 1000"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana_regen"	   "1.75"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"amplify"			"15 18 21 26 32"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"			"30 35 38 42 47"
+			}				
+		}
+	}	
+	"item_aether_lens_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_aether_lens_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_aether_lens.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"2"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"aether;lens;aether lens"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"aether lens"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana"				"400 550 700 800 1000"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana_regen"	   "1.75"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"amplify"			"15 18 21 26 32"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"			"30 35 38 42 47"
+			}				
+		}
+	}	
+	"item_aether_lens_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_aether_lens_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_aether_lens.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"3"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"aether;lens;aether lens"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"aether lens"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana"				"400 550 700 800 1000"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana_regen"	   "1.75"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"amplify"			"15 18 21 26 32"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"			"30 35 38 42 47"
+			}				
+		}
+	}	
+	"item_aether_lens_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_aether_lens_4"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_aether_lens.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"4"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"aether;lens;aether lens"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"aether lens"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana"				"400 550 700 800 1000"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana_regen"	   "1.75"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"amplify"			"15 18 21 26 32"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"			"30 35 38 42 47"
+			}				
+		}
+	}	
+	"item_aether_lens_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_aether_lens_5"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_aether_lens.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"5"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"aether;lens;aether lens"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"aether lens"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"mana"				"400 550 700 800 1000"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana_regen"	   "1.75"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"amplify"			"15 18 21 26 32"
+			}				
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"			"30 35 38 42 47"
+			}				
+		}
+	}
+}

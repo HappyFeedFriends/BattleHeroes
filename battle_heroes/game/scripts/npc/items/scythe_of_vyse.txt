@@ -1,0 +1,418 @@
+""
+{
+	"item_recipe_scythe_of_vyse_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15150"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_scythe_of_vyse_1"
+		"ItemRequirements"
+		{
+			"01"						"item_mystic_staff;item_ultimate_orb;item_void_stone"
+		}
+	}	
+	"item_recipe_scythe_of_vyse_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15151"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_scythe_of_vyse_2"
+		"ItemRequirements"
+		{
+			"01"						"item_scythe_of_vyse_1"
+		}
+	}	
+	"item_recipe_scythe_of_vyse_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15152"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2100"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_scythe_of_vyse_3"
+		"ItemRequirements"
+		{
+			"01"						"item_scythe_of_vyse_2;item_demonic_hearth"
+		}
+	}	
+	"item_recipe_scythe_of_vyse_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15153"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"4500"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_scythe_of_vyse_4"
+		"ItemRequirements"
+		{
+			"01"						"item_scythe_of_vyse_3"
+		}
+	}	
+	"item_recipe_scythe_of_vyse_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15154"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"5000"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_scythe_of_vyse_5"
+		"ItemRequirements"
+		{
+			"01"						"item_scythe_of_vyse_4"
+		}
+	}
+	"item_scythe_of_vyse_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_scythe_of_vyse_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_scythe_of_vyse.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"1"
+		"AbilityCooldown"				"22"
+		"AbilityManaCost"				"150"
+		"AbilityCastRange"				"900"
+		"AbilitySharedCooldown"			"scythe_of_vyse"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"hex"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Scythe Of Vyse"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"15 20 25 30 45"
+			}					
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_agility"	   		"15 20 23 32 40"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_intellect"		"25 40 55 65 75"
+			}						
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"3.2 4.5 5 5.4 6.4"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"base_movespeed"		"140"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"range_tooltip"			"900"
+			}
+		}
+	}	
+	"item_scythe_of_vyse_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_scythe_of_vyse_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_scythe_of_vyse.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"2"
+		"AbilityCooldown"				"22"
+		"AbilityManaCost"				"150"
+		"AbilityCastRange"				"900"
+		"AbilitySharedCooldown"			"scythe_of_vyse"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"hex"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Scythe Of Vyse"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"15 20 25 30 45"
+			}					
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_agility"	   		"15 20 23 32 40"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_intellect"		"25 40 55 65 75"
+			}						
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"3.2 4.5 5 5.4 6.4"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"base_movespeed"		"140"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"range_tooltip"			"900"
+			}
+		}
+	}	
+	"item_scythe_of_vyse_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_scythe_of_vyse_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_scythe_of_vyse.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"3"
+		"AbilityCooldown"				"30"
+		"AbilityManaCost"				"150"
+		"AbilityCastRange"				"900"
+		"AbilitySharedCooldown"			"scythe_of_vyse"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"hex"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Scythe Of Vyse"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"15 20 25 30 45"
+			}					
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_agility"	   		"15 20 23 32 40"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_intellect"		"25 40 55 65 75"
+			}						
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"3.2 4.5 5 5.4 6.4"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"base_movespeed"		"140"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"range_tooltip"			"900"
+			}
+		}
+	}	
+	"item_scythe_of_vyse_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_scythe_of_vyse_4"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_scythe_of_vyse.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"4"
+		"AbilityCooldown"				"30"
+		"AbilityManaCost"				"150"
+		"AbilityCastRange"				"900"
+		"AbilitySharedCooldown"			"scythe_of_vyse"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"hex"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Scythe Of Vyse"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"15 20 25 30 45"
+			}					
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_agility"	   		"15 20 23 32 40"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_intellect"		"25 40 55 65 75"
+			}						
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"3.2 4.5 5 5.4 6.4"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"base_movespeed"		"140"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"range_tooltip"			"900"
+			}
+		}
+	}	
+	"item_scythe_of_vyse_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_scythe_of_vyse_5"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_scythe_of_vyse.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"5"
+		"AbilityCooldown"				"22"
+		"AbilityCastRange"				"900"
+		"AbilityManaCost"				"150"
+		"AbilitySharedCooldown"			"scythe_of_vyse"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"hex"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Scythe Of Vyse"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_strength"		"15 20 25 30 45"
+			}					
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_agility"	   		"15 20 23 32 40"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"bonus_intellect"		"25 40 55 65 75"
+			}						
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	   			"3.2 4.5 5 5.4 6.4"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"base_movespeed"		"140"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"range_tooltip"			"900"
+			}
+		}
+	}
+}

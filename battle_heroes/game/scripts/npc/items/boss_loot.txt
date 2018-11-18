@@ -1,0 +1,126 @@
+""
+{
+
+	"item_god_blood"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/boss_loot/item_god_blood"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/boss_loot.lua"
+		"ItemPurchasable"		 		"0"
+		"ItemSellable"                  "0"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"4500"
+		"ItemShopTags"					"Forest Soul"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Forest Soul"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				 "70"
+			}													
+		}
+	}	
+	"item_frozen_soul"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/boss_loot/item_frozen_soul"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/boss_loot.lua"
+		"ItemPurchasable"		 		"0"
+		"ItemSellable"                  "0"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"5500"
+		"ItemShopTags"					"Forest Soul"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Forest Soul"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage"				 "150"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"all_stats"	   			"35"
+			}										
+		}
+	}	
+	"item_fire_soul"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/boss_loot/item_fire_soul"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/boss_loot.lua"
+		"ItemPurchasable"		 		"0"
+		"ItemSellable"                  "0"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"6500"
+		"ItemShopTags"					"Forest Soul"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Forest Soul"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"reflect_damage"		"35"
+			}													
+		}
+	}	
+	"item_demonic_hearth"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/boss_loot/item_demonic_hearth"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/boss_loot.lua"
+		"ItemPurchasable"		 		"0"
+		"ItemSellable"                  "0"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"6500"
+		"ItemShopTags"					"Forest Soul"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Forest Soul"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"lifesteal"				"15"
+			}																			
+		}
+	}
+
+}

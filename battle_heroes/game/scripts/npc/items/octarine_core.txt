@@ -1,0 +1,388 @@
+""
+{
+	"item_recipe_octarine_core_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15020"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_octarine_core_1"
+		"ItemRequirements"
+		{
+			"01"						"item_mystic_staff;item_soul_booster;item_null_talisman"
+		}
+	}	
+	"item_recipe_octarine_core_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15021"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1400"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_octarine_core_2"
+		"ItemRequirements"
+		{
+			"01"						"item_octarine_core_1"
+		}
+	}	
+	"item_recipe_octarine_core_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15022"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1200"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_octarine_core_3"
+		"ItemRequirements"
+		{
+			"01"						"item_octarine_core_2"
+		}
+	}	
+	"item_recipe_octarine_core_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15023"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"1500"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_octarine_core_4"
+		"ItemRequirements"
+		{
+			"01"						"item_octarine_core_3"
+		}
+	}	
+	"item_recipe_octarine_core_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15024"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"2500"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_octarine_core_5"
+		"ItemRequirements"
+		{
+			"01"						"item_octarine_core_4"
+		}
+	}
+	"item_octarine_core_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_octarine_core_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_octarine_core.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"1"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Octarine Core"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Octarine Core"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				 "25 35 45 50 65"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana"	   				 "800 1000 1200 1400 1600"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"amplify"	   			 "15 17 20 25 28"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reduction_cooldown"	 "25"
+			}				
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_hero"	 "25 25 25 35 45"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_creep"	 "15"
+			}				
+		}
+	}	
+	"item_octarine_core_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_octarine_core_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_octarine_core.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"2"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Octarine Core"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Octarine Core"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				 "25 35 45 50 65"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana"	   				 "800 1000 1200 1400 1600"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"amplify"	   			 "15 17 20 25 28"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reduction_cooldown"	 "25"
+			}				
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_hero"	 "25 25 25 35 45"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_creep"	 "15"
+			}				
+		}
+	}	
+	"item_octarine_core_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_octarine_core_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_octarine_core.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"3"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Octarine Core"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Octarine Core"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				 "25 35 45 50 65"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana"	   				 "800 1000 1200 1400 1600"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"amplify"	   			 "15 17 20 25 28"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reduction_cooldown"	 "25"
+			}				
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_hero"	 "25 25 25 35 45"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_creep"	 "15"
+			}				
+		}
+	}	
+	"item_octarine_core_4"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_octarine_core_4"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_octarine_core.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"4"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Octarine Core"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Octarine Core"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				 "25 35 45 50 65"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana"	   				 "800 1000 1200 1400 1600"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"amplify"	   			 "15 17 20 25 28"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reduction_cooldown"	 "25"
+			}				
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_hero"	 "25 25 25 35 45"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_creep"	 "15"
+			}				
+		}
+	}	
+	"item_octarine_core_5"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_octarine_core_5"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_octarine_core.lua"
+		"MaxUpgradeLevel"				"5"
+		"ItemBaseLevel"					"5"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Octarine Core"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Octarine Core"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"intellect"				 "25 35 45 50 65"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mana"	   				 "800 1000 1200 1400 1600"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"amplify"	   			 "15 17 20 25 28"
+			}			
+			"04"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"reduction_cooldown"	 "25"
+			}				
+			"05"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_hero"	 "25 25 25 35 45"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"magic_lifesteal_creep"	 "15"
+			}				
+		}
+	}
+}

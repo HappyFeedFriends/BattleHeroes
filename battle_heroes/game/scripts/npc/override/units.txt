@@ -1,0 +1,8 @@
+""
+{
+	"npc_dota_courier"
+	{
+		"BountyGoldMin"				"0"
+		"BountyGoldMax"				"0"
+	}
+}

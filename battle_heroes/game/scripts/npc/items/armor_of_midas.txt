@@ -1,0 +1,61 @@
+""
+{
+
+	"item_recipe_armor_of_midas"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"20001"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"220"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_armor_of_midas"
+		"ItemRequirements"
+		{
+			"01"						"item_gauntlets;item_chainmail"
+		}
+	}
+	
+	"item_armor_of_midas"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_armor_of_midas"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_armor_of_midas.lua"
+		"AbilityCooldown"				"1.5"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Armor Of Midas"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Armor Of Midas"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"gold_per_attack"		"10"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"xp_per_attack"	   		"20"
+			}										
+		}
+	}
+}

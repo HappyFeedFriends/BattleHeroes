@@ -1,0 +1,400 @@
+.outBlock {
+    position: 0 100px 0;
+    width: 100%;
+    height: 600px;
+	margin-left: 40px;
+	margin-right: 40px;
+    border-top: 0px solid #333;
+    border-bottom: 0px solid #333;
+    overflow: clip;
+	background-color: rgba(48, 45, 45, 0);
+	
+}
+#BgShop{
+	width: 100%;
+    height: 100%;
+}
+.mainBlock {
+    position: 0 0px 0; 
+    width: 100%;
+    height: 100%;
+	border: 2px solid #999;
+    overflow: clip;  
+	background-color: rgba(48, 45, 45, 0);
+	border-radius: 12px;
+	
+}
+
+.wrapper {
+    width: 96.184%;
+	margin-left: 30px;
+	margin-right: 30px;
+    height: 99%;
+    padding: 5px;
+    flow-children: right-wrap;
+	background-color: rgba(48, 45, 45, 0);
+}
+
+#spellShopLeft{
+    width: 27.5%;
+}
+
+#spellShopMiddle{
+    width: 43%;
+}
+#spellShopRight{
+    width: 29%;
+	
+}
+
+.cmParentCell {
+    background-color: #00000025;
+    border: 0px solid #000;
+    margin:	4px;
+}
+.AspectRatio4x3 .cmParentCell,
+.AspectRatio5x4 .cmParentCell {
+    margin: 0px;
+}
+
+#heroesTableInt {
+    flow-children: right-wrap;
+    width: 100%;
+	height: 100%;
+    border: 3px solid #0085f2;
+    horizontal-align: right;
+    vertical-align: top;
+	border-radius: 12px;
+}
+#heroesTableStr 
+{
+    flow-children: right-wrap;
+    width: 100%;
+	height: 100%;
+    border: 3px solid #eb2828;
+    horizontal-align: left;
+    vertical-align: top;
+	border-radius: 12px;
+}
+#heroesTableAgi {
+    flow-children: right-wrap;
+    width: 100%;
+	height: 100%;
+    border: 3px solid #20e82e;
+    horizontal-align: center;
+    vertical-align: top;
+	border-radius: 12px;
+}
+
+#BuyPanels
+{
+	margin-top: 400px;
+	width: 100%;
+	height: 100%;
+}
+
+
+.HeroesNames {
+    color: #FF4500;
+    horizontal-align: left;
+    vertical-align: top;
+	margin-top: -25px;
+	margin-left: 340px;
+	font-size: 24;
+	
+}
+
+
+.cmHeroesRow {
+    flow-children: down;
+}
+
+.isCover {
+    background-color: #00000099;
+}
+
+#buyButton {
+    horizontal-align: left;
+    vertical-align: center;
+    width: 190px;
+    height: 50px;
+    border: 1px solid #000;
+    background-color: gradient( linear, 0% 0%, 0% 100%, from(#a50a04), to(#670303) );
+    box-shadow: inset #ffffff50 1px 1px 2px 2px;
+}
+
+#buyButton:active {
+    background-color: gradient( linear, 0% 0%, 0% 100%, from(#880303), to(#b80803) );
+    width: 182px;
+    height: 48px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+
+#buyButton Label {
+    horizontal-align: center;
+    vertical-align: center;
+    font-size: 20;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#cmSelectionTable {
+    flow-children: right;
+}
+
+.TriggerButtonPanelHud{
+    width: 100%;
+    height: 100%;
+	
+}
+
+.triggerButtonPanel {
+    position: 1390px 930px 0px; 
+    width: 250px;
+    height: 150px;
+    border-top: -12px solid #333;
+    border-bottom: 0px solid #333; 
+	background-image: url("s2r://panorama/images/hud/reborn/ability_bg_psd.vtex");
+	border-radius: 67px 70px 0px 0px / 100px 100px 100px 100px;
+	
+}
+
+#RightButton {
+	   background-image: url("s2r://panorama/images/hud/reborn/side_flare_tall_psd.vtex"); 
+	   background-size: 100%;
+	   transform: scaleX(-1);
+	   width: 56px;
+	   height: 145px;
+	   vertical-align: bottom;
+	   horizontal-align: right;
+	   margin-right: -24px;
+}
+#LeftButton {
+	   background-image: url("s2r://panorama/images/hud/reborn/side_flare_tall_psd.vtex"); 
+	   background-size: 100%;
+	   width: 56px;
+	   height: 145px;
+	   margin-left: -24px;
+	   vertical-align: bottom;
+}
+
+#triggerButton {
+   height:50px;
+   width:150px;
+   margin-left:45px;
+   margin-right:45px;
+   margin-bottom:14px;
+   vertical-align:bottom;
+   horizontal-align: center;
+   border-radius: 30px;
+   background-image: url("s2r://panorama/images/hud/reborn/ability_bg_psd.vtex");
+
+}
+
+#triggerButton Label{
+
+    horizontal-align: center;
+    vertical-align: center;
+    text-align:center;
+    color: white;
+    font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,YDYGO 540,Gulim,MingLiU;
+    font-size: 15;
+    font-weight: bold;
+}
+
+
+#triggerButton:hover
+{
+   brightness:4.0;
+}
+
+
+.Hidden {
+    visibility: collapse;
+}
+
+Button:enabled DOTAAbilityImage:hover
+{
+    box-shadow: inset #ffffff80 2px 2px 0px 2px;
+	border-radius: 12px;
+    color: #FFF;
+    background-color: #000000FF;
+}
+
+.player DOTAHeroImage {
+    height: width-percentage(56.25%);
+	border-radius: 12px;
+}
+
+
+#PlayerGap {
+    height: width-percentage(56.25%);
+    background-color: #000;
+}
+#PlayerName {
+    vertical-align: bottom;
+    horizontal-align: center;
+    padding: 2px 0;
+    height: 14px;
+    font-size: 12;
+    color: #cccccc;
+    text-overflow: clip;
+}
+#CaptainMark {
+    padding: 5px;
+    font-size: 12;
+    font-weight: bold;
+    color: #ff666680;
+}
+
+#_ability_list{
+    flow-children: right;
+    padding-left: 12%;
+    padding-top: 10%;
+    width:  100%;
+	z-index:50;
+}
+
+#Abilities {
+    flow-children: right;
+    vertical-align: center;
+    horizontal-align: center;
+    width: 100%;
+    height: 100%;
+}
+#Abilities Button {
+    vertical-align: center;
+    max-width: 75px; 
+    width: 100%;
+    height: width-percentage(100%);
+    margin: 7px;
+	border-radius: 14px;
+}
+
+#Abilities Button:active {
+    padding-bottom:5%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:5%;
+}
+
+#Abilities DOTAAbilityImage {
+    border: 2px solid #99999950;
+}
+
+#Abilities Button:disabled DOTAAbilityImage {
+    saturation: 0;
+}
+
+#Abilities Label {
+	position: -2px -2px 0px;
+    vertical-align: bottom;
+    text-align:center;
+    horizontal-align: right;
+    background-color:black;
+    font-weight: bold;
+    font-size: 16;
+    text-shadow: 0px 0px 0px #FF7500;
+    width: 22%;
+    height: 25%;
+    color: #EACD71;
+    font-family: Radiance;
+}
+
+.notEnoughDark
+{
+    wash-color :#ffb3a7;
+    brightness: 0.2;
+}
+
+.BuyAbility
+{
+   saturation: 0.5;
+}
+
+.ButtonSellAbility
+{
+   position: -1300px -20px 0;
+   height:55px;
+   width:150px;
+   margin-right:45px;
+   margin-bottom:14px;
+   vertical-align:bottom;
+   horizontal-align: right;
+   border-radius: 30px;
+   background-image: url("s2r://panorama/images/hud/reborn/ability_bg_psd.vtex");
+   text-align:center;
+   z-index: 20;
+}
+.ButtonSellAbility:hover{
+	saturation: 1.2;
+	box-shadow: inset #ffffff80 2px 2px 2px 2px;
+}
+.ButtonSellAbility Label:active
+{
+    padding-bottom:4px;
+    padding-left:4px;
+    padding-right:4px;
+    padding-top:4px;
+	border-radius: 14px;
+}
+.ButtonSellAbility Label 
+{
+	horizontal-align: center;
+    vertical-align: center;
+    font-size: 18;
+    font-family: "Times New Roman";
+    color: #fff;
+    text-shadow: 0px 0px 1px 2.2 #ffffff10;
+    text-transform: uppercase;
+}
+
+.SellShop{
+	height:60%;
+	width:100%;
+    flow-children: right;
+    vertical-align: top;
+	horizontal-align: center;
+	z-index: 19;
+}
+.Shops{
+	height:55%;
+	width:40%;
+    flow-children: right;
+    vertical-align: top;
+	horizontal-align: center;
+}
+
+.Shops Button { 
+    vertical-align: center;
+    max-width: 75px; 
+    width: 100%;
+    height: width-percentage(100%);
+    margin: 10px;
+	border-radius: 12px;
+}
+
+.Shops Label {
+	vertical-align: bottom;
+    text-align:center;
+    horizontal-align: right;
+    background-color:black;
+    font-weight: bold;
+    font-size: 16;
+    text-shadow: 0px 0px 0px #FF7500;
+    width: 22%;
+    height: 25%;
+    color: #EACD71;
+    font-family: Radiance;
+}
+
+.Shops Button:active
+{
+    padding-bottom:5%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:5%;
+	border-radius: 12px;
+}

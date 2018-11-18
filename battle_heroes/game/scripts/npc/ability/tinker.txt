@@ -1,0 +1,28 @@
+""
+{
+	"tinker_rearm_bh"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"ability_lua"
+		"AbilityTextureName"			"tinker_rearm"
+		"ScriptFile"					"heroes/tinker.lua"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityCastAnimation"			"ACT_DOTA_TINKER_REARM3"
+		"MaxLevel"						"7"
+		"AbilityChannelTime"			"6 5.4 4.8 4.3 4 3 1.25"
+		"AbilityManaCost"				"100 200 300 400 500 550 600"
+		"AbilityCastPoint"				"0"
+		"AbilityCooldown"				"5.6 7.5 8 8 9 11 12"
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"channel_tooltip"			"7 9 11.2 13.4 15 18 25"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
+	}
+}

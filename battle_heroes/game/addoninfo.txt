@@ -1,0 +1,31 @@
+"AddonInfo"
+{
+  "TeamCount" "2"
+  "maps"      "battleheroes_createhero battleheroes_randomomg"
+  "IsPlayable"  "1"
+  "CheckAFKPlayers" "1"
+
+	"battleheroes_randomomg"
+	{
+		"MaxPlayers"                    "10"
+	}	
+	"battleheroes_createhero"
+	{
+		"MaxPlayers"                    "10"
+	}
+	"Default_Keys"
+	{
+		"01"
+		{
+			"Key"		"TAB"
+			"Command"	"+OpenMainBlock"
+			"Name"		"Example"
+		}		
+		"02"
+		{
+			"Key"		"F4"
+			"Command"	"+OpenTalentMenu"
+			"Name"		"TalentMenu"
+		}
+	}
+}

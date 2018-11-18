@@ -1,0 +1,83 @@
+.MutationInfo
+{                           
+	/*background-color: #324D36; 
+	border: 2px solid #67794A; */
+	position: 0 120px 0;
+	margin: 0px;
+	flow-children: down;
+	box-shadow: none;
+	width:25%;
+	height:25%;
+	animation-duration: 7.22s; 
+	animation-name: CombatEvent;
+	transition-duration: .2s;  
+}
+
+.HideSpinner .MutationInfo
+{
+	width: 400px;
+}
+
+.RuneIconDescription {
+width: 10px;
+padding-bottom: 3px;
+margin-right: 4px;
+vertical-align: center;
+transform: translateY(11px); }
+
+.MutationInfo .Spinner
+{
+	wash-color: #b6c897;
+	horizontal-align: center;
+}
+
+.HideSpinner .MutationInfo .Spinner
+{
+	visibility: collapse;
+}
+.MainMutation
+{
+	flow-children: down;
+	width:100%;
+	height:100%;
+}
+.MutationInfo .Title
+{
+	font-size: 24px;
+	color: white;
+	
+	margin-left: 8px;
+	margin-top: 2px;
+}
+
+.MutationInfo .MutationName
+{
+	margin-top: 4px;
+	margin-left: 12px;
+	color: #0DD9B1;
+	font-size: 20px;
+	text-shadow: 2px 1px 5px 2 #000;
+}
+.MutationInfo .MutationName:hover
+{
+	brightness: 0.6;
+}
+@keyframes 'CombatEvent'
+{
+	0%{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
+
+.MutationInfo .negative_mutation{
+	color: #F53D0A; 
+}
+

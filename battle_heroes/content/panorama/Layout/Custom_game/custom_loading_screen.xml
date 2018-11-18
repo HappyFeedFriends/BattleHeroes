@@ -1,0 +1,15 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.css" />
+		<include src="file://{resources}/styles/custom_game/custom_loading_screen.css" />
+		<!--<include src="file://{resources}/styles/custom_game/score_selection.css" /> -->
+	</styles>
+	<script>           
+	$("#LoadScreenImages").SetImage("file://{images}/Custom_game/Loading_screen/custom_bg_" + Math.floor( (Math.random() * 3 + 1) )  + ".png" )
+	</script>
+	<Panel class="AddonLoadingRoot">
+		<Panel id="CustomBg" >
+			<Image  id="LoadScreenImages" src="" scaling="stretch-to-fit-preserve-aspect" />
+		</Panel>
+	</Panel>
+</root>

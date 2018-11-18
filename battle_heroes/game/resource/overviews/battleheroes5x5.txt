@@ -1,0 +1,8 @@
+battleheroes5x5
+{
+	material materials/overviews/battleheroes5x5.vmat
+	pos_x -8960
+	pos_y 8960
+	scale 17.500
+}
+

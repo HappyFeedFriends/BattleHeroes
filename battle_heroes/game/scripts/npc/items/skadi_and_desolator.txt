@@ -1,0 +1,296 @@
+""
+{
+
+	"item_recipe_skadi_and_desolator_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"4500"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"4500"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_skadi_and_desolator_1"
+		"ItemRequirements"
+		{
+			"01"						"item_desolator_5;item_skadi_5;item_frozen_soul"
+		}
+	}	
+	"item_recipe_skadi_and_desolator_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"5000"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"4500"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_skadi_and_desolator_2"
+		"ItemRequirements"
+		{
+			"01"						"item_skadi_and_desolator_1"
+		}
+	}	
+	"item_recipe_skadi_and_desolator_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		// "ID"							"15040"						
+		"Model"							"models/props_gameplay/recipe.mdl"
+		"AbilityTextureName"			"item_recipe"
+		"BaseClass"                     "item_datadriven"
+	
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"4500"	
+		"ItemShopTags"					"artifacts"
+		
+		// Recipe
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemRecipe"					"1"
+		"ItemResult"					"item_skadi_and_desolator_3"
+		"ItemRequirements"
+		{
+			"01"						"item_skadi_and_desolator_2;item_demonic_hearth"
+		}
+	}	
+	
+	"item_skadi_and_desolator_1"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_skadi_and_desolator_1"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_skadi_and_desolator.lua"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"1"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Eye of Skadi;Desolator"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Skadi;Desolator"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_bonus"			"180 220 250"
+			}			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				 "65 75 90"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"hp"	   				"650 750 900"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mp"	   			 	"900 1200 1400"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_movespeed"	 	"-50 -53 -58"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_attackspeed"	 	"-150 -175 -200"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_ranged"	 	"3.2"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_melee"	 	"8 8.3 8.9"
+			}			
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"armor_reduction"	 	"-80 -100 -120"
+			}			
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	 			"20"
+			}				
+		}
+	}	
+	"item_skadi_and_desolator_2"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_skadi_and_desolator_2"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_skadi_and_desolator.lua"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"2"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Eye of Skadi;Desolator"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Skadi;Desolator"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_bonus"			"180 220 250"
+			}			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				 "65 75 90"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"hp"	   				"650 750 900"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mp"	   			 	"900 1200 1400"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_movespeed"	 	"-50 -53 -58"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_attackspeed"	 	"-150 -175 -200"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_ranged"	 	"3.2"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_melee"	 	"8 8.3 8.9"
+			}			
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"armor_reduction"	 	"-80 -100 -120"
+			}			
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	 			"20"
+			}				
+		}
+	}	
+	"item_skadi_and_desolator_3"
+	{
+		// General
+		//-------------------------------------------------------------------------------------------------------------
+		"BaseClass"						"item_lua"
+		"AbilityTextureName" 			"items_custom/item_skadi_and_desolator_3"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"Effect"						"particles/generic_gameplay/dropped_item.vpcf"
+		"ScriptFile"					"items/item_skadi_and_desolator.lua"
+		"MaxUpgradeLevel"				"3"
+		"ItemBaseLevel"					"3"
+		// Item Info
+		//-------------------------------------------------------------------------------------------------------------
+		"ItemCost"						"0"
+		"ItemShopTags"					"Eye of Skadi;Desolator"
+		"ItemQuality"					"legendary"
+		"ItemAliases"					"Skadi;Desolator"
+		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
+		// Special
+		//-------------------------------------------------------------------------------------------------------------
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_bonus"			"180 220 250"
+			}			
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"all_stats"				 "65 75 90"
+			}			
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"hp"	   				"650 750 900"
+			}			
+			"03"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"mp"	   			 	"900 1200 1400"
+			}									
+			"04"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_movespeed"	 	"-50 -53 -58"
+			}			
+			"05"
+			{
+				"var_type"				 "FIELD_FLOAT"
+				"slow_attackspeed"	 	"-150 -175 -200"
+			}			
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_ranged"	 	"3.2"
+			}			
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration_melee"	 	"8 8.3 8.9"
+			}			
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"armor_reduction"	 	"-80 -100 -120"
+			}			
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"duration"	 			"20"
+			}				
+		}
+	}
+}

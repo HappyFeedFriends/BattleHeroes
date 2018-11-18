@@ -1,0 +1,39 @@
+#GroupName {
+    padding: 10px 0 4px 0;
+    font-size: 26;
+    horizontal-align: center;
+    text-transform: uppercase;
+}
+
+.Title_strength {
+    color: #f00;
+    text-shadow: 0px 0px 2px 4.0 #ff000010;
+}
+.Title_agility {
+    color: #0f0;
+    text-shadow: 0px 0px 4px 4.0 #00ff0010;
+}
+.Title_intellect {
+    color: #09f;
+    text-shadow: 0px 0px 4px 1 #3f9eeb;
+}
+
+#GroupTable {
+	margin-top: 43px;
+}
+
+.cm_heroes_group {
+    width: 96%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cm_heroes_group_container {
+    flow-children: right-wrap;
+    max-width: 100%;
+    horizontal-align: center;
+}
+
+.cm_heroes_heropanel {
+    width: 85px;
+}
